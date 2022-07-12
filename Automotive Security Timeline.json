@@ -772,7 +772,7 @@
         },
         "text": {
           "headline": "Rolling Pwn:无线钥匙滚动码回滚漏洞",
-          "text": "星舆实验室 Kevin2600 与 Wesley Li 发现汽车无线(RF)钥匙滚动码存在设计缺陷，发送连续的控车指令会导致滚动码计数器会回滚，之前使用过的本应失效的控车指令得到恢复。此漏洞与同一团队之前发现的CVE-2021-46145漏洞相似。利用滚动码这一缺陷，能够打开车门甚至是启动引擎。自2012年款至今的大量的本田汽车受到影响。已验证受到影响的车型如下。<br><br>  · Honda Civic 2012<br>  · Honda X-RV 2018<br>  · Honda C-RV 2020<br>  · Honda Accord 2020<br>  · Honda Odyssey 2020<br>  · Honda Inspire 2021<br>  · Honda Fit 2022<br>  · Honda Civic 2022<br>  · Honda VE-1 2022<br>  · Honda Breeze 2022<br>"
+          "text": "星舆实验室 Kevin2600 与 Wesley Li 发现汽车无线(RF)钥匙滚动码存在设计缺陷，发送连续的控车指令会导致滚动码计数器回滚，之前使用过的本应失效的控车指令得到恢复。此漏洞与同一团队之前发现的CVE-2021-46145漏洞相似。利用滚动码这一缺陷，能够打开车门甚至是启动引擎。自2012年款至今的大量的本田汽车受到影响。已验证受到影响的车型如下。<br><br>  · Honda Civic 2012<br>  · Honda X-RV 2018<br>  · Honda C-RV 2020<br>  · Honda Accord 2020<br>  · Honda Odyssey 2020<br>  · Honda Inspire 2021<br>  · Honda Fit 2022<br>  · Honda Civic 2022<br>  · Honda VE-1 2022<br>  · Honda Breeze 2022<br>"
         },
         "start_date": {
           "month": "7",
