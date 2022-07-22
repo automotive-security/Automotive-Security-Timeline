@@ -780,6 +780,22 @@
           "year": "2022"
         },
         "group":"vulnerability"
+      },{
+        "media": {
+          "caption": "<a href=\"https://www.bitsight.com/blog/bitsight-discovers-critical-vulnerabilities-widely-used-vehicle-gps-tracker\">BitSight Discovers Critical Vulnerabilities in Widely Used Vehicle GPS Tracker</a>",
+          "credit": "<a href=\"https://www.bitsight.com/sites/default/files/2022-07/MiCODUS-GPS-Report-Final.pdf\"> The full report with technical analysis</a>",
+          "url": "static/images/micodus.png"
+        },
+        "text": {
+          "headline": "MiCODUS车辆追踪器安全漏洞波及全球超百万辆汽车",
+          "text": "美国网络安全和基础设施安全局（CISA）联合 BitSight 公司发布了一份公告，警告超过 150 万辆汽车使用的 MicODUS MV720 全球定位系统（GPS）跟踪器中存在多个安全漏洞。BitSight 公司研究发现 Micodus 的 MV720 GPS车辆追踪器中存在六个漏洞，攻击者可利用相关安全漏洞来实时追踪任何车辆、访问历史路线，甚至切断行驶中的车辆引擎。MiCODUS 在全球 169个国家的 42 万名客户拥有 150 万台设备，且使用范围很广，包括私家车、执法机构、军队和政府客户以及一个核电站运营商。<br><br>· CVE-2022-2107: Android 应用程序存在硬编码凭证(7DU2DJFDR8321)，使用此硬编码 Key 能够登录 API 服务器，冒充用户并向 GPS 跟踪器发送 SMS 命令，允许远程攻击者直接向 MV720 跟踪器发送命令，并获得访问位置信息、路线、地理围栏的完全控制权。黑客可以实时跟踪位置，切断车辆燃料并解除汽车警报。<br>· CVE-2022-2141: API 服务器/GPS 跟踪器存在不正确的身份验证，允许用户在没有密码的情况下直接向 GPS 跟踪器发送 SMS 命令，并使攻击者能够“获得中间人位置，控制 GPS 跟踪器和原始服务器之间的所有流量，并获得 GPS 追踪器的控制权“。<br>· CVE-2022-2199: 跨站点脚本漏洞允许攻击者通过欺骗用户发出请求来获得 GPS 追踪器的控制权。<br>· CVE-2022-34150: WEB 服务器在参数“Device ID”上存在一个经过身份验证的不安全直接对象引用(IDOR)漏洞。该漏洞允许无需进一步验证设备ID与用户之间的关联关系，即可接受任意设备 ID 从服务器(https://www.micodus.net/ProductUpdate.aspx?id=XXXX&deviceid=XXXXX&randon=11111)中访问数据。<br>· CVE-2022-33944: MiCODUS WEB后台(https://www.micodus.net/Report/StopDetail.aspx?id=YYYY&deviceid=XXXXX&randon=1111)存在不安全直接对象引用(IDOR)漏洞，允许未经身份验证的用户能够通过指定HTTP POST的参数 hidDeviceId 获取其他GPS跟踪器活动的 Excel 报告，包括 车辆停止的GPS地址和时间。<br>· 所有设备的SMS命令配置了默认密码123456，没有强制规则来更改密码，大量设备仍然使用默认密码。<br>"
+        },
+        "start_date": {
+          "month": "7",
+          "day": "19",
+          "year": "2022"
+        },
+        "group":"vulnerability"
       }
     ]
 }
