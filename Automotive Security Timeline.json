@@ -900,7 +900,23 @@
       },
       "text": {
         "headline":"车联网服务商 Sirius XM API 漏洞，未授权远程控制 本田、日产、英菲尼迪、讴歌 汽车",
-        "text": "车联网服务商 车联网服务商 Sirius XM 远程车控服务存在 IDOR(不安全的直接对象引用)漏洞，仅根据VIN码就能查询到汽车的远控 Token。该 Token 可用于解锁汽车、启动汽车、获取车主个人信息等。此次受到影响的汽车为本田、日产、英菲尼迪、讴歌。<br/> <br/> Sirius XM 使用 HTTP2 向 mobile.telematics.net/ha/exchangeToken 接口获取远程服务 Token。 安全研究员 Sam Curry 在对 POST参数 {\"customerId : \"nissancust: 129383573\" , \"vin\" :\"SFNRL6H82NB044273\"} 测试中发现，将 POST 请求内容修改为 {\"customerId\" : \"vin: 5FNRL6H82NBe44273\"},就能获取到 5FNRL6H82NBe44273 的 Token。获取到 Token 后，不但能获取到车主的个人隐私数据，还能通过其他 API 接口控制汽车，如远程解锁、启动、定位、灯光闪烁、鸣笛等。更严重的是将VIN码修改为 本田、日产、英菲尼迪、讴歌 旗下同样使用 Sirius XM 服务的车辆的VIN码后，仍然能获取到 Token。也就意味着未授权用户能够控制使用 Sirius XM 服务的 本田、日产、英菲尼迪、讴歌 汽车。"
+        "text": "车联网服务商 Sirius XM 远程车控服务存在 IDOR(不安全的直接对象引用)漏洞，仅根据VIN码就能查询到汽车的远控 Token。该 Token 可用于解锁汽车、启动汽车、获取车主个人信息等。此次受到影响的汽车为本田、日产、英菲尼迪、讴歌。<br/> <br/> Sirius XM 使用 HTTP2 向 mobile.telematics.net/ha/exchangeToken 接口获取远程服务 Token。 安全研究员 Sam Curry 在对 POST参数 {\"customerId : \"nissancust: 129383573\" , \"vin\" :\"SFNRL6H82NB044273\"} 测试中发现，将 POST 请求内容修改为 {\"customerId\" : \"vin: 5FNRL6H82NBe44273\"},就能获取到 5FNRL6H82NBe44273 的 Token。获取到 Token 后，不但能获取到车主的个人隐私数据，还能通过其他 API 接口控制汽车，如远程解锁、启动、定位、灯光闪烁、鸣笛等。更严重的是将VIN码修改为 本田、日产、英菲尼迪、讴歌 旗下同样使用 Sirius XM 服务的车辆的VIN码后，仍然能获取到 Token。也就意味着未授权用户能够控制使用 Sirius XM 服务的 本田、日产、英菲尼迪、讴歌 汽车。"
+      },
+      "start_date": {
+        "month": "11",
+        "day": "30",
+        "year": "2022"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://twitter.com/samwcyo/status/1597792097175674880\">A vulnerability affecting Hyundai and Genesis vehicles</a>",
+        "credit": "<a href=\"\"> </a>",
+        "url": "static/media/hyundai email CRLF takeover.mp4"
+      },
+      "text": {
+        "headline":"现代、捷尼赛斯汽车账户劫持",
+        "text": "现代和捷尼赛用户注册中使用的邮箱存在截断漏洞，允许授权用户对其他车辆执行远程解锁、启动等控车操作。<br><br> 安全研究员 Sam Curry 发现远程车控携带 Access_token:JWT 向 api.telematics. hyundaiusa.com/ac/v2/rcs/rdo/unlock 发送POST数据 {\"userName\":\"EMAIL\",\"vin\":\"VIN\"} ，以 E-MAIL 和 Access_token 作为身份鉴别参数。 在进一步测试中，发现用户注册没有验证邮箱的有效性。并在对 userName 字段的 E-MAIL 模糊测试中发现，使用 CRLF 可以截断 E-MAIL，欺骗后台服务将 victim@gmail.com%0d 识别成了victim@gmail.com，实现了对 victim@gmail.com 账户的接管。"
       },
       "start_date": {
         "month": "11",
