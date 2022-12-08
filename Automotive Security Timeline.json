@@ -924,6 +924,22 @@
         "year": "2022"
       },
       "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://twitter.com/sveckert/status/1600443031915663360\">Weil der Bus-Vorrang an Ampeln in Deutschland noch mit Analogfunk funktionieren, lassen sie durch Dritte fernsteuern.</a>",
+        "credit": "<a href=\"https://www.ardaudiothek.de/episode/she-likes-tech-der-podcast-ueber-technologie/der-ampelhack-mit-jiska-classen/ndr/12165679/\">Der Ampelhack mit Jiska Classen</a>",
+        "url": "https://youtu.be/tCQ1o6cJvHM"
+      },
+      "text": {
+        "headline":"重放攻击: 德国大量交通信号灯容易受到操纵",
+        "text": "安全研究人员向 BR、NDR 和 c't 的记者展示能够轻松操纵交通灯系统。并非所有十字路口的交通信号灯都可以切换为绿色或红色，但交通信号灯时间可以人为地延长，这会造成交通拥堵或造成混乱。为了加快公共交通的通过，在德国很多城市公共汽车和有轨电车拥有先行权。当车辆到达时，红绿灯会切换到绿色。控制红绿灯切换采用了未加密的 150.890KHz(附近)无线电信号，任何对无线电技术有所了解的人都可以控制这些交通信号灯。使用重放攻击能够轻松实现对交通灯的控制。<br/><br/>交通灯采用集中式和分散式控制。集中式提供了一个控制中心，该控制中心与每个交通信号灯保持连接。具有优先权的车辆不会直接影响交通信号灯，而是向控制中心报告，控制中心将请求转发给交通信号灯。目前,主要使用分散控制，具有优先权的车辆直接控制相应的交通信号灯。根据慕尼黑运输公司的说法，人们认为风险很低。没有城市证实该信号曾被故意利用。<br/><br/>专家提醒，对于分散式交通灯控制应使用更现代的数字无线电标准，如 TETRA或 TETRAPOL，而不是不安全的模拟无线电。"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "7",
+        "year": "2022"
+      },
+      "group":"event"
     }
   ]
 }
