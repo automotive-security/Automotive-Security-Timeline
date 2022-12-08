@@ -430,6 +430,22 @@
       "group":"vulnerability"
     },{
       "media": {
+        "caption": "<a href=\"https://portswigger.net/daily-swig/amp/critical-traffic-light-system-vulnerability-could-cause-chaos-on-the-roads\">Critical traffic light system vulnerability could cause ‘chaos’ on the roads</a>",
+        "credit": "<a href=\"https://cert.vde.com/de/advisories/VDE-2020-016/\">SWARCO: Critical Vulnerability in CPU LS4000</a>",
+        "url":"static/images/traffic-light.jpg"
+      },
+      "text": {
+        "headline": "CVE-2020-12493: 交通信号灯曝严重漏洞,可人为操控引发交通瘫痪",
+        "text": "信号灯控制器制造巨头SWARCO被曝严重漏洞，黑客可以利用这个严重漏洞破坏交通信号灯，甚至随意切换红绿灯，造成交通瘫痪乃至交通事故。<br/><br/>德国工业网络安全咨询公司ProtectEM在对德国某城市进行安全审核时发现，SWARCO的CPU LS4000交通灯控制器具有一个可调试的开放端口，容易遭到黑客利用。该漏洞是一个“访问控制不当”漏洞，可被黑客用以获得设备的root授权，无需访问许可。<br/><br/>SWARCO交通控制器使用黑莓 QNX RTOS，QNX调试应用为 qconn，调试接口开放在 8000 端口，利用调试接口可获取系统控制权限。<br/><br/>该漏洞跟踪为CVE-2020-12493，CVSS评分为10，已于2019年7月报告给供应商，SWARCO于2020年4月向客户提供了一个补丁。"
+      },
+      "start_date": {
+        "month": "5",
+        "day": "28",
+        "year": "2020"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
         "caption": "<a href=\"https://skygo.360.cn/mercedes-benz-research-report\">360 Sky-Go团队发布《梅赛德斯-奔驰安全研究报告》：19个漏洞,携手修复</a>",
         "credit": "",
         "url": "static/images/Benz_and_skygo.jpg"
