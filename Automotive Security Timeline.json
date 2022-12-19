@@ -956,6 +956,22 @@
         "year": "2022"
       },
       "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"http://i.blackhat.com/EU-22/Wednesday-Briefings/EU-22-Serdyuk-Back-connect-to-the-connected-car.pdf\">Back-connect to the Connected Car. Search for Vulnerabilities in the VW Electric Car.</a>",
+        "credit": "<a href=\"https://navinfo.eu/insights/navinfo-europe-presents-cybersecurity-research-on-volkswagen-id-3-at-black-hat-europe\">NavInfo Europe presents cybersecurity research on Volkswagen ID.3 at Black Hat Europe</a>",
+        "url": "https://youtu.be/RrgXgDYbdF8"
+      },
+      "text": {
+        "headline":"Black Hat Europe 大众ID系列多个漏洞披露",
+        "text": "来自 NavInfo Europe B.V. 安全研究员发现了大众ID系列车型的多个漏洞，包括绕过本地软件更新签名验证、在QNX7网络服务中实现任意代码执行、提取网关trusted zones中的秘钥、通过Wi-Fi远程安装后门等。<br/><br/>· CVE-2022-23777：ICAS1(车载应用服务器) 奔溃数据收集服务，执行 /sbin/get_dm_integrity_key >>/data/coredump/securekey 中会调用 /data/coredump/coredump-filter，向coredump-filter其中写入代码可以实现任意代码执行。<br/><br/>· CVE-2022-23778: 信息娱乐系统 HOST OS 中的网络服务 0.0.0.0:54323 MgrLog/MgrTsk 从GUEST OS AGL中逃逸到HOST OS QNX中。payload: group=tcpSniffer, arg=0, cmd=tcpSnifferWriteCon-figFilepayload=\"yeazy; qon -p 10 pdebug 8888;\" <br/><br/>· CVE-2022-41557: 信息娱乐系统 GUEST OS 本地USB升级没有校验U盘中的shell脚本/tmp/swdlusb/swdl-pre-extra-exec.sh，利用这一文件获取到了系统的ROOT权限。"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "7",
+        "year": "2022"
+      },
+      "group":"vulnerability"
     }
   ]
 }
