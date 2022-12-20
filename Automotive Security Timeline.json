@@ -964,7 +964,7 @@
       },
       "text": {
         "headline":"Black Hat Europe 大众ID系列多个漏洞披露",
-        "text": "来自 NavInfo Europe B.V. 安全研究员发现了大众ID系列车型的多个漏洞，包括绕过本地软件更新签名验证、在QNX7网络服务中实现任意代码执行、提取网关trusted zones中的秘钥、通过Wi-Fi远程安装后门等。<br/><br/>· CVE-2022-23777：ICAS1(车载应用服务器) 奔溃数据收集服务，执行 /sbin/get_dm_integrity_key >>/data/coredump/securekey 中会调用 /data/coredump/coredump-filter，向coredump-filter其中写入代码可以实现任意代码执行。<br/><br/>· CVE-2022-23778: 信息娱乐系统 HOST OS 中的网络服务 0.0.0.0:54323 MgrLog/MgrTsk 从GUEST OS AGL中逃逸到HOST OS QNX中。payload: group=tcpSniffer, arg=0, cmd=tcpSnifferWriteCon-figFilepayload=\"yeazy; qon -p 10 pdebug 8888;\" <br/><br/>· CVE-2022-41557: 信息娱乐系统 GUEST OS 本地USB升级没有校验U盘中的shell脚本/tmp/swdlusb/swdl-pre-extra-exec.sh，利用这一文件获取到了系统的ROOT权限。"
+        "text": "来自 NavInfo Europe B.V. 安全研究员发现了大众ID系列车型的多个漏洞，包括绕过本地软件更新签名验证、在QNX7网络服务中实现任意代码执行、提取网关trusted zones中的秘钥、通过Wi-Fi远程安装后门等。<br/><br/>· CVE-2022-23777：ICAS1(车载应用服务器1,网关) 奔溃数据收集服务，执行 /sbin/get_dm_integrity_key >>/data/coredump/securekey 中会调用 /data/coredump/coredump-filter，向coredump-filter其中写入代码可以实现任意代码执行。<br/><br/>· CVE-2022-23778: 信息娱乐系统 HOST OS 中的网络服务 0.0.0.0:54323 MgrLog/MgrTsk 从GUEST OS AGL中逃逸到HOST OS QNX中。payload: group=tcpSniffer, arg=0, cmd=tcpSnifferWriteCon-figFilepayload=\"yeazy; qon -p 10 pdebug 8888;\" <br/><br/>· CVE-2022-41557: 信息娱乐系统 GUEST OS 本地USB升级没有校验U盘中的shell脚本/tmp/swdlusb/swdl-pre-extra-exec.sh，利用这一文件获取到了系统的ROOT权限。"
       },
       "start_date": {
         "month": "12",
@@ -972,6 +972,22 @@
         "year": "2022"
       },
       "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"\"></a>",
+        "credit": "<a href=\"https://app.nio.com/app/web/v2/share_comment?id=2284166&type=essay\">关于数据安全事件的声明</a>",
+        "url": "static/images/NIO_dataleak_20221220.jpg"
+      },
+      "text": {
+        "headline":"",
+        "text": "12月20日，有不法分子在网络上兜售蔚来大量数据，包括蔚来内部员工数据22800条、车主用户身份证数据399000条等。<br/><br/>12月20日下午，蔚来汽车首席信息安全科学家、信息安全委员会负责人卢龙在蔚来官方社区发布公告《关于数据安全事件的声明》。2022年12月11日，蔚来公司收到外部邮件，声称拥有蔚来内部数据，并以泄露数据勒索225万美元（当前约1570.5万元人民币）等额比特币。在收到勒索邮件后，公司当天即成立专项小组进行调查与应对，并第一时间向有关监管部门报告此事件。经初步调查，被窃取数据为2021年8月之前的部分用户基本信息和车辆销售信息。<br/><br/>蔚来表示，对于此次事件对用户造成的影响深表歉意，并郑重承诺，对因本次事件给用户造成的损失承担责任。"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "20",
+        "year": "2022"
+      },
+      "group":"event"
     }
   ]
 }
