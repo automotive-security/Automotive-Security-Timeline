@@ -78,6 +78,22 @@
       "group":"vulnerability"
     },{
       "media": {
+        "caption": "<a href=\"https://www.troyhunt.com/controlling-vehicle-features-of-nissan/\">Controlling vehicle features of Nissan LEAFs across the globe via vulnerable APIs</a>",
+        "credit": "",
+        "url": "https://youtu.be/Nt33m7G_42Q"
+      },
+      "text": {
+        "headline": "利用 Nissan Leaf 移动应用程序 WEB API未授权、IDOR漏洞控制空调",
+        "text": "安全研究员 Troy Hunt 发现 Nissan Leaf 电动汽车很容易受到攻击，允许攻击者控制汽车的空调。NissanConnect 应用程序 API 没有身份校验，不携带任何有关身份验证会话值的请求仍然能够成功执行。控制车辆的请求中以 VIN 码作为被控车辆的标识符，将 VIN 替换成其他车的 VIN 后能够实现对其他车辆的控制，如获取空调状态信息和控制空调等。但不能打开车门，因为 Nissan Leaf 不支持通过移动应用程序远程打开车门。<br/><br/>POC: 打开空调</br>GET https://[redacted].com/orchestration_1111/gdc/ACRemoteRequest.php?RegionCode=NE&lg=no-NO&DCMID=&VIN=SJNFAAZE0U60XXXXX&tz=Europe/Paris</br><br/>POC: 关闭空调<br/>GET https://[redacted].com/orchestration_1111/gdc/ACRemoteOffRequest.php?RegionCode=NE&lg=no-NO&DCMID=&VIN=SJNFAAZE0U60XXXXX&tz=Europe/Paris"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "24",
+        "year": "2016"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
         "caption": "<a href=\"http://jcarlosnorte.com/security/2016/03/06/hacking-tachographs-from-the-internets.html\">Hacking industrial vehicles from the internet</a>",
         "credit": "",
         "url": "static/images/C4max-365.png"
@@ -105,6 +121,22 @@
       "start_date": {
         "month": "6",
         "day": "5",
+        "year": "2016"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.vulnerability-lab.com/get_content.php?id=1737\">BMW - (Token) Cross Site Scripting Web Vulnerability</a>",
+        "credit": "<a href=\"https://www.vulnerability-lab.com/get_content.php?id=1736\">BMW ConnectedDrive - (Update) VIN Session Vulnerability</a>",
+        "url": "static/images/BMW-ConnectedDrive-Store.png"
+      },
+      "text": {
+        "headline":"黑客可通过宝马门户网站漏洞篡改BMW车辆的设置",
+        "text": "ConnectedDrive，德国BMW公司于2006年联手Google公司开发的“联网驾驶”服务，也是宝马车载信息娱乐系统的名称。该系统可以在车内使用，或可以通过一系列连接的移动应用程序让司机通过移动设备管理车辆设置。除了移动应用程序，该服务还有网页版。<br/>Vulnerability Lab的安全研究人员Benjamin Kunz Mejri公布ConnectedDrive门户存在的两个零日漏洞，宝马过去5个月未对这两大漏洞进行修复。<br/><br/>漏洞1：VIN会话劫持<br/>会话漏洞允许用户访问另一用户的VIN。VIN是每个用户帐号的车辆ID。VIN码备份车辆ConnectedDrive设置到用户的帐号。在门户网站更改这些设备将更改车载设置以及附带应用程序。Mejri表示，他可以绕过VIN会话验证并使用另一VIN访问并修改另一用户的车辆设置。ConnectedDrive门户的设置包括锁定/解锁车辆，管理歌曲播放列表、访问电子邮件账号、管理路由、获取实时交通信息等。<br/>POC: https://www.bmw-connecteddrive.co.uk/cdp/release/internet/servlet/vehicle?vin= <br/><br/>漏洞2:ConnectedDrive门户的XSS<br/>门户密码重置页面存在XSS（跨站脚本）漏洞。这个XSS漏洞可能带来网络攻击，比如浏览器cookie获取、后续跨站请求伪造（Cross-site request forgery，缩写CSRF）、钓鱼攻击等。Mejri声称，他2016年2月向BMW报告了两大漏洞。由于宝马没有及时回应Mejri的漏洞报告，于是Mejri将漏洞公开。<br/>POC: https://www.bmw.de/de/publicPools/landingPages/passwordResetOk.html?t=OiWU9ARpVXDXDjlRJ3tS6XxgnOvkFzRK%22%3E%3C[CLIENT SIDE SCRIPT CODE INJECT!]iframe%20src=a%20onload=alert%28document.cookie%29%20%3C"
+      },
+      "start_date": {
+        "month": "7",
+        "day": "7",
         "year": "2016"
       },
       "group":"vulnerability"
@@ -168,6 +200,22 @@
       },
       "start_date": {
         "month": "7",
+        "day": "20",
+        "year": "2017"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://github.com/rapid7/metasploit-framework/blob/master//modules/post/hardware/automotive/pdt.rb\">Exploit</a>",
+        "credit": "<a href=\"https://www.computest.nl/documents/9/The_Connected_Car._Research_Rapport_Computest_april_2018.pdf\">Research Report</a>",
+        "url": "static/images/AIRBAG_CVE-2017-14937.jpg"
+      },
+      "text": {
+        "headline": "CVE-2017-14937 安全气囊漏洞",
+        "text": "安全气囊点火算法允许乘客通过可预测的安全访问（SA）消息发送到CANBUS造成伤害。气囊点火算法只有256个可能的密钥对，而对身份验证的尝试没有限制。此外，至少有一家制造商对ISO 26021标准的解释是，必须直接计算密钥(即:另外255个密匙对不能被使用）。所以当汽车点火启动后，速度小于6公里/时，攻击者访问CAN总线，并发送了一个精心设计的统一诊断服务(UDS)消息来引爆安全气囊导致乘客伤害风险。<br/><br/>此漏洞是利用是通过接入OBD连接器或者车内CAN网路发送指令。攻击条件是车辆点火且车辆的速度必须小于6公里/小时，通过获得CAN指令访问权限以及OBD接口向车内网络发送UDS针对服务来对安全气囊进行攻击，可对车内乘客造成物理伤害，该漏洞影响到2014年起制造的乘用车。"
+      },
+      "start_date": {
+        "month": "10",
         "day": "20",
         "year": "2017"
       },
@@ -526,6 +574,22 @@
       "group":"vulnerability"
     },{
       "media": {
+        "caption": "<a href=\"https://www.chinatimes.com/realtimenews/20210227001229-260405?chdtv\">特斯拉導航怕「開元路土魠魚羹」 台大教授找到原因了</a>",
+        "credit": "<a href=\"https://www.zhihu.com/question/462750770\">如何看待特斯拉导航语音输入“开元路土魠鱼羹”后中控黑屏崩溃?</a>",
+        "url": "https://youtu.be/AnakIk49O9E"
+      },
+      "text": {
+        "headline":"特斯拉导航语音输入“开元路土魠鱼羹”后中控黑屏崩溃？",
+        "text": "2021年2月，网络上流传特斯拉导航系统听到“开元路土魠鱼羹”这7个字就会死机。值得注意的是，特斯拉导航中地点包含“魠”字，会额外显示乱码。<br/><br/>猜测1：特斯拉是因为不支持“魠”的UNICODE编码而造成的崩溃。<br/>猜测2：『開元路土魠魚羹』念起来像『Kindly root to boot again』。"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "10",
+        "year": "2021"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"https://kunnamon.io/tbone/\">TBONE – A zero-click exploit for Tesla MCUs</a>",
         "credit": "",
         "url": "https://www.youtube.com/watch?v=krSj81thN0w"
@@ -682,6 +746,22 @@
         "month": "12",
         "day": "20",
         "year": "2021"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://arstechnica.com/cars/2022/02/radio-station-snafu-in-seattle-bricks-some-mazda-infotainment-systems/\">Radio station snafu in Seattle bricks some Mazda infotainment systems</a>",
+        "credit": "<a href=\"https://www.seattletimes.com/seattle-news/thanks-to-a-glitch-some-seattle-mazda-drivers-cant-tune-their-radios-away-from-kuow/#comments\">https://www.seattletimes.com/seattle-news/thanks-to-a-glitch-some-seattle-mazda-drivers-cant-tune-their-radios-away-from-kuow/</a>",
+        "url": "static/media/KUOW causes Mazda software glitches.mp4"
+      },
+      "text": {
+        "headline": "西雅图马自达通过无线电信号冻结信息娱乐系统",
+        "text": "据 Seattle Times 报道在西雅图2014年到2017年款的马自达在1月30日收听了 KUOW 94.9 FM 车机出现崩溃，并无限重启（变砖）。联系当地马自达经销商检查后，他们表示“connectivity master unit”受到了损坏需要更换。<br/><br/>出现问题的原因：马自达回复说，广播站在高清广播流中发送了一个没有拓展名的图片文件，信息娱乐系统需要根据文件的拓展名（而不是文件头）识别文件。因为没有文件拓展名，从而引起了异常，导致车机变砖。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "30",
+        "year": "2022"
       },
       "group":"event"
     },{
@@ -980,12 +1060,124 @@
       },
       "text": {
         "headline":"蔚来汽车数据泄露被勒索",
-        "text": "12月20日，有不法分子在网络上兜售蔚来大量数据，包括蔚来内部员工数据22800条、车主用户身份证数据399000条等。<br/><br/>12月20日下午，蔚来汽车首席信息安全科学家、信息安全委员会负责人卢龙在蔚来官方社区发布公告《关于数据安全事件的声明》。2022年12月11日，蔚来公司收到外部邮件，声称拥有蔚来内部数据，并以泄露数据勒索225万美元（当前约1570.5万元人民币）等额比特币。在收到勒索邮件后，公司当天即成立专项小组进行调查与应对，并第一时间向有关监管部门报告此事件。经初步调查，被窃取数据为2021年8月之前的部分用户基本信息和车辆销售信息。<br/><br/>蔚来表示，对于此次事件对用户造成的影响深表歉意，并郑重承诺，对因本次事件给用户造成的损失承担责任。"
+        "text": "12月20日，有不法分子在网络上兜售蔚来大量数据，包括蔚来内部员工数据22800条、车主用户身份证数据399000条、车主数据125000条、 用户地址数据650000条、注册用户信息4850000条、企业及企业代表联系人数据10000条、订单490000条、退单90000条、车主情迷关系数据360000条、车主贷款数据170000条等。<br/><br/>12月20日下午，蔚来汽车首席信息安全科学家、信息安全委员会负责人卢龙在蔚来官方社区发布公告《关于数据安全事件的声明》。2022年12月11日，蔚来公司收到外部邮件，声称拥有蔚来内部数据，并以泄露数据勒索225万美元（当前约1570.5万元人民币）等额比特币。在收到勒索邮件后，公司当天即成立专项小组进行调查与应对，并第一时间向有关监管部门报告此事件。经初步调查，被窃取数据为2021年8月之前的部分用户基本信息和车辆销售信息。<br/><br/>蔚来表示，对于此次事件对用户造成的影响深表歉意，并郑重承诺，对因本次事件给用户造成的损失承担责任。"
       },
       "start_date": {
         "month": "12",
         "day": "20",
         "year": "2022"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://samcurry.net/web-hackers-vs-the-auto-industry\">Full Account Takeover on BMW and Rolls Royce via Misconfigured SSO</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/BMW and Rolls Royce via Misconfigured SSO - reset password.png"
+      },
+      "text": {
+        "headline":"BMW、劳斯莱斯供应商SSO平台存在任意用户密码重置漏洞",
+        "text": "BMW、劳斯莱斯供应商SSO(单点登录)平台用于访问内部工具、开发环境等。单点登录平台密码重置存在漏洞，未授权用户能够重置任意用户的密码。使用重置后的密码，能够访问供应商所能够访问的所有功能，如通过VIN码获取销售文档(其中包含客户的隐私信息)。<br/><br/> 对OSS平台模糊测试中发现WADL文件(https://xpita.bmwgroup.com/rest/api/application.wadl),其中的存在大量敏感接口。如使用接口 /reset/api/users/example* 可以根据模糊用户名获取用户信息；/rest/api/chains/accounts/:user_id/totp 接口用于请求基于时间的一次性密码，此TOTP密码用密码重置中，类似于双因子认证中的验证码。测试发现使用通配符在用户查询接口获取到用户信息后，进入密码恢复页面重置用户密码，并从/rest/api/chains/accounts/:user_id/totp获取到验证码，提交后就能实现对指定用户的密码重置。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "3",
+        "year": "2023"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://samcurry.net/web-hackers-vs-the-auto-industry\">Remote Code Execution and Access to Hundreds of Internal Tools on Mercedes-Ben via Misconfigured SSO</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/umas.mercedes-benz.com.png"
+      },
+      "text": {
+        "headline":"利用错误配置的奔驰SSO实现远程代码执行、访问数百个内部工具",
+        "text": "奔驰 SSO 平台使用一个集中式的LDAP系统管理用户访问授权。在对大量网站模糊测试后，发现车辆维修内部工具获取网站 umas.mercedes-benz.com 开放了用户注册。注册信息写入到的数据库与核心员工LDAP系统是同一个。使用注册的信息进入SSO平台，成功登录了git.mercedes-benz.com。访问发现，在内部 Github 中有大量项目的源码和文档，比如用户用来远程控制他们汽车的应用 Mercedes Me Connect。内部文档中对开发远控应用进行了详细的说明。安全研究员在奔驰要求进一步说明影响中，发现使用注册的信息能够获取敏感信息、通过暴露的spring boot控制台(actuators)以及数十个员工使用的敏感内部应用程序实现远程代码执行。其中一个应用是 Mercedes-Benz Mattermost(基于Slack)，能够加入任意频道、包括安全频道，以及能够伪装成内部员工想被攻击者提出必要的问题，用来提升在奔驰网络中的权限。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "3",
+        "year": "2023"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://samcurry.net/web-hackers-vs-the-auto-industry\">Full Account Takeover on Ferrari and Arbitrary Account Creation allows Attacker to Access, Modify, and Delete All Customer Information and Access Administrative CMS Functionality to Manage Ferrari Websites</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/Ferrari Account Takeover etc.png"
+      },
+      "text": {
+        "headline":"法拉利账户完全接管和任意用户创建，允许攻击者访问、修改、删除所有客户信息以及访问管理CMS功能以管理法拉利网站",
+        "text": "研究人员在对大量的目标测试后，发现 api.ferrari.com 为法拉利系统提供了用户侧和内部API接口。分析了大量有关经销商的子域名的JAVASCRIPT代码后，发现经销商的测试网站单一登录实现存在问题，没有限制对底层应用程序的访问。在JS代码中暴露了 https://api.ferrari.com/cms/dws/back-office/ 的 apiKey。使用此api可以访问 /cms/dws/back-office/auth/bo-users 获取到了所有注册用户，还能发送POST请求为自己添加一个超级管理员用户。访问 /cms/dws/back-office/rest-connector-models 返回了 API 列表以及明文的认证头。使用这些信息能够访问用户的个人信息，如 http://fcd.services.ferrari.com/core/api/v1/Users?email=ian@ian.sh，向 /core/api/v1/Users/:id/Roles 发送 POST 请求修改用户角色，将自己设置为超级用户或成为法拉利车主。此外还能利用返回的信息，注册新的rest connectors 以及修改现有的。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "3",
+        "year": "2023"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://samcurry.net/web-hackers-vs-the-auto-industry\">SQL Injection and Regex Authorization Bypass on Spireon Systems allows Attacker to Access, Track, and Send Arbitrary Commands to 15 million Telematics systems and Additionally Fully Takeover Fleet Management Systems for Police Departments, Ambulance Services, Truckers, and Many Business Fleet Systems</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/Spireon Systems login.png"
+      },
+      "text": {
+        "headline":"Spireon系统存在 SQL 注入和正则认证绕过，允许攻击者访问、追踪、发送任意命令到1500万个远程信息管理系统上",
+        "text": "车辆智能公司 Spireon 的后装 GPS 追踪器能够追踪和管理车辆，接收任意指令，如锁定启动器让车辆无法启动。Spireon系统存在 SQL 注入和正则认证绕过，允许攻击者访问、追踪、发送任意命令到1500万个设备上。<br/><br/>SQL注入，绕过登录：<br/>后台系统 admin.spireon.com 登录页面存在SQL注入漏洞，使用SQL注入载荷 admin' # 或 administrator' # 登录，301重定向到 /dashboaed 页面。管理员能够访问所有Spireon设备，获取实时定位、给它们发送任意命令，还可以通过固件更新修改配置、植入后门、执行任意命令等。这些设备广泛使用在拖拉机、高尔夫球车、警车和救护车中，其中一部分只能获取实时定位，还有一些能够禁用启动器。<br/><br/>使用正则绕过认证<br/>测试发现URL(如/anything-admin-anything)中包含admin和dashboard会返回403禁止访问，如果URL(如/anything-anything)中不包返回404 Not Found。通过枚举%00-%FF发现，GET /%0dadmin、GET /%0ddashboard 返回 200 OK。在URL路径前面中添加 %0d 绕过了登录，能够直接访问后台。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "3",
+        "year": "2023"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://samcurry.net/web-hackers-vs-the-auto-industry\">Mass Assignment on Reviver allows an Attacker to Remotely Track and Overwrite the Virtual License Plates for All Reviver Customers, Track and Administrate Reviver Fleets, and Access, Modify, and Delete All User Information</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/Reviver Assignment.png"
+      },
+      "text": {
+        "headline":"Reviver上的大规模分配允许攻击者远程跟踪和覆盖所有Reviver客户的虚拟车牌，跟踪和管理Reviver车队，并访问、修改和删除所有用户信息",
+        "text": "2022年10月加利福尼亚宣布电子车牌合法化。大部分的电子车牌是一家名字为 Reviver 公司颁发的。如果想获取电子车票，他们需要购买Reviver的虚拟电子车牌。虚拟电子车牌使用 SIM卡支持远程追踪和更新电子车牌。Reviver虚拟车牌的用户能够更新电子车牌的标语、背景、被盗后还能将设备标签为STOLEN。<br/><br/>所有API都在pr-api.rplate.com上。创建的新用户在JSON中使用 type 标识用户的身份，当前为CONSUMER。在密码重置页面JS中发现了大量的API信息，其中包括用户角色，将 role 参数修改为 CORPORATE，刷新后实现了权限提升。在邀请新账号注册并登录后，不仅不会出现认证错误，还能访问车队管理功能。在对type使用字典爆破发现异常，REVIVER_ROLE 被修改为了数字 4，于是遍历0到100，发现 0 代表的角色是 REVIVER。在设置这个属性后，重新邀请新用户，虽然登录正常，但UI显示异常，还不能点击任意按钮。研究人员猜测，这是因为虽然用户权限已经提升，但是访问的是用户前端网站，而不是后台的页面，所以出现错误而无法操作。于是使用当前的超级管理员用户直接调用 API 成功获取了其他用户的信息、查看车辆定位、更新电子车牌、删除电子车牌、添加新用户。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "3",
+        "year": "2023"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.bleepingcomputer.com/news/security/nissan-north-america-data-breach-caused-by-vendor-exposed-database/\">Nissan North America data breach caused by vendor-exposed database</a>",
+        "credit": "<a href=\"https://s3.documentcloud.org/documents/23573442/a_nmac_ah877_v02-002.pdf\">NOTICE OF DATA BREACH</a>",
+        "url": "static/images/nissan-header.webp"
+      },
+      "text": {
+        "headline":"日产北美公司第三方服务商配置错误导致数据泄露",
+        "text": "日产汽车北美公司正式向客户发送数据泄露通知，告知2022年因第三方服务供应商发生数据泄露事件，导致约17998名客户的信息受到影响。泄露的客户信息包括全名、出生日期和日产金融账户，不包含社交账号和信用卡信息。<br/><br/>该通知披露，经调查在软件测试期间嵌入在代码中的数据，无意中临时存储在云公共存储库。日产汽车表示，到目前为止没有任何证据表明这些暴露的信息被滥用，通知客户仅是出于谨慎。<br/><br/>"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "17",
+        "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://techcrunch.com/2022/09/21/kia-hyundai-sued-after-viral-tiktok-causes-rise-in-thefts/\">Kia, Hyundai sued after viral TikTok causes rise in thefts</a>",
+        "credit": "<a href=\"https://www.seattle.gov/documents/departments/cityattorney/litigation/city%20of%20seattle%20complaint%20012423%20filed.pdf\">city of seattle complaint 012423 filed</a>",
+        "url": "https://youtu.be/bTeVgfPM0Xw"
+      },
+      "text": {
+        "headline":"西雅图起诉现代、起亚盗窃案激增(未采用防盗技术)",
+        "text": "诉讼指控，其他汽车制造商普遍采用汽车防盗技术以确保汽车在有钥匙在附近的时候才能点火。而在美国仍然有大量的现代汽车和起亚汽车没有使用防盗技术。因此，现代和起亚汽车比其他汽车更容易被盗。而在欧洲和加拿大的车型不受影响，因为法规要求配备有防盗模块。此前加州奥兰治县也提起过诉讼。<br/><br/>盗窃视频#Kia Boyz在Tiktok等视频平台上疯狂传播，盗窃者只需要拆掉汽车转向柱上的塑料外壳，露出车匙开关的点火装置，用一个USB插头插入车匙开关，扭动数次便能启动引擎，整个过程仅用了数分钟甚至数秒完成。据统计,2022年7月较2021年同期现代和起亚的盗窃事件增长了620%。<br/><br/>由此，还引发了一些列社会安全问题。如一些贪玩的年轻人有样学样，更出现偷车后危险驾驶、逃避警察追捕和撞车等事件。纽约水牛城发生一宗夺命车祸，6名青少年于2020年10月23日偷走一辆起亚汽车，到了翌日清晨发生车祸，5名乘客全部弹出车外，4人死亡、1名14岁女孩受伤，16岁的男司机生还。“偷车挑战 Kia Boyz”怀疑是导致此事的原因。<br/><br/>受影响的车型：Hyundai Elantra, Hyundai Kona, Hyundai Palisade, Hyundai Santa Cruz, Hyundai Santa Fe, Hyundai Sonata, Hyundai Tucson, Hyundai Venue, Kia Cadenza, Kia Forte, Kia K900, Kia Niro, Kia Optima, Kia Rio, Kia Sedona, Kia Seltos, Kia Sorrento, Kia Soul, Kia Sportage, Kia Stinger, and Kia Telluride"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "24",
+        "year": "2023"
       },
       "group":"event"
     }
