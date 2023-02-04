@@ -1180,6 +1180,22 @@
         "year": "2023"
       },
       "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.saiflow.com/how-mishandling-of-websockets-can-cause-dos-and-energy-theft/?utm_source=pocket_saves\">How Mishandling of WebSockets Can Cause DoS and Energy Theft</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/charger_ocpp.png"
+      },
+      "text": {
+        "headline":"充电桩管理系统OCPP协议会话管理实现缺陷，可造成拒绝服务或免费充电",
+        "text": "OCPP(Open Charge Point Protocol，开放充电协议)是一个全球开放性的通讯标准，其目的在于解决充电桩和充电管理系统间的互联互通。OCPP 支持使用 HTTPS 和 Websocket 通信。在 OCPP1.6 中认证凭证是可选的，认证方式有三种：仅ID、ID和认证凭证、ID和客户端证书。在最新的 2.0.1 版本中认证凭证是强制要求的。<br/><br/>SaiFlow 研究团队发现 OCPP1.6 Websocket 存在漏洞，可远程导致充电桩拒绝服务或免费充电。DOS或免费充电取决于充电桩的本地配置，包括是否支持离线身份认证并充电、允许离线后给未知车辆充电(AllowOfflineTxForUnknownId)等。研究中发现，在使用 Websocket 通信中，以 URL(ws://csms.provider.com:8080/webServices/ocpp/CP3211) 中的 ID(CP3211) 作为唯一标识识别充电桩。攻击者使用相同的ID，向充电桩管理系统发起连接请求，将影响正常的会话连接。不同实现的充电管理系统因编码差异，反应和影响也有所不同。使用相同的ID发起新连接，共有四种可能。<br/>1. 原连接断开，充电桩断开网络，DOS拒绝充电。一段时间后会重连。<br/>2. 原连接依然存活，但收不到服务端返回的响应数据。充电桩的连接依然存在，不会建立新连接。攻击者只能够从创建的连接中接收来自充电桩管理系统的敏感数据。<br/>3.原连接依然存活，但收不到服务端返回的响应数据。新连接能够收到原连接请求的返回数据。<br/>4.两个连接都正常，都能获取请求返回的数据。"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "1",
+        "year": "2023"
+      },
+      "group":"vulnerability"
     }
   ]
 }
