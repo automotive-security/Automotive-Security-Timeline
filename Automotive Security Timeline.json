@@ -1196,6 +1196,22 @@
         "year": "2023"
       },
       "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://eaton-works.com/2023/02/06/toyota-gspims-hack/\">Hacking into Toyota’s global supplier management network</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/toyota-gspims-project.webp"
+      },
+      "text": {
+        "headline":"丰田全球供应商信息管理系统认证机制存在漏洞，可获取大量数据",
+        "text": "丰田 WEB 应用全球供应商信息管理系统(GSPIMS,Global Supplier Preparation Information Management System)用于丰田和供应商项目协作、调研、采购以及其他供应链管理相关任务。GSPIMS 是一个基于 AG Grid 应用开发的 Angular 单页应用程序。<br/><br/>安全研究员 Eaton 在对丰田云平台的7天渗透中，挖掘了4个严重漏洞。其中一个最严重的是后门登录机制，只需要知道用户邮箱就能登录进入系统，包括管理员用户。Eaton 在分析JS代码，并 patch CanActivate、CanActivateChild 两个函数后，能够访问后台页面，但无法获取数据。进一步分析后发现，认证 Token JWT( JSON Web Token)仅根据邮箱生成，并不需要密码。根据丰田北美邮箱结构 firstname.lastname@toyota.com 能够猜测出有效用户名，或从互联网上收集有效的邮箱。向 https://prd.svcs.gspims.toyota.com/qspims-1.0.0/custom/user/createJWT 发送 POST 请求，并携带有效的邮箱就能够获取到 jwtToken。最后把 jwtToken 的值赋给 cookie 中 gspimsAccessToken，就能够访问 GSPIMS，包括查看和修改14K的用户账户、敏感文件、项目、供应商排名、供应商备注等。<br/><br/>漏洞已于2022年10月上报给丰田，丰田在漏洞披露之前以完成修复——将 createJWT 和 findByEmail 请求的 HTTP 返回状态修改为了 400(Bad Request)。"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "6",
+        "year": "2023"
+      },
+      "group":"vulnerability"
     }
   ]
 }
