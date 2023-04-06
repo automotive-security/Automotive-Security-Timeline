@@ -1040,7 +1040,7 @@
       "media": {
         "caption": "<a href=\"http://i.blackhat.com/EU-22/Wednesday-Briefings/EU-22-Serdyuk-Back-connect-to-the-connected-car.pdf\">Back-connect to the Connected Car. Search for Vulnerabilities in the VW Electric Car.</a>",
         "credit": "<a href=\"https://navinfo.eu/insights/navinfo-europe-presents-cybersecurity-research-on-volkswagen-id-3-at-black-hat-europe\">NavInfo Europe presents cybersecurity research on Volkswagen ID.3 at Black Hat Europe</a>",
-        "url": "https://youtu.be/RrgXgDYbdF8"
+        "url": "https://youtu.be/4yBKYMKRPbU"
       },
       "text": {
         "headline":"Black Hat Europe 大众ID系列多个漏洞披露",
@@ -1209,6 +1209,38 @@
       "start_date": {
         "month": "2",
         "day": "6",
+        "year": "2023"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://twitter.com/Synacktiv/status/1639019673743228928\">CONFIRMED</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/pwn2own-2023-tesla.jpg"
+      },
+      "text": {
+        "headline":"Pwn2Own Tesla 两次被攻陷",
+        "text": "在温哥华举行的 Pwn2Own 比赛中 Synacktiv 安全研究员展示了针对 Tesla Model 3 的两个独立漏洞。<br><br> 1. 利用网关电池管理系统存在的 TOCTTOU (time-of-check-to-time-of-use) 漏洞能够在车辆运行状态下打开后备箱等。因此，他们获得了100万美元的现金奖励、10 个 Master of Pwn 积分以及一辆全新的 Model 3。<br><br>2. 利用蓝牙芯片模组中的堆溢出漏洞和越界写漏洞入侵了特斯拉的信息娱乐系统。从蓝牙芯片中移动到了宿主机LINUX中,完全控制了车机,并演示开机动画篡改、窃取数据等。这一漏洞为研究人员赢得了250万美元，以及有史以来第一个为特别重要的漏洞和漏洞设计的 Tier 2 奖。"
+      },
+      "start_date": {
+        "month": "3",
+        "day": "24",
+        "year": "2023"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://kentindell.github.io/2023/04/03/can-injection/\">CAN Injection: keyless car theft</a>",
+        "credit": "<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2023-29389\">CVE-2023-29389</a>",
+        "url": "static/images/Toyota_RAV4_2022_CAN_injection.png"
+      },
+      "text": {
+        "headline":"CVE-2023-29389: 发现在野采用CAN 注入盗窃 Toyota RAV4 2021",
+        "text": "在野发现汽车盗窃犯使用CAN注入盗窃 Toyota RAV4 2021, 通过拆卸大灯旁的保险杠接入CAN总线，发送特定的CAN报文(Key validated, unlock immobilizer)，欺骗车辆认为钥匙是的有效的。数字钥匙ECU和车灯ECU在同一CAN网络中，这使得盗贼能够通过拆卸保险杠接入到数字钥匙 ECU 所在的CAN网络中。由于CAN总线广播的特性，在车灯线束上发送的伪造报文就好像是从数字钥匙发出的一样。钥匙验证有效的报文经过网关转发到动力CAN中的发动机控制ECU，接收后禁用防盗功能。同理也能发送打开车门的报文。 <br><br>安全研究员 Lan Tabor 最初发现自己的 Toyota RAV4 2021 保险杠出现异常，三个月内多次被拆开，最终车辆失窃。在暗网和 Youtube 上追踪发现，窃贼使用的是价格高达 €5000 的紧急启动设备。该设备网站提供从匹配虚假钥匙到紧急启动设备等百余款产品，据称是为丢失钥匙的车主和信誉良好的锁匠提供的。面向的车型为 Jeep、Maserati、Honda、Renault、Jaguar、Fiat、Peugeot、Nissan、Ford、BMW、Volkswagen、Chrysler、Cadillac、GMC、Toyota。用于此次盗窃的设备还支持 LexusES LC/LS/NX/RX、Toyota GR Supra/Prius/Highlander/Land Cruiser/RAV4 车型。"
+      },
+      "start_date": {
+        "month": "4",
+        "day": "3",
         "year": "2023"
       },
       "group":"vulnerability"
