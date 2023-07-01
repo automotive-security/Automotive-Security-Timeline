@@ -526,7 +526,7 @@
       "group":"vulnerability"
     },{
       "media": {
-        "caption": "<a href=\"https://mp.weixin.qq.com/s/5LNIutNmfCqPKN20ZE-4uQ\">KOFFEE - Kia OFFensivE Exploit</a>",
+        "caption": "<a href=\"https://sowhat.iit.cnr.it/pdf/IIT-20-2020.pdf\">KOFFEE - Kia OFFensivE Exploit</a>",
         "credit": "<a href=\"https://github.com/rapid7/metasploit-framework/blob/master/modules/post/android/local/koffee.rb\">EXP</a>",
         "url": "static/images/KOFFEE.png"
       },
