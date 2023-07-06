@@ -1324,6 +1324,22 @@
         "year": "2023"
       },
       "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://github.com/hhj4ck/JailBreakEC6\">JailBreakEC6:Feat(My First EV)!: Add Support for App Store</a>",
+        "credit": "<a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24256\">CVE-2023-3028</a>",
+        "url": "static/images/NIO-EC6-hero-desktop.jpg"
+      },
+      "text": {
+        "headline":"蔚来车机存在错误配置和目录遍历漏洞,可提权至 Root",
+        "text": "盘古实验室安全研究员闻观行发现 NIO EC6 机系统 Aspen 3.2.5 以下版本有一个具有系统权限的应用(com.nextev.datastatistic)存在错误配置。利用这个错误配置,实现了从 shell 到 system 权限的提升。另外利用 Android prop 属性存在的路径遍历漏洞,从 system 权限提升到 Root 权限。此漏洞细节首次披露于 2022 年的 MOSEC 安全会议上。<br><br> · 从 shell 权限提升到 system 权限, 在 com.nextev.datastatistic 应用的 AndroidManifest.xml 配置中 android:debuggable = \"true\", android:sharedUserId = \"android.uid.system\"。利用 JDWP 协议调试 com.nextev.datastatistic 应用实现了 sytem 权限(u:r:system_app:s0 context、uid = 1000)下的任意代码执行。<br> · 从 system 权限提升至持久化的 root 权限：Aspen 默认状态没有启用对内核模块的签名校验,特权程序可以通过 insmod 加载自己的 ko 文件到内核中。/system/bin/setup_touch.sh、platform_app 或者 system_app 可以 setprop \"persist.sys.touchscreen\" 为类似于 \"cyttsp6_i2c.ko/../../../../data/system/exploit\" 的值, /data/system/exploit.ko 将被插入到内核当中,在重新启动后为攻击者提供持久化的root权限。<br><br> "
+      },
+      "start_date": {
+        "month": "7",
+        "day": "1",
+        "year": "2023"
+      },
+      "group":"vulnerability"
     }
   ]
 }
