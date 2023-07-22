@@ -883,8 +883,24 @@
         "url": "https://youtu.be/5mdU4ksOc2w"
       },
       "text": {
-        "headline": "Tesla Model3/Y 蓝牙中继攻击",
+        "headline": "Tesla Model3/Y 蓝牙链路层中继攻击",
         "text": "NCC 披露了特斯拉Model 3和Model Y的无钥匙进入系统存在的漏洞。通过中继无钥匙进入的蓝牙链路层数据,可解锁和启动汽车。在研究中,几位研究员使用了两个经过特别编程的小型中继设备,总成本不到100美元。在距离特斯拉车主的智能手机或遥控钥匙大约 14 米的范围内放置一个中继设备A（可以嗅探、获取钥匙的信号）；另一个中继设备B插入笔记本电脑再靠近汽车,通过两个设备之间的通信将设备A获取的钥匙信号转发、放大,让汽车能够识别到信号。如此一来,就算智能钥匙不在系统原本设定的汽车通信范围内,汽车也会接收到钥匙的信号,然后解锁、启动。一旦通信建立起来,整个破解过程只需要10S就能完成。<br><br>设备制造商一般采用两种方法防御中继攻击的发生。一种防御措施是测量请求和响应的流量,并在延迟达到特定阈值时拒绝身份验证,因为中继通信通常比合法通信需要更长的时间才能完成。另一种保护措施是对手机发送的凭证进行加密。<br><br>与之前的 BLE 中继攻击不同,成功绕过的关键在于,它从基带捕获数据,在基带中向设备发送无线信号并从设备接收无线信号,并在链路层（蓝牙协议栈的最底层）捕获数据,在链路层中通告、创建、维护和终止连接。以前的 BLE 中继攻击在 GATT（通用属性配置文件的缩写）层中起作用,该层位于堆栈的更高层。研究员直接通过链路层中继绕过了凭证的加密过程,即绕过了设备制造商采用的第二种防御手段。这种中继方式不仅存在Tesla上,也同样适用于其他使用BLE的IOT设备。"
+      },
+      "start_date": {
+        "month": "5",
+        "day": "15",
+        "year": "2022"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://hardwear.io/netherlands-2022/speakers/sultan-khan.php\">Hardwear.io</a>",
+        "credit": "<a href=\"https://hardwear.io/netherlands-2022/presentation/bluetooth-LE-link-layer-relay-attacks.pdf\">Opening Doors and Stealing Cars: Bluetooth LE Link Layer Relay Attacks</a>",
+        "url": "https://youtu.be/2CvHM5gZVnY"
+      },
+      "text": {
+        "headline": "BLE 链路层中继攻击",
+        "text": "BLE(低功耗蓝牙)链路层中继攻击: 在链路层从基带转发数据，可以绕过已知的中继攻击保护——链路层加密、 GATT latency bounding,能够远距离攻陷基于BLE的邻近身份验证，如汽车、智能门锁、楼宇安防、移动设备、笔记本电脑等使用BLE技术认证的设备。<br><br> Hardwear.io 上 NCC 首席安全顾问 SULTAN QASIM KHAN 分享了 Sniffle Relay,世界上第一个低功耗蓝牙(BLE)链路层中继攻击的细节。 Sniffle 是 NCC 开源的BLE通信嗅探工具，在此基础上设计的中继工具未对外公开。 <br><br>此前，SULTAN QASIM KHAN 已利用 BLE 对Tesla Model3/Y,Model3/Y 蓝牙链路层中继攻击”。"
       },
       "start_date": {
         "month": "5",
@@ -1327,7 +1343,7 @@
     },{
       "media": {
         "caption": "<a href=\"https://github.com/hhj4ck/JailBreakEC6\">JailBreakEC6:Feat(My First EV)!: Add Support for App Store</a>",
-        "credit": "<a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24256\">CVE-2023-3028</a>",
+        "credit": "<a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24256\">CVE-2023-24256</a>",
         "url": "static/images/NIO-EC6-hero-desktop.jpg"
       },
       "text": {
