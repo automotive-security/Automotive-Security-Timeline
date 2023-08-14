@@ -900,7 +900,7 @@
       },
       "text": {
         "headline": "BLE 链路层中继攻击",
-        "text": "BLE(低功耗蓝牙)链路层中继攻击: 在链路层从基带转发数据，可以绕过已知的中继攻击保护——链路层加密、 GATT latency bounding,能够远距离攻陷基于BLE的邻近身份验证，如汽车、智能门锁、楼宇安防、移动设备、笔记本电脑等使用BLE技术认证的设备。<br><br> Hardwear.io 上 NCC 首席安全顾问 SULTAN QASIM KHAN 分享了 Sniffle Relay,世界上第一个低功耗蓝牙(BLE)链路层中继攻击的细节。 Sniffle 是 NCC 开源的BLE通信嗅探工具，在此基础上设计的中继工具未对外公开。 <br><br>此前，SULTAN QASIM KHAN 已利用 BLE 对Tesla Model3/Y,Model3/Y 蓝牙链路层中继攻击”。"
+        "text": "BLE(低功耗蓝牙)链路层中继攻击: 在链路层从基带转发数据，可以绕过已知的中继攻击保护——链路层加密、 GATT latency bounding,能够远距离攻陷基于BLE的邻近身份验证，如汽车、智能门锁、楼宇安防、移动设备、笔记本电脑等使用BLE技术认证的设备。<br><br> Hardwear.io 上 NCC 首席安全顾问 SULTAN QASIM KHAN 分享了 Sniffle Relay,世界上第一个低功耗蓝牙(BLE)链路层中继攻击的细节。 Sniffle 是 NCC 开源的BLE通信嗅探工具，在此基础上设计的中继工具未对外公开。此前，SULTAN QASIM KHAN 已利用此工具解锁并启动了 Tesla Model3/Y(见事件 Model3/Y 蓝牙链路层中继攻击”)。"
       },
       "start_date": {
         "month": "5",
@@ -1353,6 +1353,22 @@
       "start_date": {
         "month": "7",
         "day": "1",
+        "year": "2023"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.blackhat.com/us-23/briefings/schedule/#jailbreaking-an-electric-vehicle-in--or-what-it-means-to-hotwire-teslas-x-based-seat-heater-33049\">Jailbreaking an Electric Vehicle in 2023 or What It Means to Hotwire Tesla's x86-Based Seat Heater</a>",
+        "credit": "<a href=\"https://github.com/PSPReverse/\">PSPReverse</a>",
+        "url": "static/images/Tesla_AMD_glitch.png"
+      },
+      "text": {
+        "headline":"使用故障注入越狱特斯拉车载信息娱乐系统",
+        "text": " AMD 安全处理器存在故障注入漏洞，允许绕过安全启动，获得Tesla 信息娱乐系统的 root权限与敏感信息。<br><br> 在 BlackHat 2023 上，柏林工业大学的三位博士研究生 Christian Werling、Niclas Kühnapfel、Hans Niklas Jacob 以及安全研究员 Oleg Drokin 讲解了对 Tesla 采用的 AMD Zen 1 的安全处理器(ASP)的安全启动的破解过程，采用电压故障注入绕过了安全启动对固件的完整性校验，通过提取固件植入后门并烧录回 Flash，获得了特斯拉车载信息娱乐系统的 root 权限。获得系统 root 权限后，进一步研究了 TPM（Trusted Platform Module）对象密封和解封的过程，最终从 NVMe 存储获得了系统和用户敏感数据。提取出了一个车辆独有的与硬件绑定的RSA密钥，此密钥用于 Tesla 内部服务网络中对汽车进行验证和授权；还能够解密出加密的用户个人敏感信息，如通讯录、日历。 "
+      },
+      "start_date": {
+        "month": "8",
+        "day": "9",
         "year": "2023"
       },
       "group":"vulnerability"
