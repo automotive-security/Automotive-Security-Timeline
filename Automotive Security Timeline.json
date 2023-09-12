@@ -1404,6 +1404,22 @@
         "year": "2023"
       },
       "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://github.com/hackxpeng/hackp5g9\">小鹏P5和小鹏G9开启ADB和网络ADB</a>",
+        "credit": "<a href=\"https://bbs.xiaopeng.com/thread/1979097?tidType=1\">鹏友大团结日</a>",
+        "url": "static/images/hackp5g9.png"
+      },
+      "text": {
+        "headline":"小鹏 P5/G9 调试入口被公开",
+        "text": "小鹏官方社区多人发布名为 “鹏友大团结” 的帖子,对于老车型没有OTA获得新车型相同的车机体验,呼吁小鹏官方推进。 而后在 Github 上公开 小鹏P5(OTA3.5.0及之前)或小鹏G9(OTA4.3.1及之前)或小鹏G6(未测试)或小鹏P7(OTA2.10及之前)或小鹏G3 ADB开启方法。工程模式密码采用一机一密,可根据ID计算得到。<br><br>1. 打开车机的拨号界面，输入*#9925*111#*，屏幕显示一个二维码<br>2. 读取二维码获得ID,格式为XPENGD55xxxxxxxxxxxxxx<br>3. 根据 XPENGD55xxxxxxxxxxxxxx 计算出解锁码，如(*#03*12345678*#)<br>4. 将该解锁码输入车机的拨号界面，此时解锁码会自动消失，如果没有消失请手动删除所有内容<br>5. 使用拨号界面输入*#9387*141#* 进入成功模式<br>6. 在工程模式中打开USB ADB 调试和 ADB 网络调试。"
+      },
+      "start_date": {
+        "month": "9",
+        "day": "10",
+        "year": "2023"
+      },
+      "group":"vulnerability"
     }
   ]
 }
