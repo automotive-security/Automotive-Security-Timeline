@@ -8,7 +8,7 @@
       },
       "text": {
         "headline": "车联网安全事件时间轴",
-        "text": "按照时间发生的先后顺序记录汽车信息安全事件<br><br>项目地址: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br><br> 联系邮箱: delikely@gmail.com <br><br>Copyright: 青骥信息安全小组"
+        "text": "按照时间发生的先后顺序记录汽车信息安全事件<br><br>项目地址: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br><br> 联系邮箱: delikely@gmail.com <br><br>Copyright: 青骥信息安全小组<br><br>使用请注明出处"
       }
     },
   "events": [
@@ -1412,7 +1412,7 @@
       },
       "text": {
         "headline":"小鹏 P5/G9 调试入口被公开",
-        "text": "小鹏官方社区多人发布名为 “鹏友大团结” 的帖子,对于老车型没有OTA获得新车型相同的车机体验,呼吁小鹏官方推进。 而后在 Github 上公开 小鹏P5(OTA3.5.0及之前)或小鹏G9(OTA4.3.1及之前)或小鹏G6(未测试)或小鹏P7(OTA2.10及之前)或小鹏G3 ADB开启方法。工程模式密码采用一机一密,可根据ID计算得到。<br><br>1. 打开车机的拨号界面，输入*#9925*111#*，屏幕显示一个二维码<br>2. 读取二维码获得ID,格式为XPENGD55xxxxxxxxxxxxxx<br>3. 根据 XPENGD55xxxxxxxxxxxxxx 计算出解锁码，如(*#03*12345678*#)<br>4. 将该解锁码输入车机的拨号界面，此时解锁码会自动消失，如果没有消失请手动删除所有内容<br>5. 使用拨号界面输入*#9387*141#* 进入成功模式<br>6. 在工程模式中打开USB ADB 调试和 ADB 网络调试。"
+        "text": "小鹏官方社区多人发布名为 “鹏友大团结” 的帖子,对于老车型没有OTA获得新车型相同的车机体验,呼吁小鹏官方推进。 而后在 Github 上公开 小鹏P5(OTA3.5.0及之前)或小鹏G9(OTA4.3.1及之前)或小鹏G6(未测试)或小鹏P7(OTA2.10及之前)或小鹏G3 ADB开启方法。工程模式密码采用一机一密,可根据ID计算得到。<br><br>1. 打开车机的拨号界面输入*#9925*111#*屏幕显示一个二维码<br>2. 读取二维码获得ID,格式为XPENGD55xxxxxxxxxxxxxx<br>3. 根据 XPENGD55xxxxxxxxxxxxxx 计算出解锁码如(*#03*12345678*#)<br>4. 将该解锁码输入车机的拨号界面此时解锁码会自动消失如果没有消失请手动删除所有内容<br>5. 使用拨号界面输入*#9387*141#* 进入成功模式<br>6. 在工程模式中打开USB ADB 调试和 ADB 网络调试。"
       },
       "start_date": {
         "month": "9",
@@ -1420,6 +1420,38 @@
         "year": "2023"
       },
       "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"\"></a>",
+        "credit": "<a href=\"https://weibo.com/1740307755/4943105464733638\">声明</a>",
+        "url": "static/images/mazada_redirect_to_malicious_site.jpg"
+      },
+      "text": {
+        "headline":"马自达官网被篡改链接到色情网站",
+        "text": "9月6日一网友爆料称自己在点击浏览一汽马自达汽车官方网站时自动跳转出黄色网站页面。此事曝光以后马自达方面也迅速做出回应表示会尽快让IT部门核实。当天下午官方人员回复并表示由于目前长安马自达和一汽马自达已经合并原来的一汽马自达官网已经弃用因此不排除被他人盗用的情况。随后在事发当晚马自达又发布了正式声明表示经核实确实有非法网站冒充马自达官网为了维护自己的权利他们已向公安机关报警并提醒大家要警惕网络安全。"
+      },
+      "start_date": {
+        "month": "9",
+        "day": "6",
+        "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://newsroom.mazda.com/en/publicity/release/2023/202309/230915a.pdf\">Apology and Notification Regarding Possible Leakage of Personal Information Due to Unauthorized Access</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/mazada_apology_20230915.png"
+      },
+      "text": {
+        "headline":"马自达因信息泄露发布公告致歉",
+        "text": "9月15日马自达发布声明称2023年7月24日监测到服务器遭受外部攻击者的非法访问可能导致部分个人信息泄露。但马自达强调被非法访问的服务器上没有存储任何客户个人信息这部分信息没有泄露。对于此次事件可能给相关人员带来的不便和担忧公司深表歉意。可能泄露的是公司管理的部分个人信息包括公司员工及合作方人员的姓名及电话号码共计约104732份信息。马自达表示已禁用了未授权访问者的ID关闭了受影响的服务器。并将相关情况报告警察和个人信息保护委员会。将和相关组织配合确认最终影响在外部安全专家的配合下采取适当措施。马自达表示将严肃对待此时事故将采取一切可能的措施如为所有网站和网络改善安全系统、增强监控系统以防止同类事件再次发生。"
+      },
+      "start_date": {
+        "month": "9",
+        "day": "15",
+        "year": "2023"
+      },
+      "group":"event"
     }
   ]
 }
