@@ -72,8 +72,8 @@
         $(document).ready(function() {
             var embed = document.getElementById('timeline-embed');
             embed.style.height = getComputedStyle(document.body).height;
-            //window.timeline = new TL.Timeline('timeline-embed', 'static/Automotive Security Timeline.json', options);
-            window.timeline = new TL.Timeline('timeline-embed', 'https://raw.githubusercontent.com/delikely/Automotive-Security-Timeline/main/Automotive%20Security%20Timeline.json', options);
+            window.timeline = new TL.Timeline('timeline-embed', 'static/Automotive Security Timeline.json', options);
+            //window.timeline = new TL.Timeline('timeline-embed', 'https://raw.githubusercontent.com/delikely/Automotive-Security-Timeline/main/Automotive%20Security%20Timeline.json', options);
             window.addEventListener('resize', function() {
                 var embed = document.getElementById('timeline-embed');
                 embed.style.height = getComputedStyle(document.body).height;
