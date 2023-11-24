@@ -1500,6 +1500,22 @@
         "year": "2023"
       },
       "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://apps.web.maine.gov/online/aeviewer/ME/40/4b650bee-f556-4b08-8659-f0e1207aa969.shtml\">reach Notifications</a>",
+        "credit": "<a href=\"https://www.bleepingcomputer.com/news/security/auto-parts-giant-autozone-warns-of-moveit-data-breach/\">Auto parts giant AutoZone warns of MOVEit data breach</a>",
+        "url": "static/images/autozone.webp"
+      },
+      "text": {
+        "headline":"汽车零配件经销商 AutoZone 披露数据泄露",
+        "text": "AutoZone 是美国最大的汽车零配件售后市场经销商之一,在美国、墨西哥、波多黎各、巴西和美属维尔京群岛经营着 7140 家门店。遭受网络攻击后,AutoZone在2023年11月21日向缅因州司法部长办公室提交了数据泄露通知,同时立刻通知了 184995 名受到数据泄露影响的用户。<br><br>MOVEit是一个由Progress Software开发的文件传输应用程序,AutoZone 使用它来存储和传输一些敏感数据。全球超过2000个组织受到 MOVEit文件传输应用漏洞影响。2023年5月下旬,Cl0p勒索软件组织利用流行的MOVEit文件传输解决方案中的SQL注入漏洞(CVE-2023-34362)窃取了大量组织的敏感数据,受害者包括大量知名企业、政府（例如多个美国联邦机构和美国能源部）、金融机构、养老金系统以及其他公共和私人实体,其中就包括 AutoZone。Cl0p勒索软件组织窃取了AutoZone系统大量内部敏感数据。获取的数据大约有1.1GB,包含了员工的姓名、电子邮件地址、零件供应细节、税务信息、工资单文件、Oracle数据库文件、商店、生产和销售信息、用户的社会安全号码等。<br><br>AutoZone在发现数据泄露后,临时禁用了 MOVEit 应用,重建受影响的系统,并漏洞修复。同时立即启动了调查,并聘请了外部网络安全专家协助。AutoZone还向受影响的消费者发送了数据泄露通知信,告知他们泄露的信息,并提供 Equifax 为期一年的的免费欺诈检测和身份盗用保护。AutoZone建议消费者定期检查他们的信用报告,以防止身份盗用或其他欺诈行为;以及建议消费者慎重点击可疑邮件中的链接与下载邮件中的附件。"
+      },
+      "start_date": {
+        "month": "11",
+        "day": "21",
+        "year": "2023"
+      },
+      "group":"event"
     }
   ]
 }
