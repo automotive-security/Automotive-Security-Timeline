@@ -8,7 +8,7 @@
       },
       "text": {
         "headline": "车联网安全事件时间轴",
-        "text": "按照时间发生的先后顺序记录汽车信息安全事件<br><br>项目地址: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br><br> 联系邮箱: delikely@gmail.com <br><br>Copyright: 青骥信息安全小组<br><br>使用请注明出处"
+        "text": "按照时间发生的先后顺序记录汽车信息安全事件<br><br>项目地址: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br><br> 联系邮箱: delikely@gmail.com <br><br>Copyright: 青骥信息安全小组<br><br>使用请注明出处<br><br>Call for maintainer to build this Automotive Security Timeline in English, if you would participate, feel free to contact me by E-mail(delikely@gmail.com)"
       }
     },
   "events": [
@@ -1358,6 +1358,22 @@
       "group":"vulnerability"
     },{
       "media": {
+        "caption": "<a href=\"https://www.chinanews.com.cn/sh/2023/08-31/10070082.shtml\">事故新能源车电池组“套码”再上路？上海警方破获计算机领域新型犯罪</a>",
+        "credit": "<a href=\"https://www.kankanews.com/detail/g4QZD34pB2Y\">20230804《东方110》：电池“黑客”</a>",
+        "url": "static/media/NIO_battery_ID_reprogram.mp4"
+      },
+      "text": {
+        "headline":"非法篡改蔚来汽车电池组数据,故障电池组重新上路",
+        "text": "上海市公安局嘉定分局网安支队在辖区蔚来车企开展工作中,发现部分车辆的动力电池数据存在异常。通过企业信息系统,民警发现在同一时间段内,存在同一ID的动力电池在北京、江苏、上海、福建等多地同时出现并使用的情况。经过与车企技术人员深入沟通,民警发现这些相同ID号的车辆在之前都因交通事故而被后台锁住了电池组,无法充电和行驶。这些被\"克隆\"的同一ID号电池组内的数据被人为盗刷篡改,即把一套健康完好的电池组数据写入了多个故障电池组内,从而破解锁定功能。<br><br>按照国家监管要求(2018年8月1日起实施的《新能源汽车动力蓄电池回收利用溯源管理暂行规定》要求),每一块用于新能源汽车的动力电池组都有唯一的电池ID编号(24位电池编码)。故障电池组经克隆后重新上路行驶,极有可能引发电池短路甚至起火等高危情况,造成极大的安全隐患。<br><br>专案组从电池后台数据库入手,经过抽丝剥茧的分析,发现有三个互联网自媒体以汽车电池“解锁”为噱头,发布相关教学视频。经核查,这三个自媒体平台分别对应三个外省市汽车修理企业,且涉案车辆均与这三家企业有关联。由此,屠某等4名犯罪嫌疑人浮出水面。抓获屠某、刘某等4名犯罪嫌疑人,查扣芯片读写器、超级编程器等作案工具,及时消除了道路安全隐患。<br><br>经犯罪嫌疑人供述,自2022年以来,该犯罪团伙使用工具将多辆正常完好的汽车电池组内的数据读出,后从各种拍卖平台、二手车商收购事故车和故障电池组,再将完好数据写入故障电池组内,完全覆盖故障电池组的原有数据,形成了与母版电池一模一样的克隆电池组,突破后台锁定功能并使得故障电池组可以重新充电上路。犯罪团伙解锁一块动力电池收取费用在1000至3000元不等,累计获利约5万元。"
+      },
+      "start_date": {
+        "month": "8",
+        "day": "4",
+        "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"https://www.blackhat.com/us-23/briefings/schedule/#jailbreaking-an-electric-vehicle-in--or-what-it-means-to-hotwire-teslas-x-based-seat-heater-33049\">Jailbreaking an Electric Vehicle in 2023 or What It Means to Hotwire Tesla's x86-Based Seat Heater</a>",
         "credit": "<a href=\"https://github.com/PSPReverse/\">PSPReverse</a>",
         "url": "static/images/Tesla_AMD_glitch.png"
@@ -1388,22 +1404,6 @@
         "year": "2023"
       },
       "group":"vulnerability"
-    },{
-      "media": {
-        "caption": "<a href=\"https://www.chinanews.com.cn/sh/2023/08-31/10070082.shtml\">事故新能源车电池组“套码”再上路？上海警方破获计算机领域新型犯罪</a>",
-        "credit": "<a href=\"https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=60E981B01DE41613119F9C788AE3EAE4\">汽车用动力电池编码标准</a>",
-        "url": "static/media/NIO_battery_ID_reprogram.mp4"
-      },
-      "text": {
-        "headline":"非法篡改蔚来汽车电池组数据,故障电池组重新上路",
-        "text": "上海市公安局嘉定分局网安支队在辖区蔚来车企开展工作中,发现部分车辆的动力电池数据存在异常。通过企业信息系统,民警发现在同一时间段内,存在同一ID的动力电池在北京、江苏、上海、福建等多地同时出现并使用的情况。经过与车企技术人员深入沟通,民警发现这些相同ID号的车辆在之前都因交通事故而被后台锁住了电池组,无法充电和行驶。这些被\"克隆\"的同一ID号电池组内的数据被人为盗刷篡改,即把一套健康完好的电池组数据写入了多个故障电池组内,从而破解锁定功能。<br><br>按照国家监管要求(2018年8月1日起实施的《新能源汽车动力蓄电池回收利用溯源管理暂行规定》要求),每一块用于新能源汽车的动力电池组都有唯一的电池ID编号(24位电池编码)。故障电池组经克隆后重新上路行驶,极有可能引发电池短路甚至起火等高危情况,造成极大的安全隐患。<br><br>专案组从电池后台数据库入手,经过抽丝剥茧的分析,发现有三个互联网自媒体以汽车电池“解锁”为噱头,发布相关教学视频。经核查,这三个自媒体平台分别对应三个外省市汽车修理企业,且涉案车辆均与这三家企业有关联。由此,屠某等4名犯罪嫌疑人浮出水面。抓获屠某、刘某等4名犯罪嫌疑人,查扣芯片读写器、超级编程器等作案工具,及时消除了道路安全隐患。<br><br>经犯罪嫌疑人供述,自2022年以来,该犯罪团伙使用工具将多辆正常完好的汽车电池组内的数据读出,后从各种拍卖平台、二手车商收购事故车和故障电池组,再将完好数据写入故障电池组内,完全覆盖故障电池组的原有数据,形成了与母版电池一模一样的克隆电池组,突破后台锁定功能并使得故障电池组可以重新充电上路。犯罪团伙解锁一块动力电池收取费用在1000至3000元不等,累计获利约5万元。"
-      },
-      "start_date": {
-        "month": "8",
-        "day": "31",
-        "year": "2023"
-      },
-      "group":"event"
     },{
       "media": {
         "caption": "<a href=\"https://foundation.mozilla.org/en/privacynotincluded/articles/its-official-cars-are-the-worst-product-category-we-have-ever-reviewed-for-privacy/\">It’s Official: Cars Are the Worst Product Category We Have Ever Reviewed for Privacy</a>",
@@ -1532,7 +1532,22 @@
         "year": "2023"
       },
       "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.nissan.co.nz/website-update.html\">IMPORTANT UPDATE FROM NISSAN OCEANIA</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/nissan Australia and New Zealand cyber incident.png"
+      },
+      "text": {
+        "headline":"日产汽车在澳大利亚和新西兰遭遇网络攻击",
+        "text": "12 月 7 日,日产澳大利亚、新西兰官网首页发布公告称遭遇网络攻击,金融服务系统、部分供应商系统、售后服务等系统受到影响。<br><br>当前正在努力尽快恢复其系统,并将持续通过nissan.com.au、nissan.co.nz 发布事件处理进展。日产正在与全球应急响应团队以及其他相关利益相关者一起调查此次事件的影响范围以及是否有任何个人信息被访问。<br><br>日产鼓励客户对账户保持警惕，包括注意任何异常或诈骗活动。同时日产已经通知了澳大利亚网络安全中心和新西兰国家网络安全中心。<br><br>日产向客户保证，因金融服务系统故障而引起的信用评级问题将不受影响。"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "7",
+        "year": "2023"
+      },
+      "group":"event"
     }
   ]
 }
-
