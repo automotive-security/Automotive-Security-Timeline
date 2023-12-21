@@ -1279,7 +1279,7 @@
     },{
       "media": {
         "caption": "<a href=\"https://twitter.com/Synacktiv/status/1639019673743228928\">CONFIRMED</a>",
-        "credit": "<a href=\"Unlocking the Drive Exploiting Tesla Model 3\">https://www.synacktiv.com/sites/default/files/2023-11/tesla_grehack.pdf</a>",
+        "credit": "<a href=\"https://www.synacktiv.com/sites/default/files/2023-11/tesla_grehack.pdf\">Unlocking the Drive Exploiting Tesla Model 3</a>",
         "url": "static/images/pwn2own-2023-tesla.jpg"
       },
       "text": {
@@ -1540,11 +1540,27 @@
       },
       "text": {
         "headline":"日产汽车在澳大利亚和新西兰遭遇网络攻击",
-        "text": "12 月 7 日,日产澳大利亚、新西兰官网首页发布公告称遭遇网络攻击,金融服务系统、部分供应商系统、售后服务等系统受到影响。<br><br>当前正在努力尽快恢复其系统,并将持续通过nissan.com.au、nissan.co.nz 发布事件处理进展。日产正在与全球应急响应团队以及其他相关利益相关者一起调查此次事件的影响范围以及是否有任何个人信息被访问。<br><br>日产鼓励客户对账户保持警惕，包括注意任何异常或诈骗活动。同时日产已经通知了澳大利亚网络安全中心和新西兰国家网络安全中心。<br><br>日产向客户保证，因金融服务系统故障而引起的信用评级问题将不受影响。"
+        "text": "12 月 7 日,日产澳大利亚、新西兰官网首页发布公告称遭遇网络攻击,金融服务系统、部分供应商系统、售后服务等系统受到影响。<br><br>当前正在努力尽快恢复其系统,并将持续通过nissan.com.au、nissan.co.nz 发布事件处理进展。日产正在与全球应急响应团队以及其他相关利益相关者一起调查此次事件的影响范围以及是否有任何个人信息被访问。<br><br>日产鼓励客户对账户保持警惕,包括注意任何异常或诈骗活动。同时日产已经通知了澳大利亚网络安全中心和新西兰国家网络安全中心。<br><br>日产向客户保证,因金融服务系统故障而引起的信用评级问题将不受影响。"
       },
       "start_date": {
         "month": "12",
         "day": "7",
+        "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.autocar.co.uk/car-news/new-cars/porsche-macan-off-sale\">Porsche Macan canned: European sales to stop in 2024</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/porsche-macan.webp"
+      },
+      "text": {
+        "headline":"保时捷内燃机版Macan不满足WP.29安全法规要求将停止在欧洲销售",
+        "text": "保时捷表示,当前在售的 Macan 车型在设计研发时,联合国欧洲经济委员会(UNECE) 网络安全法规 WP.29 R155/R156 并未推出,并且由于车辆已经处于产品线末期,更新车辆以满足新规的成本过高。另外,一辆不符合UNECE WP.29 法规的汽车,将面临高达30000欧元的罚款。因此不得不停售此款热门的SUV车型。这意味着燃油版保时捷 Macan 是第一个因网络安全问题而停售的车型。<br><br>根据联合国欧洲经济委员会 WP.29 法规规定,在欧盟销售的所有新车都需要遵守“高级驾驶辅助系统、自动驾驶系统和网络安全条款”等相关规定。R155法规规定,2022年7月1日起,新推出的车系型必须获得网络安全系统型式认证(VTA);2024年7月1日起,尚未停产的车型也必须获得网络安全系统的型式认证,才可以在欧盟、英国、日本和韩国市场销售。<br><br>Macan 一直是保时捷在欧洲非常重要的车型,2023年已售超出2万辆。这款广受欢迎的SUV将于2024年4月在欧盟下架,全球其他地区暂不受影响。采用PPE平台开发的新款纯电Mcan将2024年于上市,用于取代燃油版Macan。<br><br>此外,尚不清楚与Macan采用相同MLB平台的奥迪Q5是否受到WP.29网络安全法规的影响。"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "15",
         "year": "2023"
       },
       "group":"event"
