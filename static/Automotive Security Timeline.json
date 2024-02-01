@@ -1508,7 +1508,7 @@
       },
       "text": {
         "headline":"延锋国际遭受网络攻击,Stellantis 汽车生产受到影响",
-        "text": "全球知名车企斯特兰蒂斯集团(Stellantis)13日表示,由于一家汽车供应商受到网络攻击,集团运营被干扰,克莱斯勒、道奇、吉普和公羊等车型的生产受到影响。<br><br>这次网络攻击主要影响中国供应商Yanfeng International Automotive Technology Co. Ltd.（延锋国际汽车技术有限公司)。13日晚间,该公司官网无法访问。延锋汽车的北美总部位于密歇根州诺维。公司生产多种即时零部件,包括座椅、内饰、电子设备和其他组件。<br><br>斯特兰蒂斯发言人Anne Marie Fortunate发表声明,“由于一家外部供应商出现问题,斯特兰蒂斯集团位于北美的部分装配厂生产受到干扰。我们正在监控情况并与供应商合作,减轻事件对我们运营的进一步影响。”<br><br>11月27日,勒索软件组织 Qilin 声称对这次攻击负责,在暗网上发布了多个样本,以证明他们涉嫌访问延锋系统和文件,包括财务文件、保密协议、报价文件、技术数据表和内部报告。"
+        "text": "全球知名车企斯特兰蒂斯集团(Stellantis)13日表示,由于一家汽车供应商受到网络攻击,集团运营被干扰,克莱斯勒、道奇、吉普和公羊等车型的生产受到影响。<br><br>这次网络攻击主要影响中国供应商Yanfeng International Automotive Technology Co. Ltd.(延锋国际汽车技术有限公司)。13日晚间,该公司官网无法访问。延锋汽车的北美总部位于密歇根州诺维。公司生产多种即时零部件,包括座椅、内饰、电子设备和其他组件。<br><br>斯特兰蒂斯发言人Anne Marie Fortunate发表声明,“由于一家外部供应商出现问题,斯特兰蒂斯集团位于北美的部分装配厂生产受到干扰。我们正在监控情况并与供应商合作,减轻事件对我们运营的进一步影响。”<br><br>11月27日,勒索软件组织 Qilin 声称对这次攻击负责,在暗网上发布了多个样本,以证明他们涉嫌访问延锋系统和文件,包括财务文件、保密协议、报价文件、技术数据表和内部报告。"
       },
       "start_date": {
         "month": "11",
@@ -1524,7 +1524,7 @@
       },
       "text": {
         "headline":"汽车零配件经销商 AutoZone 披露数据泄露",
-        "text": "AutoZone 是美国最大的汽车零配件售后市场经销商之一,在美国、墨西哥、波多黎各、巴西和美属维尔京群岛经营着 7140 家门店。遭受网络攻击后,AutoZone在2023年11月21日向缅因州司法部长办公室提交了数据泄露通知,同时立刻通知了 184995 名受到数据泄露影响的用户。<br><br>MOVEit是一个由Progress Software开发的文件传输应用程序,AutoZone 使用它来存储和传输一些敏感数据。全球超过2000个组织受到 MOVEit文件传输应用漏洞影响。2023年5月下旬,Cl0p勒索软件组织利用流行的MOVEit文件传输解决方案中的SQL注入漏洞(CVE-2023-34362)窃取了大量组织的敏感数据,受害者包括大量知名企业、政府（例如多个美国联邦机构和美国能源部）、金融机构、养老金系统以及其他公共和私人实体,其中就包括 AutoZone。Cl0p勒索软件组织窃取了AutoZone系统大量内部敏感数据。获取的数据大约有1.1GB,包含了员工的姓名、电子邮件地址、零件供应细节、税务信息、工资单文件、Oracle数据库文件、商店、生产和销售信息、用户的社会安全号码等。<br><br>AutoZone在发现数据泄露后,临时禁用了 MOVEit 应用,重建受影响的系统,并漏洞修复。同时立即启动了调查,并聘请了外部网络安全专家协助。AutoZone还向受影响的消费者发送了数据泄露通知信,告知他们泄露的信息,并提供 Equifax 为期一年的的免费欺诈检测和身份盗用保护。AutoZone建议消费者定期检查他们的信用报告,以防止身份盗用或其他欺诈行为;以及建议消费者慎重点击可疑邮件中的链接与下载邮件中的附件。"
+        "text": "AutoZone 是美国最大的汽车零配件售后市场经销商之一,在美国、墨西哥、波多黎各、巴西和美属维尔京群岛经营着 7140 家门店。遭受网络攻击后,AutoZone在2023年11月21日向缅因州司法部长办公室提交了数据泄露通知,同时立刻通知了 184995 名受到数据泄露影响的用户。<br><br>MOVEit是一个由Progress Software开发的文件传输应用程序,AutoZone 使用它来存储和传输一些敏感数据。全球超过2000个组织受到 MOVEit文件传输应用漏洞影响。2023年5月下旬,Cl0p勒索软件组织利用流行的MOVEit文件传输解决方案中的SQL注入漏洞(CVE-2023-34362)窃取了大量组织的敏感数据,受害者包括大量知名企业、政府(例如多个美国联邦机构和美国能源部)、金融机构、养老金系统以及其他公共和私人实体,其中就包括 AutoZone。Cl0p勒索软件组织窃取了AutoZone系统大量内部敏感数据。获取的数据大约有1.1GB,包含了员工的姓名、电子邮件地址、零件供应细节、税务信息、工资单文件、Oracle数据库文件、商店、生产和销售信息、用户的社会安全号码等。<br><br>AutoZone在发现数据泄露后,临时禁用了 MOVEit 应用,重建受影响的系统,并漏洞修复。同时立即启动了调查,并聘请了外部网络安全专家协助。AutoZone还向受影响的消费者发送了数据泄露通知信,告知他们泄露的信息,并提供 Equifax 为期一年的的免费欺诈检测和身份盗用保护。AutoZone建议消费者定期检查他们的信用报告,以防止身份盗用或其他欺诈行为;以及建议消费者慎重点击可疑邮件中的链接与下载邮件中的附件。"
       },
       "start_date": {
         "month": "11",
@@ -1550,13 +1550,29 @@
       "group":"event"
     },{
       "media": {
+        "caption": "<a href=\"111\"></a>",
+        "credit": "<a href=\"https://www.easypark.com/en-de/comm\">EasyPark Data Breach</a>",
+        "url": "static/images/easypark.webp"
+      },
+      "text": {
+        "headline":"EasyPark遭网络攻击,泄露数百万用户数据",
+        "text": "EasyPark 是一家瑞典公司,其开发的移动网络应用程序可用作停车位定位器、预订管理器和电动汽车充电点查找器,该公司在 20 个国家和 4000 多个城市运营数字停车服务,覆盖欧洲、美国、澳大利亚、新西兰和英国的大部分地区。EasyPark 应用程序(欧洲版)在 Google Play 上的下载量已经超过了 1000 万次,其他应用程序 RingGo(英国版)和 ParkMobile(美国版)的安装量也分别为 500 万次。<br><br>此次网络攻击事件发生后,EasyPark 公司发言人拒绝提供有关此次事件的详细信息以及有多少客户受到了影响,但他们承认有一部分欧洲用户可能会受到影响。部分用户向平台提供的信息,如姓名、电话号码、实际地址以及电子邮件地址等被泄露。并称被盗的数据不能用于付款,事发后立即重置了受影响用户的密码,并通知了相关部门。"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "10",
+        "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"https://www.autocar.co.uk/car-news/new-cars/porsche-macan-off-sale\">Porsche Macan canned: European sales to stop in 2024</a>",
         "credit": "<a href=\"\"></a>",
         "url": "static/images/porsche-macan.webp"
       },
       "text": {
         "headline":"保时捷内燃机版Macan不满足WP.29安全法规要求将停止在欧洲销售",
-        "text": "保时捷表示,当前在售的 Macan 车型在设计研发时,联合国欧洲经济委员会(UNECE) 网络安全法规 WP.29 R155/R156 并未推出,并且由于车辆已经处于产品线末期,更新车辆以满足新规的成本过高。另外,一辆不符合UNECE WP.29 法规的汽车,将面临高达30000欧元的罚款。因此不得不停售此款热门的SUV车型。这意味着燃油版保时捷 Macan 是第一个因网络安全问题而停售的车型。<br><br>根据联合国欧洲经济委员会 WP.29 法规规定,在欧盟销售的所有新车都需要遵守“高级驾驶辅助系统、自动驾驶系统和网络安全条款”等相关规定。R155法规规定,2022年7月1日起,新推出的车系型必须获得网络安全系统型式认证(VTA);2024年7月1日起,尚未停产的车型也必须获得网络安全系统的型式认证,才可以在欧盟、英国、日本和韩国市场销售。<br><br>Macan 一直是保时捷在欧洲非常重要的车型,2023年已售超出2万辆。这款广受欢迎的SUV将于2024年4月在欧盟下架,全球其他地区暂不受影响。采用PPE平台开发的新款纯电Mcan将2024年于上市,用于取代燃油版Macan。<br><br>此外,尚不清楚与Macan采用相同MLB平台的奥迪Q5是否受到WP.29网络安全法规的影响。"
+        "text": "保时捷表示,当前在售的 Macan 车型在设计研发时,联合国欧洲经济委员会(UNECE) 网络安全法规 WP.29 R155/R156 并未推出,并且由于车辆已经处于产品线末期,更新车辆以满足新规的成本过高。另外,一辆不符合UNECE WP.29 法规的汽车,将面临高达30000欧元的罚款。因此不得不停售此款热门的SUV车型。这意味着燃油版保时捷 Macan 是第一个因网络安全问题而停售的车型。<br><br>根据联合国欧洲经济委员会 WP.29 法规规定,在欧盟销售的所有新车都需要遵守“高级驾驶辅助系统、自动驾驶系统和网络安全条款”等相关规定。R155法规规定,2022年7月1日起,新推出的车系型必须获得网络安全系统型式认证(VTA);2024年7月1日起,尚未停产的车型也必须获得网络安全系统的型式认证,才可以在欧盟、英国、日本和韩国市场销售。<br><br>Macan 一直是保时捷在欧洲非常重要的车型,2023年已售超出2万辆。这款广受欢迎的SUV将于2024年4月在欧盟下架,全球其他地区暂不受影响。采用PPE平台开发的新款纯电Mcan将2024年于上市,用于取代燃油版Macan。此外,尚不清楚与Macan采用相同MLB平台的奥迪Q5是否受到WP.29网络安全法规的影响。"
       },
       "start_date": {
         "month": "12",
@@ -1564,6 +1580,71 @@
         "year": "2023"
       },
       "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"Hyundai Motor India fixes bug that exposed customers’ personal data\">https://techcrunch.com/2024/01/11/hyundai-motor-india-data-exposed/</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/hyundai-motor-india-getty.webp"
+      },
+      "text": {
+        "headline":"现代汽车(印度)维修站点文件分享链接泄露客户个人信息",
+        "text": "现代汽车印度子公司修复影响南亚客户个人信息泄露漏洞,泄露的信息包括姓名、邮寄地址、电子邮箱地址、电话号码、车牌号、发动机号、行驶里程等。受影响的用户为曾在在印度授权服务站点维修过车辆的用户。TechCrunch(雅虎旗下科技媒体) 从不愿透露姓名的安全研究员了解到,该漏洞是因为现代汽车印度公司授权服务站在维修中通过 WhatsApp 与客户分享维修订单和发票获取链接,因链接中包含电话号码造成了客户的个人信息的暴露。可以通过更改链接中的电话号码来暴露其他客户的信息。<br><br>在证实研究人员的发现后,TechCrunch 12月29日给现代汽车印度公司发送邮件。1月4日收到回复后向现代汽车印度公司纰漏了漏洞细节。因漏洞简单但影响严重,TechCrunch 要求现代汽车印度公司7天内修复漏洞。1月11日,漏洞被修复,相关链接被重定向到错误页面,不再可用。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "12",
+        "year": "2024"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.zerodayinitiative.com/blog/2024/1/25/pwn2own-automotive-2024-day-three-results\">PWN2OWN AUTOMOTIVE 2024 - DAY THREE RESULTS</a>",
+        "credit": "<a href=\"https://www.zerodayinitiative.com/blog/2023/8/28/revealing-the-targets-and-rules-for-the-first-pwn2own-automotive\">REVEALING THE TARGETS AND RULES FOR THE FIRST PWN2OWN AUTOMOTIVE</a>",
+        "url": "https://youtu.be/uM384qFApic?si=5Kw74TMv3K0gDZrb"
+      },
+      "text": {
+        "headline":"首届 PWN2OWN Automotive 落幕,共纰漏 49 个 0day",
+        "text": "为期三天(2024年1月24日到26日)的首届 Pwn2Own 汽车大赛落下帷幕,共发放 1323750 美元的赏金,参赛选手共发现 49 个唯一 0day 漏洞。Synacktiv 团队以45万美元的赏金、50个积分点的成绩成功摘得 Master of Pwn 的桂冠。<br><br>2023年8月29日,ZDI 发布了首届 PWN2OWN Automotive 的参赛对象,包括汽车充电桩、车载操作系统。<br>· 汽车: Tesla<br>· 车机: Sony XAV-AX550、Alpine Halo iLX-F509、Pioneer DMH-WT600NEX<br>· 充电桩: ChargePoint、Phoenix、EMPORIA、JuiceBOX、Autel、Ubiquiti <br>· 车载操作系统: AGL、QNX、Android Automotive OS<br><br>除QNX和Android Automotive OS无团队挑战外,Tesla、全部充电桩以及AGL操作系统均被攻破。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "24",
+        "year": "2024"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.kcata.org/news/cyber-attack-hits-kcata-communications-affected\">Cyber-Attack hits KCATA. Communications affected.</a>",
+        "credit": "<a href=\"http://medusaxko7jxtrojdkxo66j7ck4q5tgktf7uqsqyfry4ebnxlcbkccyd.onion/detail?id=1f33ae5a013bacfd1d1a01d319377c9e\">MEDUSA BLOG</a>",
+        "url": "static/images/Kansas_City_Area_Transportation_Medusa_Ramsomware.png"
+      },
+      "text": {
+        "headline":"堪萨斯城公共交通管理局遭受勒索软件攻击",
+        "text": "美国密苏里州堪萨斯城的主要公共交通运营商堪萨斯城地区运输管理局(KCATA)遭受了勒索软件攻击。KCATA 在密苏里州和堪萨斯州的七个县运营地铁和 78 条公交线路。截至2022年,公司总客运量超过1050万人次。攻击发生的第二天,KCATA 发表声明,宣布在外部专家的参与下启动调查,并通知了包括联邦调查局在内的相关当局。该公司表示,网络攻击并未影响交通服务,包括公交路线和辅助交通服务。然而,这导致了区域呼叫中心的工作中断。<br><br>黑客组织美杜莎对此攻击负责。在其Tor网站上发布了从 KCATA 窃取的数据样本,作为攻击的证据。并威胁称,除非 KCATA 支付 200 万美元的赎金,否则将公布所有被盗数据。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "23",
+        "year": "2024"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://techcrunch.com/2024/01/26/mercedez-benz-token-exposed-source-code-github/\">How a mistakenly published password exposed Mercedes-Benz source code</a>",
+        "credit": "<a href=\"https://redhuntlabs.com/blog/mercedes-benz-source-code-at-risk-github-token-mishap-sparks-major-security-concerns/\">Mercedes-Benz Source Code at Risk: GitHub Token Mishap Sparks Major Security Concerns</a>",
+        "url": "static/images/Mercedes-Benz-Report.jpg"
+      },
+      "text": {
+        "headline":"员工意外泄露代码仓库凭证,奔驰源代码面临泄露风险长达4个月",
+        "text": "RedHunt Labs 的攻击面管理研究团队在例行互联网扫描中发现,梅赛德斯奔驰员工的身份验证令牌暴露在公共 GitHub 存储库中。泄露的令牌提供对梅赛德斯内部 GitHub Enterprise Server 的不受限制的访问,任何人都可以检索的私有源代码存储库。其中包括源代码、数据库访问凭证、云服务访问凭证、设计文档等。此令牌自2023年9月下旬以来在网上暴露长达4个月。目前尚不清楚是否有其他人未经授权访问了这些内部的数据。梅赛德斯拒绝透露是否存在任何第三方访问了暴露的数据。<br><br>RedHunt Labs 与 TechCrunch 分享了其调查结果,并在媒体的帮助下告知了汽车制造商。TechCrunch 周一向梅赛德斯披露了这一安全问题。周三,梅赛德斯发言人 Katja Liesenfeld 证实,并立即撤销了相应的 API 令牌并删除了公共存储库。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "29",
+        "year": "2024"
+      },
+      "group":"event"
     }
   ]
 }
+
