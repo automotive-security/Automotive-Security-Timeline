@@ -352,7 +352,7 @@
       "media": {
         "caption": "<a href=\"https://www.regulus.com/blog/tesla-model-3-spoofed-off-the-highway-regulus-navigation-system-hack-causes-car-to-turn-on-its-own\">TESLA MODEL 3 SPOOFED OFF THE HIGHWAY – REGULUS NAVIGATION SYSTEM HACK CAUSES CAR TO TURN ON ITS OWN</a>",
         "credit": "",
-        "url": "https://youtu.be/390tANaEjl4"
+        "url": "static/images/regulus_tesla_3.jpg"
       },
       "text": {
         "headline": "TESLA MODEL 3 GPS 欺骗",
@@ -1310,6 +1310,22 @@
       "group":"vulnerability"
     },{
       "media": {
+        "caption": "<a href=\"https://twitter.com/squallstar/status/1646088736873107456\">received an email from @Hyundai_Italia</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/Hyundai_data_breach_email.png"
+      },
+      "text": {
+        "headline":"现代汽车纰漏一起在法国、意大利泄露个人数据的事件",
+        "text":"现代汽车向在法国和意大利的车主发送数据泄露提醒邮件,泄露的数据包括电子邮件、物理地址、电话号码、底盘号等个人数据,但不含金融数据。<br><br>现代汽车警示其客户，对声称来自他们的未经请求的电子邮件和短信要保持谨慎并核实，因为它们可能是网络钓鱼和社会工程学意图。"
+      },
+      "start_date": {
+        "month": "4",
+        "day": "12",
+        "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"https://company.toyotaconnected.co.jp/news/press/2023/0512/\">クラウド環境の誤設定によるお客様情報の漏洩可能性に関するお詫びとお知らせについて</a>",
         "credit": "<a href=\"\"></a>",
         "url": "static/images/T-Connect.jpg"
@@ -1550,8 +1566,8 @@
       "group":"event"
     },{
       "media": {
-        "caption": "<a href=\"111\"></a>",
-        "credit": "<a href=\"https://www.easypark.com/en-de/comm\">EasyPark Data Breach</a>",
+        "caption": "<a href=\"https://www.easypark.com/en-de/comm\">EasyPark Data Breach</a>",
+        "credit": "<a href=\"\"></a>",
         "url": "static/images/easypark.webp"
       },
       "text": {
@@ -1582,7 +1598,7 @@
       "group":"event"
     },{
       "media": {
-        "caption": "<a href=\"Hyundai Motor India fixes bug that exposed customers’ personal data\">https://techcrunch.com/2024/01/11/hyundai-motor-india-data-exposed/</a>",
+        "caption": "<a href=\"https://techcrunch.com/2024/01/11/hyundai-motor-india-data-exposed/\">Hyundai Motor India fixes bug that exposed customers’ personal data</a>",
         "credit": "<a href=\"\"></a>",
         "url": "static/images/hyundai-motor-india-getty.webp"
       },
@@ -1644,7 +1660,22 @@
         "year": "2024"
       },
       "group":"event"
-    }
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.bleepingcomputer.com/news/security/hyundai-motor-europe-hit-by-black-basta-ransomware-attack\">Hyundai Motor Europe hit by Black Basta ransomware attack</a>",
+        "credit": "<a href=\"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/\"></a>",
+        "url": "static/images/hyundai.png"
+      },
+      "text": {
+        "headline":"现代(欧洲)遭受 Black Basta 勒索软件攻击",
+        "text":"总部位于德国的现代汽车欧洲分部遭受  Black Basta 勒索软件攻击 3TB 企业数据被盗。<br><br>一月初安全媒体 BleepingComputer 在获悉攻击发生后,就此事件联系现代汽车,被告知正经历 IT 问题,公司尽快解决此问题。在进一步共享信息后,现代汽车确认欧洲分部遭受到了网络攻击,未授权第三方访问了受限网络,窃取了 3TB 企业数据。<br><br>Black Basta 是一种勒索软件,也是一种勒索软件即服务（RaaS）的犯罪企业,于2022年初首次出现,立即成为世界上最活跃的RaaS威胁行为者之一,仅在其运营的前几个月内就造成了19个知名企业受害者和超过100个确认受害者。Black Basta 针对美国、日本、加拿大、英国、澳大利亚和新西兰的组织进行高度定向的攻击,而不是采用随机攻击的方式。该组织的勒索策略使用双重勒索策略,加密受害者的关键数据和重要服务器,并威胁在该组织的公开泄露网站上发布敏感数据。据推测,Black Basta 的核心成员来自已解散的 Conti 威胁行为者组织,因为它们在恶意软件开发、泄露网站和谈判、支付和数据恢复的通信方面存在相似之处。"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "8",
+        "year": "2024"
+      },
+      "group":"event"
+    } 
   ]
 }
-
