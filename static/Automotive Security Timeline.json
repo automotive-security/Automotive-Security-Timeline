@@ -222,6 +222,22 @@
       "group":"vulnerability"
     },{
       "media": {
+        "caption": "<a href=\"https://blog.careem.com/posts/security\">Important Careem Security Information</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/careem.webp"
+      },
+      "text": {
+        "headline":"打车公司Careem被攻击致数据泄露:受影响用户达1400万",
+        "text":"一家位于迪拜的打车公司 Careem 遭到了网络攻击并且造成了数据泄漏,被黑客盗取的数据包括用户的姓名、手机号码、行程数据和电子邮箱地址。<br><br>数据泄漏时间最早发生在今年1月,因此所有在今年1月14日之前注册过Careem的用户都受到了数据泄漏的影响,不过目前暂无迹象表明用户的密码和信用卡号被黑客成功获取。Careem公司还表示,公司于今年1月份时候发现存在数据泄漏的情况,当时就展开了相关的调查工作,并且加强了自己的安全系统。此次数据泄漏时间波及到的用户包括1400名乘客和55.8万名司机,但该公司声明,暂时没有发现这些被泄露出去的数据被滥用或用于诈骗等。"
+      },
+      "start_date": {
+        "month": "4",
+        "day": "23",
+        "year": "2018"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"https://www.computest.nl/en/knowledge-platform/rd-projects/car-hack/\">The Connected Car：Ways to get unauthorized access and potential implications</a>",
         "credit": "<a href=\"https://www.computest.nl/documents/9/The_Connected_Car._Research_Rapport_Computest_april_2018.pdf\">Research Report</a>",
         "url": "static/images/xcar_hack_infopgraphic.original.jpg.webp"
@@ -1316,7 +1332,7 @@
       },
       "text": {
         "headline":"现代汽车纰漏一起在法国、意大利泄露个人数据的事件",
-        "text":"现代汽车向在法国和意大利的车主发送数据泄露提醒邮件,泄露的数据包括电子邮件、物理地址、电话号码、底盘号等个人数据,但不含金融数据。<br><br>现代汽车警示其客户，对声称来自他们的未经请求的电子邮件和短信要保持谨慎并核实，因为它们可能是网络钓鱼和社会工程学意图。"
+        "text":"现代汽车向在法国和意大利的车主发送数据泄露提醒邮件,泄露的数据包括电子邮件、物理地址、电话号码、底盘号等个人数据,但不含金融数据。<br><br>现代汽车警示其客户,对声称来自他们的未经请求的电子邮件和短信要保持谨慎并核实,因为它们可能是网络钓鱼和社会工程学意图。"
       },
       "start_date": {
         "month": "4",
@@ -1582,6 +1598,22 @@
       "group":"event"
     },{
       "media": {
+        "caption": "<a href=\"https://cybernews.com/security/dtc-app-leaks-user-driver-data/\">Dubai’s largest taxi app exposes 220K+ users</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/dtc-data-sample.png"
+      },
+      "text": {
+        "headline":"迪拜出租车公司数据库配置不当,暴露大量数据",
+        "text":"Cybernews 研究团队发现迪拜道路和交通管理局(RTA)旗下的出租车业务所属公司迪拜出租车公司(DTC)应用程序泄露了大量敏感信息,包含超过197000名用户和近23000名驾驶员的个人信息。暴露的数据存储在一个开放的 MongoDB 数据库中,该数据库现已关闭。DTC 应用程序在 Google 应用商店下载量超过10万次。DTC表示,他们在迪拜的市场占有率达44%,运营7000多辆汽车,拥有14000名活跃的司机合作伙伴。<br><br>研究团队认为,泄露的数据库很可能是用于开发目的的生产数据库,因为它包括客户数据、日志、司机个人身份信息、注册和银行详细信息,以及乘客订单详细信息。数据涵盖了2018年至2021年。暴露的用户数据包括电子邮箱地址、电话号码、手机型号、app token(注册、登录、会话使用)。使用暴露的 Token 能够未授权访问任意账户。<br><br>研究团队尝试与DTC建立联系,但在发布文章时,未收到 DTC 的任何回复。"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "12",
+        "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"https://www.autocar.co.uk/car-news/new-cars/porsche-macan-off-sale\">Porsche Macan canned: European sales to stop in 2024</a>",
         "credit": "<a href=\"\"></a>",
         "url": "static/images/porsche-macan.webp"
@@ -1594,6 +1626,38 @@
         "month": "12",
         "day": "15",
         "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://web-assets.cdn.dealersolutions.com.au/modular.multisite.dealer.solutions/wp-content/uploads/sites/2892/2024/02/16082015/2681873.pdf\">Cyber Incident Updat</a>",
+        "credit": "<a href=\"https://www.eagersautomotive.com.au/asx-announcements/\">ASX ANNOUNCEMENTS</a>",
+        "url": "static/images/Eager Automotive request for trading halt.png"
+      },
+      "text": {
+        "headline":"汽车营销商Eagers Automotive遭受网络攻击,被迫停止在证券交易所交易,以评估攻击事件的影响",
+        "text":"澳大利亚和新西兰领先的汽车经销商Eagers Automotive宣布,由于最近的网络攻击,证券交易所暂停交易。公司经营丰田、宝马、日产、奔驰、奥迪、福特、大众、本田等知名品牌零售店300多家,并拥有多家专门从事二手车销售的分公司。<br><br>网络攻击导致澳大利亚和新西兰一些信息系统的中断,将无法完成一些准备交付的新车的销售,以及影响一些服务和零部件业务。在随后的声明中表示,其在澳大利亚和新西兰的多个系统受到网络事件的影响。信息系统中断影响公司澳大利亚和新西兰地区的运行。未授权第三方访问了公司部分信息系统,非法获取、删除了部分数据。正在向一小部分面临数据滥用严重威胁的个人发送提醒信息。<br><br>外部专家已介入并展开紧急调查。Eagers Automotive已将该事件通知澳大利亚网络安全中心和新西兰国家网络安全中心。"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "28",
+        "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.bleepingcomputer.com/news/security/netgear-hyundai-latest-x-accounts-hacked-to-push-crypto-drainers/\">Netgear, Hyundai latest X accounts hacked to push crypto drainers</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/Hyundai_X_Compromised.png"
+      },
+      "text": {
+        "headline":"现代MEA的X账户被劫持,以推动加密货币窃取",
+        "text":"现代 MEA (Middle East & Africa,中东和非洲) 的 X(Twitter) 账号被劫持。将名称改为 Overworld,并发布了多篇为加密货币引流的推文,以诱人的条件引诱用户注册恶意加密货币网站。当用户绑定加密钱包时,钱包中的虚拟货币和NFT将被窃取。<br><br>Overword 是一款由币安加密货币交易所的风险投资和孵化器部门币安实验室支持的跨平台多人 RPG 游戏。可能是因为 Overworld 经常在类似的骗局中被冒充,Overworld 常警告其推特粉丝说:\"请谨慎行事,远离那些冒充我们账户的人。只点击官方 @OverworldPlay 推特账户的链接。\"<br><br>现代已经重新获取到了账户的控制权,并清除了攻击者发布的引导用户跳转到恶意网站的所有链接。<br><br>黑客越来越多地以通过认证的政府和企业X账户为目标,以增加其恶意推文的合法性,推送加密货币骗局、网络钓鱼网站和传播加密货币窃取的网站。同期 Netgear、美国证券交易委员会的 X账号遭到入侵。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "8",
+        "year": "2024"
       },
       "group":"event"
     },{
@@ -1668,7 +1732,7 @@
       },
       "text": {
         "headline":"现代(欧洲)遭受 Black Basta 勒索软件攻击",
-        "text":"总部位于德国的现代汽车欧洲分部遭受  Black Basta 勒索软件攻击 3TB 企业数据被盗。<br><br>一月初安全媒体 BleepingComputer 在获悉攻击发生后,就此事件联系现代汽车,被告知正经历 IT 问题,公司尽快解决此问题。在进一步共享信息后,现代汽车确认欧洲分部遭受到了网络攻击,未授权第三方访问了受限网络,窃取了 3TB 企业数据。<br><br>Black Basta 是一种勒索软件,也是一种勒索软件即服务（RaaS）的犯罪企业,于2022年初首次出现,立即成为世界上最活跃的RaaS威胁行为者之一,仅在其运营的前几个月内就造成了19个知名企业受害者和超过100个确认受害者。Black Basta 针对美国、日本、加拿大、英国、澳大利亚和新西兰的组织进行高度定向的攻击,而不是采用随机攻击的方式。该组织的勒索策略使用双重勒索策略,加密受害者的关键数据和重要服务器,并威胁在该组织的公开泄露网站上发布敏感数据。据推测,Black Basta 的核心成员来自已解散的 Conti 威胁行为者组织,因为它们在恶意软件开发、泄露网站和谈判、支付和数据恢复的通信方面存在相似之处。"
+        "text":"总部位于德国的现代汽车欧洲分部遭受  Black Basta 勒索软件攻击 3TB 企业数据被盗。<br><br>一月初安全媒体 BleepingComputer 在获悉攻击发生后,就此事件联系现代汽车,被告知正经历 IT 问题,公司尽快解决此问题。在进一步共享信息后,现代汽车确认欧洲分部遭受到了网络攻击,未授权第三方访问了受限网络,窃取了 3TB 企业数据。<br><br>Black Basta 是一种勒索软件,也是一种勒索软件即服务(RaaS)的犯罪企业,于2022年初首次出现,立即成为世界上最活跃的RaaS威胁行为者之一,仅在其运营的前几个月内就造成了19个知名企业受害者和超过100个确认受害者。Black Basta 针对美国、日本、加拿大、英国、澳大利亚和新西兰的组织进行高度定向的攻击,而不是采用随机攻击的方式。该组织的勒索策略使用双重勒索策略,加密受害者的关键数据和重要服务器,并威胁在该组织的公开泄露网站上发布敏感数据。据推测,Black Basta 的核心成员来自已解散的 Conti 威胁行为者组织,因为它们在恶意软件开发、泄露网站和谈判、支付和数据恢复的通信方面存在相似之处。"
       },
       "start_date": {
         "month": "2",
@@ -1683,7 +1747,7 @@
         "url": "static/images/sensitive-information-belonging-to-bmw-exposed-due-to-misconfigured-cloud-bucket.webp"
       },
       "text": {
-        "headline":"BMW因云存储桶配置错误暴露敏感信息",
+        "headline":"BMW 因云存储桶配置错误暴露敏感信息",
         "text":"SOCRadar 的研究人员在日常例行互联网公共云资源扫描中,发现 BMW 配置错误而暴露的云存储桶。错误的将开发环境中使用的 Azure 存储桶配置为公共可访问。在暴露的文件(azconfig.io)中存在高敏感数据,如开发和正式环境的数据库连接信息、Azure Docker 认证信息、私有存储桶私钥等。这些云服务影响到北美、欧洲、中国。<br><br>BMW 对此时数据泄露事件回应: 将加强对云资源的持续监控;泄露的数据中不影响客户或者个人信息。"
       },
       "start_date": {
