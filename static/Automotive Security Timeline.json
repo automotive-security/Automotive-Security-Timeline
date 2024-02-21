@@ -1518,6 +1518,22 @@
       "group":"vulnerability"
     },{
       "media": {
+        "caption": "<a href=\"https://www.top10vpn.com/research/electric-vehicle-privacy/\">Data Privacy Investigation: Chinese Electric Vehicle Exports</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/Chinese_EVs-privacy_Investigation.jpg"
+      },
+      "text": {
+        "headline":"TOP10VPN: 中国出口电动车数据隐私问题调查报告",
+        "text":"随着中国电动汽车的大量出海,TOP10VPN 调查了爱驰、比亚迪、长城、高合、名爵、蔚来、极星、沃尔沃、小鹏、极氪 10个品牌的汽车,分析了出口车辆和移动应用程序的数据隐私隐私风险。调查报告指出:<br><br>· 糟糕的隐私政策: 7家制造商的政策不符合标准,其中一家(Polestar)根本没有适当的策略。问题包括缺乏细节、不适当的翻译、失效的链接、随意的陈述。<br>· 移动应用程序数据收集:10个品牌全部收集定位数据,7家收集IP地址,3家追踪应用程序/车辆浏览活动,2家获取应用程序/车辆消息内容;至少3个收集唯一的IMEI标识符。<br>· 车端数据收集:6家通过GPS追踪车辆位置,4家记录驾驶行程,3家监控司机速度,3家没有披露数据收集策略。· 不准确的应用商店隐私标签:8款iOS应用和6款Android应用存在潜在误导性隐私标签。<br>· Android应用权限风险:8个应用程序存在超过10个风险权限,4个应用存在20多个存在风险的权限,特别是极氪有36个。"
+      },
+      "start_date": {
+        "month": "11",
+        "day": "7",
+        "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"https://www.bleepingcomputer.com/news/security/toyota-confirms-breach-after-medusa-ransomware-threatens-to-leak-data/\">Toyota confirms breach after Medusa ransomware threatens to leak data</a>",
         "credit": "<a href=\"https://medusaxko7jxtrojdkxo66j7ck4q5tgktf7uqsqyfry4ebnxlcbkccyd.onion/detail?id=bc6eb1505df4873b38e6e7282b9f16a0\">Medus</a>",
         "url": "static/images/medus_Toyota_Financial.png"
@@ -1635,7 +1651,7 @@
         "url": "static/images/Eager Automotive request for trading halt.png"
       },
       "text": {
-        "headline":"汽车营销商Eagers Automotive遭受网络攻击,被迫停止在证券交易所交易,以评估攻击事件的影响",
+        "headline":"汽车经销商Eagers Automotive遭受网络攻击,被迫停止在证券交易所交易,以评估攻击事件的影响",
         "text":"澳大利亚和新西兰领先的汽车经销商Eagers Automotive宣布,由于最近的网络攻击,证券交易所暂停交易。公司经营丰田、宝马、日产、奔驰、奥迪、福特、大众、本田等知名品牌零售店300多家,并拥有多家专门从事二手车销售的分公司。<br><br>网络攻击导致澳大利亚和新西兰一些信息系统的中断,将无法完成一些准备交付的新车的销售,以及影响一些服务和零部件业务。在随后的声明中表示,其在澳大利亚和新西兰的多个系统受到网络事件的影响。信息系统中断影响公司澳大利亚和新西兰地区的运行。未授权第三方访问了公司部分信息系统,非法获取、删除了部分数据。正在向一小部分面临数据滥用严重威胁的个人发送提醒信息。<br><br>外部专家已介入并展开紧急调查。Eagers Automotive已将该事件通知澳大利亚网络安全中心和新西兰国家网络安全中心。"
       },
       "start_date": {
@@ -1756,6 +1772,22 @@
         "year": "2024"
       },
       "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://delikely.github.io/2024/02/18/Cybellum-RCE/\">Take a glance of browser, I find Cybellum RCE</a>",
+        "credit": "<a href=\"https://cybellum.force.com/CustomerPortal/s/case/5004x00000XjTuS\">Cybellum advisories</a>",
+        "url": "static/images/Cybellum-RCE.png"
+      },
+      "text": {
+        "headline":"CVE-2023-42419: Cybellum 产品安全平台存在远程执行漏洞",
+        "text":"Cybellum 产品安全平台是汽车固件安全检测与管理使用最为广泛的产品之一。该平台被OEM、Tire1、检测机构广泛使用,包括BMW、奥迪、日产、长城、捷豹路虎、合众汽车等主机厂; 电装、哈曼、维宁尔、弗吉亚、Mobileye等供应商;中汽中心、中国汽研、赛迪、赛宝等检测机构使用。<br><br>星舆实验室安全研究员@Delikely与中国汽研安全研究员@Imweekend 发现该平台存在安全缺陷，平台预留了能够执行任意代码的后门接口。虽然对该接口进行了保护，只有签名且加密的数据才能够执行。但错误地使用了签名和加密密钥，签名和加解密密钥使用同一套密钥。且密钥明文存储在该平台中，能够轻松获取到密钥。使用密钥对攻击载荷进行加密和签名便可实现任意代码执行。<br><br>应用中的产品检测平台留存的检测记录中包含大量的敏感信息，如未加密的固件、私钥、检测报告等。当前 CYBELLUM 已下发更新修复了此漏洞，推荐在授权期以内的通过更新修复，已过授权期的建议下线此平台。"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "18",
+        "year": "2024"
+      },
+      "group":"vulnerability"
     }
   ]
 }
