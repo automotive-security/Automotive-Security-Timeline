@@ -158,6 +158,22 @@
       "group":"vulnerability"
     },{
       "media": {
+        "caption": "<a href=\"http://hngy.hunancourt.gov.cn/article/detail/2018/01/id/3154307.shtml\">侵入并破坏机械远程监控系统构成破坏计算机信息系统罪</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/sany vehicle.webp"
+      },
+      "text": {
+        "headline":"自学非法解锁三一重工蹦泵车获刑",
+        "text":"2008年以来,三一重工对“以租代销”、“融资租赁”、“按揭销售”的泵车设备均安装了“三一工程机械远程监控系统”,并在产品买卖(租赁)格式合同中明确约定“如买受人未及时偿还借款或付清费用,买受人同意出卖人采取停止售后服务、停机、锁机等措施,因此产生的损失由买受人承担”以及“买受人在付清所欠货款之前,本合同项下标的物的所有权属于出卖人”的条款。然后由公司总部的远程监控维护平台对泵车进行监控,如发现客户有拖欠费用等情况,就通过监控系统进行“锁机”,泵车接受到“锁机”指令后仍可以发动和作业,但只能发挥30%左右的工作效率。</br></br>2012年11月以来,被告人刘辉通过自学掌握了三一重工泵车的远程监控系统工作原理,并与被告人朱兆仁先后采集了被锁和未锁泵车的数据,再根据所采集的数据研究出解除远程监控系统锁车程序。随后,两人商议由被告人朱兆仁编写解锁程序,并制作成“微电脑”(学名“模拟发生器”,又称“黑匣子”),被告人刘辉则以450-500元/个的价格购买并使用“微电脑”为泵车使用者“解锁”获利。至案发时止,被告人朱兆仁共制作了200余个解除被锁泵车的“微电脑”销售给被告人刘辉,获利10万余元。被告人刘辉购买朱兆仁制作的“微电脑”后,以每月5000元-1万元的工资待遇聘请了多人在网络上发布大量广告,以1万元-2万元/台的价格为拖欠货款而被锁机的泵车使用者、购买者进行解锁。</br></br>被告人刘辉等人联系客户后按照以下两种方式进行解锁：</br>1.针对SYLD(三一液晶显示屏)显示为“应用层锁机模式”状态：首先,将USBCAN(分析仪)上的两根CAN数据线分别连到泵车SYMC(三一运动控制器)、SYLD(三一液晶显示屏)之间的B218、B222线端口,再通过电脑软件发送解锁指令至三一运动控制器解除锁机。然后,通过分析仪采集三一运动控制器的数据写入“微电脑”的RAM中。最后,将“微电脑”上的两根CAN线与三一移动终端和三一液晶显示屏连接的B218、B222线并接,并断开“三一ECC系统”的CAN数据线,通过“微电脑”内的程序模拟发送解锁指令给三一运动控制器,使泵车不再次被锁机。</br>2.针对SYLD(三一液晶显示屏)显示为“底层锁机模式”状态(此模式为三一工程机械远程监控系统中密级较高的锁机模式,与“应用层锁机模式”的区别是在此基础上增加一道锁,且所有通讯指令均予以加密)：先通过电脑连接三一运动控制器,使用CAN软件发送解锁ID,每20毫秒发送一次,每次发送十帧,每一帧ID自动递加,发送至30000多帧的时候,其中某一帧会符合系统的ID,泵车的锁机程序就会被破解。然后,再按照破解“应用层锁机模式”的方法,使泵车解除锁机和控制,不再次被锁机。 "
+      },
+      "start_date": {
+        "month": "6",
+        "day": "12",
+        "year": "2017"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"https://www.rapid7.com/blog/post/2017/04/25/r7-2017-02-hyundai-blue-link-potential-info-disclosure-fixed\">Hyundai Blue Link Potential Info Disclosure</a>",
         "credit": "",
         "url": "static/images/bluelink_app.jpg"
@@ -252,6 +268,22 @@
         "year": "2018"
       },
       "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.secrss.com/articles/4169\">内鬼作祟：PLC源代码泄漏,三一重工近十亿泵车“失踪”</a>",
+        "credit": "",
+        "url": "static/images/sany vehicle.webp"
+      },
+      "text": {
+        "headline": "三一重工技术员篡改删除泵车远程监控系统,对已售设备非法解锁获刑",
+        "text": "2016年3月起,三一重工不断接到全国各地分公司的反馈,多台已销售出的设备突然失去联系。经三一重工员工检查发现,连接设备的远程监控系统(简称ECC系统)被人非法解锁破坏,使得公司对在外的工程机械设备失去控制。随着时间发展,无故“消失”的设备越来越多,数量多达近千台。</br></br>2010年至2012年期间,张超在三一重工股份有限公司泵送事业部控制所工作,负责泵车程序的编写与调试。2013年至2015年期间,被告人张超在三一重工搅拌设备控制所工作,负责搅拌设备程序的编写与调试。利用工作便利,张超掌握了三一重工安装在泵车上的三一工程机械远程监控系统(三一“ECC”系统)中SYMC(三一运动控制器)的控制程序源程序以及代码。在掌握设备控制原理及代码后,张超将源程序中远程锁定程序进行修改删除,重新编译得出可以解锁泵车和搅拌站的控制程序。</br></br>工程机械的大型泵车因价格高昂,销售时往往采用分期付款方式,在遇到客户不按时还款的情况下,厂商可远程对设备锁车,使之无法继续工作。2016年上半年,三一重工前雇员周小平在与张超聊天中提到,如果利用公司系统漏洞进行远程解锁,可以获取不菲利润。在利润的诱惑下,张超答应接下这单生意。随后,张某利用职务之便,将一些内部资料偷偷交给周小平。之后,陆续又有8名成员加入团伙。解锁一台设备GPS的时间不到五分钟,收取客户费用则在4千元到2万元不等。为了招揽生意,几人还申请了一个破解设备的微信公众号,用于揽客。</br></br>其行为构成破坏计算机信息系统罪。长沙市中级人民法院依照《刑法》等相关规定,对周小平两罪并罚,决定执行有期徒刑四年六个月。对张超两罪并罚,决定执行有期徒刑二年六个月。其余8名男子根据犯罪情形,分别判处1-3年不等。        "
+      },
+      "start_date": {
+        "month": "6",
+        "day": "25",
+        "year": "2018"
+      },
+      "group":"event"
     },{
       "media": {
         "caption": "<a href=\"https://www.wired.com/story/hackers-steal-tesla-model-s-seconds-key-fob\">Hackers Can Steal a Tesla Model S in Seconds by Cloning Its Key Fob</a>",
@@ -1583,12 +1615,12 @@
     },{
       "media": {
         "caption": "<a href=\"https://www.nissan.co.nz/website-update.html\">IMPORTANT UPDATE FROM NISSAN OCEANIA</a>",
-        "credit": "<a href=\"\"></a>",
-        "url": "static/images/nissan Australia and New Zealand cyber incident.png"
+        "credit": "<a href=\"https://akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad.onion/\">AKIRA</a>",
+        "url": "static/images/AKIRA-NISSAN-2023.png"
       },
       "text": {
         "headline":"日产汽车在澳大利亚和新西兰遭遇网络攻击",
-        "text": "12 月 7 日,日产澳大利亚、新西兰官网首页发布公告称遭遇网络攻击,金融服务系统、部分供应商系统、售后服务等系统受到影响。<br><br>当前正在努力尽快恢复其系统,并将持续通过nissan.com.au、nissan.co.nz 发布事件处理进展。日产正在与全球应急响应团队以及其他相关利益相关者一起调查此次事件的影响范围以及是否有任何个人信息被访问。<br><br>日产鼓励客户对账户保持警惕,包括注意任何异常或诈骗活动。同时日产已经通知了澳大利亚网络安全中心和新西兰国家网络安全中心。<br><br>日产向客户保证,因金融服务系统故障而引起的信用评级问题将不受影响。"
+        "text": "12 月 7 日,日产澳大利亚、新西兰官网首页发布公告称遭遇网络攻击,金融服务系统、部分供应商系统、售后服务等系统受到影响。当前正在努力尽快恢复其系统,并将持续通过nissan.com.au、nissan.co.nz 发布事件处理进展。日产正在与全球应急响应团队以及其他相关利益相关者一起调查此次事件的影响范围以及是否有任何个人信息被访问。日产鼓励客户对账户保持警惕,包括注意任何异常或诈骗活动。同时日产已经通知了澳大利亚网络安全中心和新西兰国家网络安全中心。日产向客户保证,因金融服务系统故障而引起的信用评级问题将不受影响。</br></br>勒索组织AKIRA声称对此次事件负责,并公开了128G数据。泄露的数据中包括员工信息文件、NDAs、项目数据、合作伙伴信息以及客户信息,其中包括 Nissan、Mitsubishi、Renault、Skyline,、Infiniti、LDV、RAM 供应商。超过10%的个人政府标识泄露,包括大约4000个医疗卡、7500个驾照、220个护照、1300个税务文件编号。其余 90% 的个人信息受到影响,例如贷款相关文件、就业详情和出生日期等。</br></br>为了支持受影响的客户,日产提供以下服务：免费访问IDCARE,在澳大利亚通过Equifax和在新西兰通过Centrix免费提供信用监控服务,并报销被盗政府身份证件的更换费用。"
       },
       "start_date": {
         "month": "12",
@@ -1758,6 +1790,22 @@
       "group":"event"
     },{
       "media": {
+        "caption": "<a href=\"https://www.varta-ag.com/fileadmin/varta_ag/publications/ad-hoc_announcements/20240213_VARTA_AG_Ad_hoc_cyber_attack_EN.pdf\">VARTA affected by cyber attack</a>",
+        "credit": "<a href=\"https://www.varta-ag.com/en/about-varta/news-press/details/varta-makes-good-progress-in-solving-the-cyberattack\">VARTA makes good progress in solving the cyberattack</a>",
+        "url": "static/images/VARTA affected by cyber attack.png"
+      },
+      "text": {
+        "headline":"德国电池制造商 VARTA AG 遭到网络攻击导致停产",
+        "text":"VARTA瓦尔塔,隶属于Clarios柯锐世™(原江森自控能源动力),1887年成立于德国哈根,是欧洲最著名的汽车蓄电池品牌。</br></br>由于部分IT基础设施遭到攻击,该公司不得不停止运行IT系统并断开与互联网的连接,以确保安全。目前尚不清楚该事件造成的总体损失。</br></br>为了应对此次攻击,VARTA 启动了应急计划,成立了一个由网络安全专家和计算机取证专家组成的工作组,以帮助恢复系统。VARTA 的首要任务是确保数据完整性,并决定主动关闭系统。</br></br>网络攻击消息公布后,五家工厂(Ellwangen, Nördlingen, Dischingen, Brasov/Romania and Batam/Indonesia)的生产业务关闭,且没有明确的恢复正常运营时间,导致 VARTA 股价下跌 4.75%。"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "13",
+        "year": "2024"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"https://socradar.io/sensitive-information-belonging-to-bmw-exposed-due-to-misconfigured-cloud-bucket/\">Sensitive Information Belonging to BMW Exposed Due to Misconfigured Cloud Bucket</a>",
         "credit": "<a href=\"\"></a>",
         "url": "static/images/sensitive-information-belonging-to-bmw-exposed-due-to-misconfigured-cloud-bucket.webp"
@@ -1780,7 +1828,7 @@
       },
       "text": {
         "headline":"CVE-2023-42419: Cybellum 产品安全平台存在远程执行漏洞",
-        "text":"Cybellum 产品安全平台是汽车固件安全检测与管理使用最为广泛的产品之一。该平台被OEM、Tire1、检测机构广泛使用,包括BMW、奥迪、日产、长城、捷豹路虎、合众汽车等主机厂; 电装、哈曼、维宁尔、弗吉亚、Mobileye等供应商;中汽中心、中国汽研、赛迪、赛宝等检测机构使用。<br><br>星舆实验室安全研究员@Delikely与中国汽研安全研究员@Imweekend 发现该平台存在安全缺陷，平台预留了能够执行任意代码的后门接口。虽然对该接口进行了保护，只有签名且加密的数据才能够执行。但错误地使用了签名和加密密钥，签名和加解密密钥使用同一套密钥。且密钥明文存储在该平台中，能够轻松获取到密钥。使用密钥对攻击载荷进行加密和签名便可实现任意代码执行。<br><br>应用中的产品检测平台留存的检测记录中包含大量的敏感信息，如未加密的固件、私钥、检测报告等。当前 CYBELLUM 已下发更新修复了此漏洞，推荐在授权期以内的通过更新修复，已过授权期的建议下线此平台。"
+        "text":"Cybellum 产品安全平台是汽车固件安全检测与管理使用最为广泛的产品之一。该平台被OEM、Tire1、检测机构广泛使用,包括BMW、奥迪、日产、长城、捷豹路虎、合众汽车等主机厂; 电装、哈曼、维宁尔、弗吉亚、Mobileye等供应商;中汽中心、中国汽研、赛迪、赛宝等检测机构使用。<br><br>星舆实验室安全研究员@Delikely与中国汽研安全研究员@Imweekend 发现该平台存在安全缺陷,平台预留了能够执行任意代码的后门接口。虽然对该接口进行了保护,只有签名且加密的数据才能够执行。但错误地使用了签名和加密密钥,签名和加解密密钥使用同一套密钥。且密钥明文存储在该平台中,能够轻松获取到密钥。使用密钥对攻击载荷进行加密和签名便可实现任意代码执行。<br><br>应用中的产品检测平台留存的检测记录中包含大量的敏感信息,如未加密的固件、私钥、检测报告等。当前 CYBELLUM 已下发更新修复了此漏洞,推荐在授权期以内的通过更新修复,已过授权期的建议下线此平台。"
       },
       "start_date": {
         "month": "2",
@@ -1788,6 +1836,54 @@
         "year": "2024"
       },
       "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.websiteplanet.com/news/qmerit-breach-report/\">Nearly 600,000 Records Exposed Online in Leading EV-Service Provider Data Breach</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/WSP-REPORT-IMAGE.webp"
+      },
+      "text": {
+        "headline":"北美领先的电动汽车服务提供商发生数据泄露,近60万条记录暴露在网上",
+        "text":"Qmerit是一家专注于电动汽车充电解决方案的公司,从事电动汽车充电基础设施的安装和维护,并与多家顶级汽车制造商合作。在2024年,Qmerit被选为通用能源住宅产品的首选安装商,并声称在北美完成了超过269,000个充电器安装。</br></br>安全研究员Jeremiah Fowler发现了电动汽车服务提供商Qmerit的一个未受保护的数据库,暴露了573,309条记录。暴露的数据库大小总计 585.81 GB,包含大量文档,例如发票、价格建议、电力许可证,以及客户提交的调查表信息,包括其房屋图像和充电器位置等详细信息。该泄露可能导致身份盗用、欺诈和隐私问题。</br></br>Qmerit在收到通知后迅速保护了数据库。并建议客户和承包商验证可疑请求并确保数据安全。"
+      },
+      "start_date": {
+        "month": "3",
+        "day": "6",
+        "year": "2024"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://apps.web.maine.gov/online/aeviewer/ME/40/d34f3290-0126-421f-9d69-5ccd31652641.shtml\">Data Breach Notifications</a>",
+        "credit": "<a href=\"https://www.scmagazine.com/news/ransomware-attack-on-nissan-north-america-results-in-employee-data-loss\">Ransomware attack on Nissan North America results in employee data loss</a>",
+        "url": "static/images/nissan-header.webp"
+      },
+      "text": {
+        "headline":"日产北美公司遭受攻击导致员工数据丢失",
+        "text":"日产北美公司 (NNA)于 5 月 15 日通知消费者,勒索软件攻击导致与 NNA 员工相关的一些个人信息丢失,其中包括社会安全号码。NNA 在向缅因州总检察长办公室提交的文件中表示,网络安全事件影响了 53,038 人,其中包括 NNA 员工以及消费者。</br></br>泄露日期为 2023 年 11 月 7 日。NNA 在 12 月 5 日的市政厅会议上向所有现任员工通报了该事件,称某些员工的个人信息可能已被访问,NNA 将通知受影响的个人调查。NNA 在文件中称,实际违规行为是在今年 2 月 28 日发现的。 NNA 表示,通过调查,其了解到犯罪威胁行为者从 NNA 的多个本地和网络共享访问了数据,但没有加密任何数据或使 NNA 的任何系统无法运行。</br></br>日产发言人表示,当威胁行为者故意访问并导致一些非生产系统短时间关闭时,该汽车制造商才意识到这次攻击。</br></br>NNA 表示,自攻击发生以来,采取了多项措施来加强其安全环境,包括在整个企业范围内重置密码、在所有兼容系统上实施 Carbon Black 监控、漏洞扫描以及其他解决未经授权访问的措施。"
+      },
+      "start_date": {
+        "month": "5",
+        "day": "15",
+        "year": "2024"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.sec.gov/Archives/edgar/data/1158449/000115844924000162/aap-20240523.htm\">FORM 8-K REPORT</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/Advance-Auto-Parts-data-sale.webp"
+      },
+      "text": {
+        "headline":"Advance Auto Parts 因第三方云数据服务遭受攻击,大量数据泄露",
+        "text":" 全球领先汽车零部件和配件零售商 Advance Auto Parts在美国经营着 4,777 家门店和 320 家 Worldpac 分店,在加拿大、波多黎各和美属维尔京群岛设有分店。还为这些地区以及墨西哥和加勒比海各岛屿的 1,152 家独立拥有的 Carquest 品牌门店提供服务。</br></br>在数据泄露论坛上,名为 Sp1d3r 的数据售卖方声称从Advance Auto Parts的 Snowflake 云存储中窃取了 3TB 的数据。被盗信息报价 150 万美元出售。其中包括,</br>· 3.8 亿份客户资料,包含姓名、电子邮件、手机号码、电话号码、地址等</br>· 4400 万个会员卡/加油卡号以及客户详细信息。</br>· 358,000 名员工的信息；</br>· 汽车零件和零件编号；</br>· 1.4亿客户订单；</br>· 销售历史数据；</br>· 就业候选人信息,包括社会安全号码、驾驶执照号码和人口统计详细信息；</br>· 交易投标详情；</br>· 超过 200 个各种数据的表格等；</br></br>Advance Auto Parts 数据泄露事件是近期针对云存储公司Snowflake 客户进行的一系列攻击之一。此次事件之前, Ticketmaster母公司 Live Nation 也遭遇了一起重大数据泄露事件。黑客声称窃取了 5.6 亿客户的个人详细信息,被盗数据托管在 Snowflake 的云存储中。</br></br>针对此次入侵事件,Snowflake 和第三方网络安全专家 CrowdStrike 和 Mandiant 发表了一份联合声明,称他们正在对针对部分 Snowflake 客户账户的针对性威胁活动进行调查。他们正在努力了解入侵的程度并减轻其影响。"
+      },
+      "start_date": {
+        "month": "5",
+        "day": "23",
+        "year": "2024"
+      },
+      "group":"event"
     }
   ]
 }
