@@ -1522,6 +1522,22 @@
       "group":"event"
     },{
       "media": {
+        "caption": "<a href=\"https://www.alpsalpine.com/cms.media/September_12th_Cyber_Attack_ver1_11_31306d3123.pdf\"> Cyber attack on our group companies</a>",
+        "credit": "<a href=\"http://53d5skw4ypzku4bfq2tk2mr3xh5yqrzss25sooiubmjz67lb3gdivcad.onion\">BlackByte</a>",
+        "url": "static/images/BlackByte_Alpine.png"
+      },
+      "text": {
+        "headline":"汽车零部件供应商 Alpine 遭受勒索软件 BlackByte 攻击 ",
+        "text":"日本阿尔派株式会社成立于1967年,是一家以生产汽车音响及汽车通信系统产品为主的专业汽车电子企业,在全球十多个国家拥有三十多个海外企业。在全球为超过2000家汽车企业,提供超40000种元件。</br></br>2023年9月10日,Alpine 监测到服务器存在非法访问,立即将相应的服务器进行隔离并与安全顾问一同开展调查。</br>2023年9月14日,Alpine 发布事件更新,除了墨西哥生产基地以外,其他的地区采用替代方法解除了系统故障,已恢复生产和交付。</br></br>2024年2月5日,勒索软件 BlackByte 声称对此攻击事件负责。并公开了1029.22MB数据,其中包含护照、收据、文档等。"
+      },
+      "start_date": {
+        "month": "9",
+        "day": "12",
+        "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"https://newsroom.mazda.com/en/publicity/release/2023/202309/230915a.pdf\">Apology and Notification Regarding Possible Leakage of Personal Information Due to Unauthorized Access</a>",
         "credit": "<a href=\"\"></a>",
         "url": "static/images/mazada_apology_20230915.png"
@@ -1901,6 +1917,22 @@
       "start_date": {
         "month": "6",
         "day": "19",
+        "year": "2024"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"\"></a>",
+        "credit": "<a href=\"http://53d5skw4ypzku4bfq2tk2mr3xh5yqrzss25sooiubmjz67lb3gdivcad.onion\">BlackByte</a>",
+        "url": "static/images/BalckByte_Modernauto"
+      },
+      "text": {
+        "headline":"汽车经销商 Modern Auto 遭遇勒索软件 BlackByte 攻击",
+        "text":"Modern Auto 是美国北卡罗来纳州的汽车经销商,销售凯迪拉克、雪佛兰、福特、现代、马自达、丰田等品牌的新车以及二手车。</br></br>7月18日 BlackByte 公开了 Modern Auto 4.2G 的数据作为样例,并提出了6500万的赎金。"
+      },
+      "start_date": {
+        "month": "7",
+        "day": "18",
         "year": "2024"
       },
       "group":"event"
