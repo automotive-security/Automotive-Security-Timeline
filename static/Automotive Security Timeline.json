@@ -1602,6 +1602,22 @@
       "group":"event"
     },{
       "media": {
+        "caption": "<a href=\"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/CIE\">cieautomotive.com DISCLOSED</a>",
+        "credit": "<a href=\"https://vicone.com/blog/cactus-ransomware-group-claims-responsibility-for-cyberattack-on-cie-automotive\"></a>",
+        "url": "static/images/CIE Automotive ransomware.png"
+      },
+      "text": {
+        "headline":"CIE Automotive 遭到勒索软件攻击",
+        "text":"CIE Automotive是西班牙的一家专门为汽车市场供应零部件以装配的工业集团。CIE Automotive 主营业务为铝、锻造、冲压和管焊接、机械加工、塑料、铸造和车顶系统。</br></br>未按照勒索组织的要求在规定期限内支付赎金。2023年12月20日,cactus 公开了窃取的 2.6TB 的数据。其中包括护照、项目文档、会议纪等。"
+      },
+      "start_date": {
+        "month": "11",
+        "day": "12",
+        "year": "2023"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"https://www.detroitnews.com/story/business/autos/chrysler/2023/11/13/yanfeng-cyberattack-stellantis-production/71575298007/\">Stellantis production affected by cyberattack at auto supplier</a>",
         "credit": "<a href=\"\"></a>",
         "url": "static/images/qilin_yanfeng.png"
@@ -1922,6 +1938,22 @@
       "group":"event"
     },{
       "media": {
+        "caption": "<a href=\"https://www.sec.gov/Archives/edgar/data/1043509/000104350924000059/sah-20240619.htm\">Securities Exchange</a>",
+        "credit": "<a href=\"https://cyberscoop.com/cdk-ransomware-car-dealers/\">US car dealers are feeling the pain of CDK cyberattack</a>",
+        "url": "static/images/BlackSuit-Ransomware-Gang-Behind-Massive-Cyber-Attack-on-CDK-Global.png"
+      },
+      "text": {
+        "headline":"汽车软件供应商 CDK Global 被勒索 2500万美元",
+        "text":" CDK Global 是全球领先的汽车技术解决方案提供商,为汽车经销商提供客户关系管理(CRM)、经销商管理系统(DMS)、网络与通讯等技术产品与服务,服务着全球超15000家经销商客户,拥有数千名员工。</br></br>此次攻击事件发生在6月中旬,CDK Global 接连遭到两次勒索软件攻击,导致其数据中心、IT系统被迫关闭。攻击带来的影响迅速扩散,使用 CDK Global 服务的 Asbury Automotive Group, AutoNation, Group 1 Automotive, Lithia Motors, and Sonic Automotive 等经销商均受到了波及。由于涉及销售、交易、库存管理等业务被中断,绝大部分业务陷入停滞,经销商不得不使用纸笔处理订单,对该月汽车销量造成了一定影响。</br></br>CDK Global 为恢复因勒索软件攻击而中断的核心系统,疑似向勒索组织BlackSuit支付了2500万美元的赎金。"
+      },
+      "start_date": {
+        "month": "6",
+        "day": "19",
+        "year": "2024"
+      },
+      "group":"event"
+    },{
+      "media": {
         "caption": "<a href=\"\"></a>",
         "credit": "<a href=\"http://53d5skw4ypzku4bfq2tk2mr3xh5yqrzss25sooiubmjz67lb3gdivcad.onion\">BlackByte</a>",
         "url": "static/images/BalckByte_Modernauto.png"
@@ -1933,6 +1965,38 @@
       "start_date": {
         "month": "7",
         "day": "18",
+        "year": "2024"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"\"></a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/BMW_hongkong_leaked.jfif"
+      },
+      "text": {
+        "headline":"BMW香港泄露14000名客户信息",
+        "text":"2024年7月,约14000条BMW(香港)客户信息泄露,数据发布在一个活跃的黑客论坛上。<br/></br>宝马香港表示,事件涉及第三方机构处理客户数据的资讯。调查发现有一万四千名客户资料,包括姓名、手机号码等泄露,已经报警及通报私隐专员公署,同时外聘网路安全专家展开全面调查。"
+      },
+      "start_date": {
+        "month": "7",
+        "day": "16",
+        "year": "2024"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-general-motors-unlawfully-collecting-drivers-private-data-and\">Attorney General Ken Paxton Sues General Motors for Unlawfully Collecting Drivers’ Private Data and Selling It To Several Companies, Including Insurance Companies</a>",
+        "credit": "<a href=\"https://www.texasattorneygeneral.gov/sites/default/files/images/press/General%20Motors%20Data%20Privacy%20Petition%20Filed.pdf\">General Motors Data Privacy Petition Filed</a>",
+        "url": "static/images/Texas-AG-sues-GM.webp"
+      },
+      "text": {
+        "headline":"美国得州起诉通用汽车,1400余万辆汽车涉嫌收集驾驶员数据",
+        "text":"通用汽车公司被美国得克萨斯州起诉,其被指控在 1400多万辆汽车上安装了收集驾驶员数据的技术,然后在未经驾驶员同意的情况下将这些数据出售给保险公司和其他公司。</br></br>德克萨斯州总检察长肯·帕克斯顿(Ken Paxton)对通用汽车(General Motors)及其子公司安吉星(OnStar)提起诉讼,指控这两家公司在未经得客户知情或同意的情况下,收集并出售了超过180万德克萨斯居民的私人驾驶数据给保险公司,违反了数据隐私法规。并将这些信息出售给其他几家公司,包括至少两家用于为通用汽车的客户生成“驾驶得分”的公司,</br></br>此次诉讼源于2024年6月的一项调查,调查对象是几家汽车制造商是否在驾驶员不知情的情况下收集并出售了大量数据。通用汽车在客户购买车辆时,通过其“上车”过程中的OnStar Smart Driver等产品,迫使客户注册,告诉他们如果不注册将导致车辆安全功能的停用。然而通过注册,客户实际上“同意”了通用汽车收集和出售他们的数据。尽管有冗长且复杂的披露,但通用汽车从未告知客户其实际行为——系统地收集和出售他们的详细驾驶数据。</br></br>通用汽车通过其安装在2015年及以后车型中的技术,收集、记录、分析并传输了关于每次驾驶使用的极其详细的驾驶数据。采集的数据被用于编制“驾驶评分”,评估该州 180 多万名司机是否有超速、刹车过快、转弯时转向过猛、不系安全带和深夜驾驶等“不良习惯”。在未经驾驶员同意的情况下将这些得分出售给保险公司和其他公司。保险公司可以利用这些数据来决定是否提高保费、取消保单或拒绝承保。"
+      },
+      "start_date": {
+        "month": "8",
+        "day": "13",
         "year": "2024"
       },
       "group":"event"
