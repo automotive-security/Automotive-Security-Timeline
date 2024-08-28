@@ -1938,22 +1938,6 @@
       "group":"event"
     },{
       "media": {
-        "caption": "<a href=\"https://www.sec.gov/Archives/edgar/data/1043509/000104350924000059/sah-20240619.htm\">Securities Exchange</a>",
-        "credit": "<a href=\"https://cyberscoop.com/cdk-ransomware-car-dealers/\">US car dealers are feeling the pain of CDK cyberattack</a>",
-        "url": "static/images/BlackSuit-Ransomware-Gang-Behind-Massive-Cyber-Attack-on-CDK-Global.png"
-      },
-      "text": {
-        "headline":"汽车软件供应商 CDK Global 被勒索 2500万美元",
-        "text":" CDK Global 是全球领先的汽车技术解决方案提供商,为汽车经销商提供客户关系管理(CRM)、经销商管理系统(DMS)、网络与通讯等技术产品与服务,服务着全球超15000家经销商客户,拥有数千名员工。</br></br>此次攻击事件发生在6月中旬,CDK Global 接连遭到两次勒索软件攻击,导致其数据中心、IT系统被迫关闭。攻击带来的影响迅速扩散,使用 CDK Global 服务的 Asbury Automotive Group, AutoNation, Group 1 Automotive, Lithia Motors, and Sonic Automotive 等经销商均受到了波及。由于涉及销售、交易、库存管理等业务被中断,绝大部分业务陷入停滞,经销商不得不使用纸笔处理订单,对该月汽车销量造成了一定影响。</br></br>CDK Global 为恢复因勒索软件攻击而中断的核心系统,疑似向勒索组织BlackSuit支付了2500万美元的赎金。"
-      },
-      "start_date": {
-        "month": "6",
-        "day": "19",
-        "year": "2024"
-      },
-      "group":"event"
-    },{
-      "media": {
         "caption": "<a href=\"\"></a>",
         "credit": "<a href=\"http://53d5skw4ypzku4bfq2tk2mr3xh5yqrzss25sooiubmjz67lb3gdivcad.onion\">BlackByte</a>",
         "url": "static/images/BalckByte_Modernauto.png"
