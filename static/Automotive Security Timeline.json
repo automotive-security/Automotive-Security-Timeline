@@ -1367,7 +1367,7 @@
         "url": "static/images/Hyundai_data_breach_email.png"
       },
       "text": {
-        "headline":"现代汽车纰漏一起在法国、意大利泄露个人数据的事件",
+        "headline":"现代汽车披露一起在法国、意大利泄露个人数据的事件",
         "text":"现代汽车向在法国和意大利的车主发送数据泄露提醒邮件,泄露的数据包括电子邮件、物理地址、电话号码、底盘号等个人数据,但不含金融数据。<br><br>现代汽车警示其客户,对声称来自他们的未经请求的电子邮件和短信要保持谨慎并核实,因为它们可能是网络钓鱼和社会工程学意图。"
       },
       "start_date": {
@@ -1650,13 +1650,29 @@
       "group":"event"
     },{
       "media": {
+        "caption": "<a href=\"https://www.pcautomotive.com/vulnerabilities-in-skoda-and-volkswagen-vehicles\">Vulnerabilities in Skoda and Volkswagen vehicles</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/skoda_pcautomotive_vulns.png"
+      },
+      "text": {
+        "headline": "PCAutomotive 披露斯柯达多个漏洞",
+        "text": "汽车安全公司 PCAutomotive 在对大众集团旗下 2022 款斯柯达 Superb III 的研究中,发现多个分布于车端与云端的中低危漏洞。这些漏洞可能导致用户敏感信息的泄露,并为潜在攻击者提供非法访问和操作车辆功能的途径,具体包括 MIB3 信息娱乐单元的调试接口访问、通过车载 Wi-Fi 网络造成拒绝服务、以及利用信息娱乐单元的 UDS 身份认证(安全访问)实施攻击等。</br></br>该车辆搭载了由德国普瑞(Preh,2011 年被宁波均胜电子收购)制造的 MIB3 信息娱乐系统,支持智能互联功能(如 Android Auto、Apple CarPlay、MirrorLink 等)。</br></br>以下是主要问题和漏洞清单:</br>· 信息娱乐单元的 SWD 调试接口未关闭,存在潜在访问风险。· </br>· 电源控制芯片存在 UART 调试终端,提供额外的攻击面。</br>· CVE-2023-28895:电源控制芯片的 UART 调试接口使用硬编码凭证,易被攻击者破解。</br>· CVE-2023-28896:UDS 服务密码采用弱编码。</br>· CVE-2023-28897:UDS 服务存在硬编码密码。</br>· CVE-2023-28898:通过 Apple CarPlay 能够造成信息娱乐系统拒绝服务。</br>· CVE-2023-28899:通过 UDS ECU 服务发起拒绝服务。</br>· CVE-2023-28900: 云端后台服务泄露用户昵称,可通过指定VIN码查询。</br>· CVE-2023-28901: 服务端泄露行程数据,可通过指定VIN码查询。"
+      },
+      "start_date": {
+        "month": "11",
+        "day": "22",
+        "year": "2023"
+      },
+      "group": "vulnerability"
+    },{
+      "media": {
         "caption": "<a href=\"https://www.nissan.co.nz/website-update.html\">IMPORTANT UPDATE FROM NISSAN OCEANIA</a>",
         "credit": "<a href=\"https://akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad.onion/\">AKIRA</a>",
         "url": "static/images/AKIRA-NISSAN-2023.png"
       },
       "text": {
         "headline":"日产汽车在澳大利亚和新西兰遭遇网络攻击",
-        "text": "12 月 7 日,日产澳大利亚、新西兰官网首页发布公告称遭遇网络攻击,金融服务系统、部分供应商系统、售后服务等系统受到影响。当前正在努力尽快恢复其系统,并将持续通过nissan.com.au、nissan.co.nz 发布事件处理进展。日产正在与全球应急响应团队以及其他相关利益相关者一起调查此次事件的影响范围以及是否有任何个人信息被访问。日产鼓励客户对账户保持警惕,包括注意任何异常或诈骗活动。同时日产已经通知了澳大利亚网络安全中心和新西兰国家网络安全中心。日产向客户保证,因金融服务系统故障而引起的信用评级问题将不受影响。</br></br>勒索组织AKIRA声称对此次事件负责,并公开了128G数据。泄露的数据中包括员工信息文件、NDAs、项目数据、合作伙伴信息以及客户信息,其中包括 Nissan、Mitsubishi、Renault、Skyline,、Infiniti、LDV、RAM 供应商。超过10%的个人政府标识泄露,包括大约4000个医疗卡、7500个驾照、220个护照、1300个税务文件编号。其余 90% 的个人信息受到影响,例如贷款相关文件、就业详情和出生日期等。</br></br>为了支持受影响的客户,日产提供以下服务:免费访问IDCARE,在澳大利亚通过Equifax和在新西兰通过Centrix免费提供信用监控服务,并报销被盗政府身份证件的更换费用。"
+        "text": "12 月 7 日,日产大洋洲(澳大利亚、新西兰)官网首页发布公告称遭遇网络攻击,金融服务系统、部分供应商系统、售后服务等系统受到影响。当前正在努力尽快恢复其系统,并将持续通过nissan.com.au、nissan.co.nz 发布事件处理进展。日产正在与全球应急响应团队以及其他相关利益相关者一起调查此次事件的影响范围以及是否有任何个人信息被访问。日产鼓励客户对账户保持警惕,包括注意任何异常或诈骗活动。同时日产已经通知了澳大利亚网络安全中心和新西兰国家网络安全中心。日产向客户保证,因金融服务系统故障而引起的信用评级问题将不受影响。</br></br>勒索组织AKIRA声称对此次事件负责,并公开了128G数据。泄露的数据中包括员工信息文件、NDAs、项目数据、合作伙伴信息以及客户信息,其中包括 Nissan、Mitsubishi、Renault、Skyline,、Infiniti、LDV、RAM 供应商。超过10%的个人政府标识泄露,包括大约4000个医疗卡、7500个驾照、220个护照、1300个税务文件编号。其余 90% 的个人信息受到影响,例如贷款相关文件、就业详情和出生日期等。</br></br>为了支持受影响的客户,日产提供以下服务:免费访问IDCARE,在澳大利亚通过Equifax和在新西兰通过Centrix免费提供信用监控服务,并报销被盗政府身份证件的更换费用。"
       },
       "start_date": {
         "month": "12",
@@ -1752,7 +1768,7 @@
       },
       "text": {
         "headline":"现代汽车(印度)维修站点文件分享链接泄露客户个人信息",
-        "text": "现代汽车印度子公司修复影响南亚客户个人信息泄露漏洞,泄露的信息包括姓名、邮寄地址、电子邮箱地址、电话号码、车牌号、发动机号、行驶里程等。受影响的用户为曾在在印度授权服务站点维修过车辆的用户。TechCrunch(雅虎旗下科技媒体) 从不愿透露姓名的安全研究员了解到,该漏洞是因为现代汽车印度公司授权服务站在维修中通过 WhatsApp 与客户分享维修订单和发票获取链接,因链接中包含电话号码造成了客户的个人信息的暴露。可以通过更改链接中的电话号码来暴露其他客户的信息。<br><br>在证实研究人员的发现后,TechCrunch 12月29日给现代汽车印度公司发送邮件。1月4日收到回复后向现代汽车印度公司纰漏了漏洞细节。因漏洞简单但影响严重,TechCrunch 要求现代汽车印度公司7天内修复漏洞。1月11日,漏洞被修复,相关链接被重定向到错误页面,不再可用。"
+        "text": "现代汽车印度子公司修复影响南亚客户个人信息泄露漏洞,泄露的信息包括姓名、邮寄地址、电子邮箱地址、电话号码、车牌号、发动机号、行驶里程等。受影响的用户为曾在在印度授权服务站点维修过车辆的用户。TechCrunch(雅虎旗下科技媒体) 从不愿透露姓名的安全研究员了解到,该漏洞是因为现代汽车印度公司授权服务站在维修中通过 WhatsApp 与客户分享维修订单和发票获取链接,因链接中包含电话号码造成了客户的个人信息的暴露。可以通过更改链接中的电话号码来暴露其他客户的信息。<br><br>在证实研究人员的发现后,TechCrunch 12月29日给现代汽车印度公司发送邮件。1月4日收到回复后向现代汽车印度公司披露了漏洞细节。因漏洞简单但影响严重,TechCrunch 要求现代汽车印度公司7天内修复漏洞。1月11日,漏洞被修复,相关链接被重定向到错误页面,不再可用。"
       },
       "start_date": {
         "month": "1",
@@ -1767,7 +1783,7 @@
         "url": "https://youtu.be/uM384qFApic?si=5Kw74TMv3K0gDZrb"
       },
       "text": {
-        "headline":"首届 PWN2OWN Automotive 落幕,共纰漏 49 个 0day",
+        "headline":"首届 PWN2OWN Automotive 落幕,共披露 49 个 0day",
         "text": "为期三天(2024年1月24日到26日)的首届 Pwn2Own 汽车大赛落下帷幕,共发放 1323750 美元的赏金,参赛选手共发现 49 个唯一 0day 漏洞。Synacktiv 团队以45万美元的赏金、50个积分点的成绩成功摘得 Master of Pwn 的桂冠。<br><br>2023年8月29日,ZDI 发布了首届 PWN2OWN Automotive 的参赛对象,包括汽车充电桩、车载操作系统。<br>· 汽车: Tesla<br>· 车机: Sony XAV-AX550、Alpine Halo iLX-F509、Pioneer DMH-WT600NEX<br>· 充电桩: ChargePoint、Phoenix、EMPORIA、JuiceBOX、Autel、Ubiquiti <br>· 车载操作系统: AGL、QNX、Android Automotive OS<br><br>除QNX和Android Automotive OS无团队挑战外,Tesla、全部充电桩以及AGL操作系统均被攻破。"
       },
       "start_date": {
@@ -2019,6 +2035,38 @@
       "group":"event"
     },{
       "media": {
+        "caption": "<a href=\"https://www.hexacon.fr/conference/speakers/#tesla_model_3\">0-click RCE on Tesla Model 3 through TPMS Sensors</a>",
+        "credit": "<a href=\"https://www.synacktiv.com/sites/default/files/2024-10/hexacon_0_click_rce_on_tesla_model_3_through_tpms_sensors_light.pdf\">slide</a>",
+        "url": "https://youtu.be/R33cR3ZMTxM"
+      },
+      "text": {
+        "headline": "Synacktiv 在Hexacon披露 Telsa TMPS(胎压监测系统)远程命令执行漏洞细节",
+        "text": "来自Synacktiv的两位安全研究员David Berard & Thomas Imbert在Hexacon安全会议上分享了他们在PWN2OWN Automotive上攻破Tesla的漏洞细节《0-click RCE on Tesla Model 3 through TPMS Sensors》。</br></br>TPMS 传感器 (Tire-Pressure Monitoring System) 用于监测轮胎压力和温度,是车辆的强制要求。确保车辆安全行驶。早期使用433 MHz无线电,Tesla 现采用低功耗蓝牙,通过BLE GATT特性。</br></br>Tesla 的 VCSEC ECU 在处理 x509 证书时的整数溢出漏洞。该问题源于不正确的证书解析,在验证证书分片时存在整数溢出漏洞(integer overflow),导致越界写操作(OOB write),攻击者可以利用该漏洞控制程序流程。这使得攻击者能够利用此缺陷重写内存结构,从而控制函数指针并跳转到恶意代码。</br></br>攻击者需要伪造 TPMS 传感器,并通过 BLE 广播消息与 VCSEC ECU 建立连接,然后发送精心构造的证书数据触发整数溢出漏洞,控制程序流程,最终执行任意代码。后续可以利用漏洞发送 CAN 消息,控制车辆行为,例如解锁车门、启动引擎、刹车等。</br></br></br></br>"
+      },
+      "start_date": {
+        "month": "10",
+        "day": "4",
+        "year": "2024"
+      },
+      "group": "vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://pcautomotive.com/hexacon-2024\">0-click RCE on the IVI component: Pwn2Own Automotive edition</a>",
+        "credit": "<a href=\"https://www.hexacon.fr/conference/speakers/#0_click_rce_on_ivi\"></a>",
+        "url": "https://youtu.be/q6X6L82J2Mk"
+      },
+      "text": {
+        "headline": "PCAutomotive 在 Hexacon 2024 上披露 Alpine Halo9 iLX-F509 远程代码执行漏洞细节",
+        "text": "来自PCAutomotive的安全研究员Mikhail Evdokimov (@konatabrk)在安全会议Hexacon上分享了他们在 PWN2OWN Automotive中攻破 Alpine Halo9 信息娱乐系统的技术细节《0-click RCE on the IVI component: Pwn2Own Automotive edition》。蓝牙协议栈中存在UAF漏洞,在无交互的情况下能够实现任意代码执行。</br></br>CVE-2024-23923: Alpine Halo9 prh_l2_sar_data_ind 存在 Use-After-Free 远程代码执行漏洞。该漏洞允许网络相邻的攻击者在受影响的 Alpine Halo9 设备上执行任意代码。"
+      },
+      "start_date": {
+        "month": "10",
+        "day": "4",
+        "year": "2024"
+      },
+      "group": "vulnerability"
+    },{
+      "media": {
         "caption": "<a href=\"https://www.yorozu-corp.co.jp/share/uploads/2024/10/Notice-of-Ransomware-Attack-Incident1.pdf\">Notice of Ransomware Attack Incident</a>",
         "credit": "<a href=\"\"></a>",
         "url": "static/images/Yorozu_leak.png"
@@ -2049,6 +2097,38 @@
         "year": "2024"
       },
       "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://pcautomotive.com/vulnerabilities-enel-x-waybox-pro-plus-3-0-charger-firmware-en\">Multiple vulnerabilities in Enel X JuiceBox (Waybox) Pro & Plus 3.0 charger</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "static/images/enel-x-waybox-pro-plus-3-0.png"
+      },
+      "text": {
+        "headline": "PCAutomotive 披露 Enel X JuiceBox 挂式充电桩多个漏洞",
+        "text": "PCAutomotive 发现了多个漏洞,这些漏洞可能允许潜在攻击者在 Enel X JuiceBox (Waybox) Pro 和 Plus 3.0 挂式充电桩操作系统中获取最高权限。获取最高权限后,攻击者可以访问充电器上存储的敏感数据、绕过设备所有者设置的充电限制、导致充电器拒绝服务、修改固件。<br/><br/>· CVE-2023-29114: 系统日志泄露,日志页面 /admin/log.php 包含Wi-Fi凭证、APN地址与凭证、IPSEC凭证、WEB管理后台登录凭证,C2G配置等敏感信息。<br/>· CVE-2023-29115:通过 Web 管理界面拒绝服务,访问 /admin/reboot.php 重启充电桩。<br/>· CVE-2023-29116: PHP信息泄露,访问 /admin/phpinfo.php 可获取php版本、服务器环境变量等信息。<br/>· CVE-2023-29117: 身份验证绕过,访问 /api/command.php?action=set_param&amp;param=adminPasswordVisible&amp;values=True之后,明文密码将会出现在主页登录表单上。<br/>· CVE-2023-29118,CVE-2023-29119:未授权的 SQLite 注入。<br/>· CVE-2023-29120:wifi_check中ssid参数的未授权命令注入。<br/>· CVE-2023-29121: 暴露TCF代理服务,1534端口作为Eclipse调试接口,攻击者能够调试程序、修改文件系统以及获取root shell。<br/>· CVE-2023-29122: 特权服务库的文件所有权不正确,CM_main.exe以root权限运行,而使用到的so库的所属用户和组却是 daemon。<br/>· CVE-2023-29125: CM_main.exe监听在7700端口,接收到的消息body部分长度大于0x20000会导致堆溢出。<br/>· CVE-2023-29126: 不安全的松散比较,在密码对比的时候使用==松散比较,如0会等于0e1234。这将会降低攻击者的破解密码的复杂度。<br/><br/>这些漏洞影响2.1.1.0_JB3VU096A之前的固件版本。每一个充电桩都有一个WEB管理后台,可以通过连接Wi-Fi或者前面板下方的以太网接口接入。管理后台的默认密码可在 Enel X 官网上的安全手册中获取。"
+      },
+      "start_date": {
+        "month": "7",
+        "day": "11",
+        "year": "2024"
+      },
+      "group": "vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.blackhat.com/eu-24/briefings/schedule/#over-the-air-compromise-of-modern-volkswagen-group-vehicles-42466\">Over the Air: Compromise of Modern Volkswagen Group Vehicles</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "https://youtu.be/cqBSh8xg-rM"
+      },
+      "text": {
+        "headline": "PCAutomotive 在Black Hat Europe披露大众 MIB3 信息娱乐系统多个漏洞",
+        "text": "汽车安全公司PCAutomotive在黑帽欧洲大会(Black Hat Europe)上披露了12个影响斯柯达Superb III轿车最新款的安全漏洞。PCAutomotive曾在2023年11月22日揭露该车型的9个中低危漏洞,此次披露多个高危漏洞,包括picserver整数溢出和堆溢出、BL2安全启动绕过、网络服务存在命令注入、缺乏访问控制机制、明文存储电话本通信录等。</br></br>这些漏洞存在于斯柯达Superb III车载MIB3信息娱乐单元中,广泛应用于大众集团的多个车型中,涵盖了包括蓝牙连接、GPS导航、娱乐音频和通讯同步等多个功能。成功利用这些漏洞,将实现不受限制的代码执行,并在每次该单元启动时运行恶意代码。这使得攻击者能够获取汽车的GPS实时位置和速度数据,记录车内对话(通过车载麦克风),截取车载显示屏的截图,甚至在车内播放任意声音。攻击者只需要通过蓝牙与斯柯达Superb III的媒体单元连接,便能利用这些漏洞进行攻击。</br></br>这些存在漏洞的MIB3信息娱乐单元不仅影响斯柯达Superb III车型,还广泛应用于多个大众和斯柯达品牌的其他车型。根据公开销售数据,PCAutomotive估算,目前市场上可能有超过140万辆车辆存在类似安全隐患。</br></br>在得知这些漏洞后,大众汽车采取了修复措施,发布了相关的安全补丁。大众公司表示,漏洞已通过网络安全披露程序得到解决,且车主的安全和车辆的驾驶功能未受到威胁。"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "9",
+        "year": "2024"
+      },
+      "group": "vulnerability"
     }
   ]
 }
