@@ -1,0 +1,53 @@
+{
+  "scale": "human",
+  "title": {
+      "media": {
+        "caption": "",
+        "credit": "<a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline <a>",
+        "url": "static/images/Car.jpg"
+      },
+      "text": {
+        "headline": "Automotive Security Events Timeline",
+        "text": "Record automotive information security incidents in chronological order.<br><br>Project: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br><br> E-mail: delikely@gmail.com <br><br>Copyright: <br><br>Please cite the source when using."
+      }
+    },
+    "events": [
+      {
+        "media": {
+          "caption": "<a href=\"\"></a>",
+          "credit": "<a href=\"\"></a>",
+          "url": "static/images/"
+        },
+        "text": {
+          "headline": "",
+          "text": ""
+        },
+        "start_date": {
+          "month": "",
+          "day": "",
+          "year": "2024"
+        },
+        "group": "event"
+      },
+      
+      {
+        "media": {
+          "caption": "<a href=\"\"></a>",
+          "credit": "<a href=\"\"></a>",
+          "url": "static/images/"
+        },
+        "text": {
+          "headline": "",
+          "text": ""
+        },
+        "start_date": {
+          "month": "",
+          "day": "",
+          "year": "2024"
+        },
+        "group": "vulnerability"
+      }
+
+    ]
+}
+
