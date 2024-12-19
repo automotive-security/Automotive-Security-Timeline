@@ -1986,6 +1986,22 @@
       "group":"event"
     },{
       "media": {
+        "caption": "<a href=\"https://info.ioactive.com/acton/fs/blocks/showLandingPage/a/34793/p/p-0088/t/page/fm/0\">Hacking Digital License Plates with Fault Injection</a>",
+        "credit": "<a href=\"https://www.wired.com/story/digital-license-plate-jailbreak-hack/\">Hackers Can Jailbreak Digital License Plates to Make Others Pay Their Tolls and Tickets</a>",
+        "url": "static/images/security_liscense_gettyimages.webp"
+      },
+      "text": {
+        "headline": "IOActive越狱Reviver数字车牌,让其他人支付通行费和罚单",
+        "text":"安全公司IOActive的研究员Josep Pi Rodríguez披露,Reviver的数字车牌存在安全漏洞,可能被“越狱”。研究表明,电子车牌可通过故障注入攻击绕过JTAG调试接口保护,从而访问片上Flash中的固件。故障注入攻击需要将线束连接到车牌内部芯片、监测电压,并在特定时刻通过“电压干扰”关闭安全功能,以分析和重写固件。攻击者可以通过刷写自定义固件,完全控制电子车牌。<br/><br/>研究人员演示了通过刷写新固件后,利用手机应用通过BLE连接车牌修改显示内容。此攻击手段使得能够随意更改车牌号码,规避交通罚单和过路费,甚至将罚单转嫁给他人。不仅可以用来越狱自己的车牌,还可能被用来针对毫不知情的车主。如果黑客、停车服务员或汽车修理工能够拆下车牌并安装自己的固件,他们便可秘密跟踪车主,甚至通过将车牌连接到黑客控制的服务器,远程更改车牌号码。</br></br/>美国多个州已经合法化数字车牌的购买,并允许在全国范围内使用。与传统金属车牌相比,数字车牌具有动态显示、个性化定制以及车辆状态更新(如标记被盗)的优势。Reviver是数字车牌的主要供应商,已销售约6.5万块车牌。"
+      },
+      "start_date": {
+        "month": "8",
+        "day": "9",
+        "year": "2024"
+      },
+      "group": "vulnerability"
+    },{
+      "media": {
         "caption": "<a href=\"https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-general-motors-unlawfully-collecting-drivers-private-data-and\">Attorney General Ken Paxton Sues General Motors for Unlawfully Collecting Drivers’ Private Data and Selling It To Several Companies, Including Insurance Companies</a>",
         "credit": "<a href=\"https://www.texasattorneygeneral.gov/sites/default/files/images/press/General%20Motors%20Data%20Privacy%20Petition%20Filed.pdf\">General Motors Data Privacy Petition Filed</a>",
         "url": "static/images/Texas-AG-sues-GM.webp"
@@ -2132,3 +2148,4 @@
     }
   ]
 }
+
