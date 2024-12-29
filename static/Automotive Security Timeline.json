@@ -2173,6 +2173,22 @@
         "year": "2024"
       },
       "group": "event"
+    }, {
+      "media": {
+        "caption": "<a href=\"https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/Q8ZAV9/\">Wir wissen wo dein Auto steht - Volksdaten von Volkswagen</a>",
+        "credit": "<a href=\"https://www.spiegel.de/netzwelt/web/volkswagen-konzern-datenleck-wir-wissen-wo-dein-auto-steht-a-e12d33d0-97bc-493c-96d1-aa5892861027\">Datenleck beim Volkswagen-Konzern Wir wissen, wo dein Auto steht</a>",
+        "url": "static/images/vw_heapdump_data_leak.webp"
+      },
+      "text": {
+        "headline": "CCC披露,大众汽车因配置错误导致80万辆汽车数据暴露在公网",
+        "text": "在第38界 Chaos Computer Club(CCC) 大会上,CCC安全分析师Flüpke和记者Michael Kreil披露大众汽车大量数据暴露在公网中。 大众汽车集团子公司CARIAD在亚马逊云中存储了 807,357 辆电动汽车的详细的运行数据以及大量车主信息。这些数据的访问凭证能够被未授权获取到。数据包括超过1500万的车架号、车型、制造年份、国家/地区、用户ID;超过60万的用户数据,用户ID、姓名、电子邮件、手机号、出生日期;9.5TB车辆状态数据,包括定位坐标数据等。<br/><br/>其中的定位数据可以精确到10厘米。因此暴露个人的行动轨迹及其他更敏感的行为数据。这一漏洞使得能够极为精准地追踪用户的行踪。《明镜周刊》报道展示了两名德国政治人物的行踪泄露。一名德国国防委员会成员的行踪被定位在其父亲的养老院及德国军事基地,而一位市长的车则记录了她从市政厅到治疗师处的移动轨迹。报告中还包括了汉堡警察局的35辆电动车、其他政治人物、商界领袖以及一些与美国空军拉姆施泰因空军基地有关的司机的信息。<br/><br/>数据泄露的根因在于服务器采用的SpringBoot的Heapdump(内存转储)能够被未授权获取,其中包含AWS(亚马逊云)的访问凭证。从而导致其中存储的大量数据存在泄露的风险。这些数据影响大众、西雅特、奥迪和斯柯达品牌的车辆。<br/><br/>在 Cariad 和大众集团总部等公司收到了CCC的通知后,几个小时内做出了反应,甚至没有试图淡化事件的严重程度。漏洞已被修复,未经授权的人员无法再访问这些数据。"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "27",
+        "year": "2024"
+      },
+      "group": "vulnerability"
     }
   ]
 }
