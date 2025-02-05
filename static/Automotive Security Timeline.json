@@ -2175,7 +2175,7 @@
       "group": "event"
     }, {
       "media": {
-        "caption": "<a href=\"https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/Q8ZAV9/\">Wir wissen wo dein Auto steht - Volksdaten von Volkswagen</a>",
+        "caption": "<a href=\"https://media.ccc.de/v/38c3-wir-wissen-wo-dein-auto-steht-volksdaten-von-volkswage\">Wir wissen wo dein Auto steht - Volksdaten von Volkswagen</a>",
         "credit": "<a href=\"https://www.spiegel.de/netzwelt/web/volkswagen-konzern-datenleck-wir-wissen-wo-dein-auto-steht-a-e12d33d0-97bc-493c-96d1-aa5892861027\">Datenleck beim Volkswagen-Konzern Wir wissen, wo dein Auto steht</a>",
         "url": "static/images/vw_heapdump_data_leak.webp"
       },
@@ -2187,6 +2187,54 @@
         "month": "12",
         "day": "27",
         "year": "2024"
+      },
+      "group": "vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://securelist.com/mercedes-benz-head-unit-security-research/115218/\">Mercedes-Benz Head Unit security research report</a>",
+        "credit": "<a href=\"https://github.com/klsecservices/Advisories/blob/master/K-Mercedes-Benz-2022-004.md\">Advisories</a>",
+        "url": "static/images/mercedes-benz-featured-image-3.jpg"
+      },
+      "text": {
+        "headline": "卡巴斯基披漏奔驰车机多个漏洞",
+        "text": "俄罗斯网络安全公司卡巴斯基发布了一篇博客文章,深入分析了梅赛德斯—奔驰用户体验(MBUX)系统的防盗系统、固件解包、IPC、内部网络以及USB等功能。此次研究主要针对第一代MBUX系统,卡巴斯基详细描述了它的研究发现,并针对每个漏洞发布了安全公告。共获取13个CVE编号,此次披露了部分漏洞的细节。<br/><br/>测试环境包括一辆奔驰 B180 和一个测试台架。在构建测试台架的时候,发现车机会触发防盗进入防盗模式。通过周期性发送特定的CAN报文能够重置防盗状态。MBUX 由 MMB (Multi Media Board) 、BB (Base Board) 、CSB (Country Specific Board)、RH850。通过拆卸存储芯片,从eMMC提取出了MMB固件。另外固件也够从诊断工具网站通过特定的硬件部件号获得。网上可以找一些旧固件,其中部分数据被加密,使用诊断工具内置共享库可以解密这些文件。此外,汽车供应商仍然可以使用诊断工具进行离线更新。<br/><br/>车机定义了多种IPC(thriftme/MoCCA/GCF)<br/>· CVE-2024-37600: MoCCA 基于DSI框架开发,采用HTTP协议传输数据,POST传递的参数 disconnect 参数存在栈溢出。<br/>· CVE-2023-34404: 通过 GCF 协议传递给system函数执行的 iptables 的参数 MAC 地址存在命令注入漏洞。<br/>· 使用Polkit的历史漏洞(CVE-2021-4034)提权。<br/><br/>使用QEMU模拟USB子系统,DeviceManager 负责处理添加、删除、挂载等 USB 事件。GDVariantCodingService 用于为其他服务识别车机和车辆的参数。车机支持通过USB导入和导出用户属性文件(座椅位置、喜欢的广播频道等),服务由CSystemProfileServiceImpl提供。<br/>· CVE-2024-37601: 解码扩展名为 *.ud2 的文件的过程存在堆溢出漏洞。UserData 通过 CHBString 编码数据,CHBString::const_iterator::incrementSteps错误地处理了代码0xe7的字符, 将 UTF8LookUpTable 中的3个字节解析为了1个字节。无序进一步利用,在数据导入过程中触发漏洞,系统会进入冻结状态,只能通过ECU硬复位修复。<br/>· CVE-2023-34402:vt_ab.xml中包含表述哪些服务在处理过程中会被丢弃的描述,由于缺乏检查,攻击者能够以 “UserDataExchangeServiceClient::unpackVoiceTagArchiveOptimized” 服务的 控制写入控制内容的路径。<br/>· CVE-2023-34399:在处理 uapreds.db SQLlite数据中使用的 boost library 1.81 存在整数溢出漏洞"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "17",
+        "year": "2025"
+      },
+      "group": "vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.zerodayinitiative.com/blog/2025/1/23/pwn2own-automotive-2025-day-three-and-final-results\">Pwn2Own Automotive 2025 - Day Three and Final Results</a>",
+        "credit": "<a href=\"https://www.zerodayinitiative.com/blog/2024/9/23/announcing-pwn2own-automotive-for-2025\">Announcing Pwn2Own Automotive for 2025</a>",
+        "url": "static/images/pwn2own_automotive_2025.jfif"
+      },
+      "text": {
+        "headline": "Pwn2Own Automotive 2025 落幕,共披露 49 个 0day",
+        "text": "为期三天(2025年1月21日到23日)的 Pwn2Own 汽车大赛落下帷幕,共发放 886250 美元的赏金,参赛选手共发现 49 个 0day 漏洞。​Summoning 团队的 Sina Kheirkhah 以22万美元的赏金、30.5个积分点的成绩成功摘得 Master of Pwn Automotive 2025 的桂冠。<br/><br/>2024年9月24日,ZDI 发布了 PWN2OWN Automotive 2025 的参赛对象,包括汽车充电桩、车载操作系统。<br/>· 汽车: Tesla<br/>· 车机: Sony XAV-AX8500、Alpine iLX-507、Pioneer DMH-WT7600NEX、Kenwood DMX958XR<br/>· 充电桩: ChargePoint Home Flex (Model CPH50)、Phoenix Contact CHARX SEC-3150、WOLFBOX Level 2 EV Charger、EMPORIA EV Charger Level 2、Tesla Wall Connector、Autel MaxiCharger AC Wallbox Commercial (MAXI US AC W12-L-4G)、Ubiquiti Connect EV Station<br/>· 车载操作系统: AGL、QNX、Android Automotive OS<br/><br/>此次，车机全部被攻破；充电桩大部分被攻破，AGL 被攻破；Tesla、QNX、Android Automotive OS 无团队挑战。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "23",
+        "year": "2025"
+      },
+      "group": "event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://samcurry.net/hacking-subaru\">Hacking Subaru: Tracking and Controlling Cars via the STARLINK Admin Panel</a>",
+        "credit": "<a href=\"\"></a>",
+        "url": "https://youtu.be/0i8juy6RPBI"
+      },
+      "text": {
+        "headline": "斯巴鲁STARLINK管理面板存在任意账户接管漏洞,能够追踪和控制车辆",
+        "text": "<br/><br/>安全研究员Samcurry和Shubham Shah 发现斯巴鲁的STARLINK 汽车互联服务存在身份认证缺陷,导致能够不受限的访问美国、加拿大、日本的所有车辆和用户账户。<br/><br/>通过子域名扫描发现了STARLINK® Admin Portal(https://portal.prod.subarucs.com/login.html)。在对/assets/_js/ 分析中发现密码重置身份验证功能存在缺陷。密码重置接口 /forgotPassword/resetPassword.json 没有校验员工的密码重置凭证,就能够直接重置密码。此外,在另外一个接口  /adminProfile/getSecurityQuestion.json?email=example@example.com 中能够枚举员工邮箱获得此平台中的有效电子邮箱地址。两个漏洞相结合,通过邮箱枚举获取到了有效的员工邮箱地址,使用枚举得到的有效邮箱地址利用任意密码重置漏洞完成账户接管,成功登录后台。虽然后台存在2FA(双因子认证),但只是前台验证,在前端移除遮挡页面后就可以利用平台功能监控车辆轨迹、控制车辆、获取用户数据等。员工能够获取大量的用户数据,然而却不会触发警报。<br/><br/>只需知道受害人的姓氏、邮编、电子邮件地址、电话号码或者车牌号,就可以实现:<br/>· 对任意车辆的启动、关闭、解锁、上锁、获取当前位置；<br/>· 查询任意车辆的过去一年的定位历史记录；<br/>· 查询任意用户的个人标识信息,包括紧急联系人、授权用户、物理地址、账单信息、车辆PIN。<br/>· 访问其他用户数据,包括支持呼叫历史记录、以前的所有者、里程表读数、销售历史记录等。<br/><br/>在报告漏洞后,受影响的系统在 24 小时内进行了修补,未被恶意利用。"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "23",
+        "year": "2025"
       },
       "group": "vulnerability"
     }
