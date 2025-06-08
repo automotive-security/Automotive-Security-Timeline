@@ -2378,6 +2378,23 @@
         },
         {
             "media": {
+                "caption": "<a href=\"https://hunters55rdxciehoqzwv7vgyv6nt37tbwax2reroyzxhou7my5ejyid.onion/companies/5013679069\">Hunters International</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/tata_tech_ransomware_hunter.png"
+            },
+            "text": {
+                "headline": "塔塔科技遭勒索攻击,超73万份敏感文件被窃取",
+                "text": "塔塔科技遭到勒索组织 Hunters International 攻击,超73万份文件,共 1.4TB 敏感数据被勒索组织窃取。该组织要求塔塔科技在六天内支付赎金,否则将公布所有数据。<br/><br/>窃取的数据包括源代码、数据库、技术文档、隐私数据、密码、个人身份信息、金融数据、客户数据、政府相关数据等。<br/><br/>‌塔塔科技(Tata Technologies)是印度塔塔集团旗下的工程技术服务子公司,主要业务涵盖汽车、航空和工业领域的软件研发与数字化解决方案‌。服务于宝马、本田、捷豹、福特和空客等全球知名企业。"
+            },
+            "start_date": {
+                "month": "3",
+                "day": "11",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
                 "caption": "<a href=\"https://www.blackhat.com/asia-25/briefings/schedule/#double-tap-at-the-blackbox-hacking-a-car-remotely-twice-with-mitm-43571\">Double Tap at the Blackbox: Hacking a Car Remotely Twice with MiTM</a>",
                 "credit": "<a href=\"\"></a>",
                 "url": "static/images/mitm_double_tap.png"
@@ -2385,6 +2402,23 @@
             "text": {
                 "headline": "利用中间人攻击连续攻破3款小鹏汽车",
                 "text": "来自360的安全研究员曹颖杰和SigVoid的Xinfeng Chen在Blackhat Asia 2025 发表演讲,纰漏了对小鹏汽车的安全研究成果。通过中间人攻击两次实现对车辆的控制。<br/><br/>1. “游戏中心” 采用不安全的HTTP通道更新,劫持更新流量替换APP,获取到了较低的应用权限。<br/>然后提取出其他应用程序,逆向分析出通过拨号盘打开工程模式的方法。利用CVE-2015-1805 完成权限提升,然后通过逆向 Car Control 实现了车辆控制。<br/><br/>2. 车内部分 Android 应用使用自签名的SSL通信,并信任用户安装的证书。由于证书验证未正确实现,对所有的服务端证书均信任,从而导致能够对加密通信进行中间人攻击。在相同网段中进行ARP攻击,并使用mitmproxy开展中间人攻击,捕获并篡改控车的MQTT消息,实现控车。"
+            },
+            "start_date": {
+                "month": "4",
+                "day": "3",
+                "year": "2025"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://www.blackhat.com/asia-25/briefings/schedule/index.html#drivethru-car-hacking-fast-food-faster-data-breach-43514\">DriveThru Car Hacking: Fast Food, Faster Data Breach</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/DriveThru Car Hacking CVE.png"
+            },
+            "text": {
+                "headline": "安全团队披露:大量行车记录仪存在严重漏洞",
+                "text": "HE&T Security Lab 联合 Global Tech Company 在 Blackhat Asia 2025 发表演讲。对15个品牌、共24款行车记录仪开展了系统性安全研究,发现并利用了数十个漏洞,成功攻破20余款主流设备。研究人员记录了完整攻击流程,包括发现设备、绕过配对、导出音视频与GPS数据、提取路标与位置信息,甚至使用大语言模型开展了进一步分析。<br/><br/>研究揭示的关键漏洞包括:设备配对绕过(如MAC地址伪造)、默认或硬编码的Wi-Fi密码、未授权的HTTP服务、手机应用程序漏洞、文件上传漏洞、以及私有端口文件暴露等问题。<br/><br/>在漏洞利用演示中,研究团队通过文件上传漏洞获取权限,暴力破解root密码,成功修改系统配置,例如关闭电池保护、修改固定密码、禁用音视频录制与水印功能以及横向移动控制车辆等。受影响品牌包括海康威视、THINKWARE、Audi、BMW、BLACKVUE、70mai、IROAD等,凸显当前行车记录仪在设计与安全保障方面存在普遍短板。"
             },
             "start_date": {
                 "month": "4",
@@ -2412,17 +2446,34 @@
         },
         {
             "media": {
-                "caption": "<a href=\"https://mp.weixin.qq.com/s/QBxe7lQD-9xAj_AFhOFxEg\">依维柯（中国）官网搜索结果现色情信息,内容低俗,目前已恢复</a>",
+                "caption": "<a href=\"https://mp.weixin.qq.com/s/QBxe7lQD-9xAj_AFhOFxEg\">依维柯(中国)官网搜索结果现色情信息,内容低俗,目前已恢复</a>",
                 "credit": "<a href=\"\"></a>",
                 "url": "static/media/IVECO官网被篡改.mp4"
             },
             "text": {
                 "headline": "依维柯(中国)官网搜索引擎结果现色情信息",
-                "text": "· 5月27日下午,有车友群传出汽车制造商依维柯(中国)官网疑似被攻击、污染的图片。在搜索引擎结果中,原本应该显示“依维柯中国官网-依维柯进口车”字样的地方,却出现了“少妇人妻……”等低俗内容。依维柯(中国)商用车销售有限公司成立于2012年,是一家位于上海市的以从事汽车进口的企业。<br/>· 5月28日,依维柯在网关首页发布公告\"关于百度搜索引擎相关依维柯此条受到恶意攻击的申明\"。声明称,对不明身份者的篡改和攻击表示强烈谴责,并已采取必要措施保护网站安全。同时郑重明: 任何形式的恶意攻击都属于触犯法律的行为,必将受到法律的严惩。依维柯中国保留向相关责任人追究法律责任的权利。<br/>· 5月29日,网站下线。<br/><br/>网络安全专家分析发现,攻击者篡改 https://iveco.com.cn,替换成了低俗内容。https://iveco.com.cn 会自动跳转到 https://www.iveco.com.cn,从而影响到了位于 https://www.iveco.com.cn 的官网首页(不同浏览器，存在差异)。攻击者利用黑帽 SEO 成功替换了位于不用域名的搜索引擎上显示的内容。<br/><br/>网站维护不到位,容易遭到攻击者入侵并篡改内容。依维柯网站或已遭弃用,最新新闻一栏中,最近一篇文章发自2023年11月。"
+                "text": "· 5月27日下午,有车友群传出汽车制造商依维柯(中国)官网疑似被攻击、污染的图片。在搜索引擎结果中,原本应该显示“依维柯中国官网-依维柯进口车”字样的地方,却出现了“少妇人妻……”等低俗内容。依维柯(中国)商用车销售有限公司成立于2012年,是一家位于上海市的以从事汽车进口的企业。<br/>· 5月28日,依维柯在网关首页发布公告\"关于百度搜索引擎相关依维柯此条受到恶意攻击的申明\"。声明称,对不明身份者的篡改和攻击表示强烈谴责,并已采取必要措施保护网站安全。同时郑重明: 任何形式的恶意攻击都属于触犯法律的行为,必将受到法律的严惩。依维柯中国保留向相关责任人追究法律责任的权利。<br/>· 5月29日,网站下线。<br/><br/>网络安全专家分析发现,攻击者篡改 https://iveco.com.cn,替换成了低俗内容。由于 https://iveco.com.cn 会自动跳转到 https://www.iveco.com.cn,从而影响到了位于 https://www.iveco.com.cn 的官网首页。攻击者利用黑帽 SEO 成功替换了位于不用域名的搜索引擎上显示的内容。<br/><br/>网站维护不到位,容易遭到攻击者入侵并篡改内容。依维柯网站或已遭弃用,最新新闻一栏中,最近一篇文章发自2023年11月。"
             },
             "start_date": {
                 "month": "5",
                 "day": "27",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/CarNet.log\">StormouS-Leaked</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/Volkswagen-ransomware-leak-StormouS.png"
+            },
+            "text": {
+                "headline": "大众汽车遭Stormous勒索攻击,车主账户数据、身份凭证等数据泄露",
+                "text": "全球知名勒索软件团伙Stormous入侵了大众系统并窃取核心数据。根据Stormous发布的声明,其窃取的数据包括:<br/>·用户账户数据(含部分隐藏的电子邮件)<br/>·身份验证令牌(OAuth令牌、JWT令牌)<br/>·内部系统登录链接(如https://identity.vwgourp.io)<br/>·会话Cookies(如JSESSIONID等)<br/>·身份与访问控制信息(电子邮件、个人资料、车辆VIN码、电话号码等)<br/><br/>泄露的身份验证令牌和其他数据可能导致账户被接管和未经授权的访问尝试。攻击者可能获得远超传统数据泄露的破坏力,车辆位置信息的暴露,以及用户个人隐私泄露,甚至威胁车辆控制安全。。<br/><br/>大众汽车回应称,初步内部调查未发现有外部第三方未经授权访问客户个人数据或公司敏感数据,也没有发现数据被滥用的迹象。公司表示将继续评估相关信息,并在必要时向执法机关报告,同时重申其对用户数据保护的重视,承诺认真调查所有可信的安全事件。该公司强调,正在持续评估所有可获得的信息,并将在必要时将此事上报执法机构。大众重申其保护用户数据的承诺,表示对任何未经授权访问的报告都高度重视,并会对可信的线索进行彻底调查。"
+            },
+            "start_date": {
+                "month": "5",
+                "day": "31",
                 "year": "2025"
             },
             "group": "event"
