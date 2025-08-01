@@ -2477,6 +2477,23 @@
                 "year": "2025"
             },
             "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://perfektblue.pcacybersecurity.com\">PerfektBlue</a>",
+                "credit": "<a href=\"https://pcacybersecurity.com/resources/advisory/perfekt-blue\">PerfektBlue - critical vulnerabilities in OpenSynergy Blue SDK A chain of 4 vulnerabilities in Blue SDK Bluetooth stack leading to 1-click RCE</a>",
+                "url": "static/images/PerfektBlue.png"
+            },
+            "text": {
+                "headline": "PerfektBlue: OpenSynergy BlueSDK 存在严重蓝牙漏洞攻击链",
+                "text": "安全公司PCA Cyber Security 披露的一个具有广泛影响的严重蓝牙空口攻击链 PerfektBlue,影响汽车及其他行业的数百万设备。该攻击链利用了多个存在于 OpenSynergy 的 BlueSDK蓝牙协议栈中的漏洞。BlueSDK中存在4个可被链式利用的漏洞,目标用户点击一次即可实施攻击。一旦成功利用这些漏洞,攻击者即可在目标设备上实现远程代码执行。<br/>·CVE-2024-45434:AVRCP服务存在UAF漏洞;<br/>·CVE-2024-45431:L2CAP CID 验证不当;<br/>·CVE-2024-45432:在 RFCOMM 协议中使用了错误参数的函数调用;<br/>·CVE-2024-45433:RFCOMM 协议中函数未正确终止。<br/><br/>研究人员利用PerfektBlue成功获取到 Volkswagen ID.4、Mercedes-Benz NTG6&NTG7、Skoda Superb 车载信息娱乐系统的蓝牙应用shell权限。<br/><br/>虽然 BlueSDK 也用于其他领域(如手机和便携式设备),但大多数潜在受影响的设备属于汽车领域。研究人员利用公开的蓝牙认证信息资源,识别出使用 BlueSDK 框架的厂商和产品。部分受影响的厂商包括:梅赛德斯-奔驰(Mercedes-Benz AG)、大众(Volkswagen)、斯柯达(Skoda)。如果攻击者在车载信息娱乐系统(IVI)中实现了代码执行,他们可能会:跟踪车辆 GPS 位置;<br/>监听车内音频;窃取电话簿等个人信息;并横向移动攻击其他电子控制单元(ECU)。无论是利用合法接口还是进一步漏洞利用,最终可能获取对车辆关键系统的控制权限。"
+            },
+            "start_date": {
+                "month": "7",
+                "day": "10",
+                "year": "2025"
+            },
+            "group": "vulnerability"
         }
     ]
 }
