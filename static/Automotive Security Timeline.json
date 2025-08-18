@@ -2463,13 +2463,30 @@
         },
         {
             "media": {
+                "caption": "<a href=\"https://hardwear.io/usa-2025/presentation/hardware-hacking-a-cars-head-unit-and-uncovering-a-vulnerable-rtos.pdf\">Hardware Hacking a Car’s Head Unit & Uncovering a Vulnerable RTOS</a>",
+                "credit": "<a href=\"https://github.com/revers3everything/hack-iRTOS\">Tool to hack the KIA Automotive Infotainment Console that use iRTOS</a>",
+                "url": "https://youtu.be/JXGRR8XxKIc?si=85sQWP3P-KLHQ2PS"
+            },
+            "text": {
+                "headline": "安全研究员披露 KIA RTOS 车机系统多个漏洞",
+                "text": "在安全会议 Hardwear.io USA 2025/Defcon 33上,研究员 Danilo Erazo 披露 KIA 多款车型(KIA Soluto/Pegas/Picanto等)使用的RTOS车机 MOTREX MTXNC10AB 系统中存在严重漏洞。问题包括弱校验、不完整的固件完整性保护、私钥泄露、使用过时库及不安全蓝牙配对。这些缺陷可导致 固件篡改、持久后门、隐私泄露及通信劫持,对车辆安全构成重大威胁。研究还演示了通过篡改固件中维修手册的二维码图片,将其替换为钓鱼链接,实现恶意跳转,展示了车机可被后门化与社会工程攻击结合的风险。<br/><br/> · Bootloader仅采用 1 字节 CRC 校验,校验强度不足。<br/>· 固件完整性校验未覆盖全部二进制文件,存在绕过风险。<br/>· 依赖的三方库 MattrixSSL 3.7、libpng 1.2.29 存在已知漏洞。<br/>· 车机未明文存储通信、签名私钥,如获取后能够解密通信流量、为恶意更新包签名。<br/>· 蓝牙 PIN 码以明文形式记录在 UART 日志中。<br/>· 车机强制使用不安全的蓝牙传统配对(Legacy Pairing)方式。"
+            },
+            "start_date": {
+                "month": "5",
+                "day": "30",
+                "year": "2025"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
                 "caption": "<a href=\"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/CarNet.log\">StormouS-Leaked</a>",
                 "credit": "<a href=\"\"></a>",
                 "url": "static/images/Volkswagen-ransomware-leak-StormouS.png"
             },
             "text": {
                 "headline": "大众汽车遭Stormous勒索攻击,车主账户数据、身份凭证等数据泄露",
-                "text": "全球知名勒索软件团伙Stormous入侵了大众系统并窃取核心数据。根据Stormous发布的声明,其窃取的数据包括:<br/>·用户账户数据(含部分隐藏的电子邮件)<br/>·身份验证令牌(OAuth令牌、JWT令牌)<br/>·内部系统登录链接(如https://identity.vwgourp.io)<br/>·会话Cookies(如JSESSIONID等)<br/>·身份与访问控制信息(电子邮件、个人资料、车辆VIN码、电话号码等)<br/><br/>泄露的身份验证令牌和其他数据可能导致账户被接管和未经授权的访问尝试。攻击者可能获得远超传统数据泄露的破坏力,车辆位置信息的暴露,以及用户个人隐私泄露,甚至威胁车辆控制安全。。<br/><br/>大众汽车回应称,初步内部调查未发现有外部第三方未经授权访问客户个人数据或公司敏感数据,也没有发现数据被滥用的迹象。公司表示将继续评估相关信息,并在必要时向执法机关报告,同时重申其对用户数据保护的重视,承诺认真调查所有可信的安全事件。该公司强调,正在持续评估所有可获得的信息,并将在必要时将此事上报执法机构。大众重申其保护用户数据的承诺,表示对任何未经授权访问的报告都高度重视,并会对可信的线索进行彻底调查。"
+                "text": "全球知名勒索软件团伙Stormous入侵了大众系统并窃取核心数据。根据Stormous发布的声明,其窃取的数据包括:<br/>·用户账户数据(含部分隐藏的电子邮件)<br/>·身份验证令牌(OAuth令牌、JWT令牌)<br/>·内部系统登录链接(如https://identity.vwgourp.io)<br/>·会话Cookies(如JSESSIONID等)<br/>·身份与访问控制信息(电子邮件、个人资料、车辆VIN码、电话号码等)<br/><br/>泄露的身份验证令牌和其他数据可能导致账户被接管和未经授权的访问尝试。攻击者可能获得远超传统数据泄露的破坏力,车辆位置信息的暴露,以及用户个人隐私泄露,甚至威胁车辆控制安全。<br/><br/>大众汽车回应称,初步内部调查未发现有外部第三方未经授权访问客户个人数据或公司敏感数据,也没有发现数据被滥用的迹象。公司表示将继续评估相关信息,并在必要时向执法机关报告,同时重申其对用户数据保护的重视,承诺认真调查所有可信的安全事件。该公司强调,正在持续评估所有可获得的信息,并将在必要时将此事上报执法机构。大众重申其保护用户数据的承诺,表示对任何未经授权访问的报告都高度重视,并会对可信的线索进行彻底调查。"
             },
             "start_date": {
                 "month": "5",
@@ -2490,6 +2507,74 @@
             },
             "start_date": {
                 "month": "7",
+                "day": "10",
+                "year": "2025"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://www.nowsecure.com/blog/2025/07/16/remote-code-execution-discovered-in-xtool-anyscan-app-risks-to-phones-and-vehicles/\">Remote Code Execution Discovered in XTool AnyScan App: Risks to Phones and Vehicles</a>",
+                "credit": "<a href=\"https://play.google.com/store/apps/details?id=com.xtooltech.XtoolAnyscan&hl=en_US\">Xtool Anyscan</a>",
+                "url": "static/images/XTool Anyscan.png"
+            },
+            "text": {
+                "headline": "知名汽车诊断仪厂商XTool(朗仁)旗下 AnyScan 应用存在远程代码执行漏洞:威胁手机与车辆安全",
+                "text": "朗仁(XTOOL)是深圳云伽智能旗下汽车智能诊断品牌,AnyScan 是郎仁的一款运行在安卓手机上的汽车诊断应用程序,支持通过连接OBD—II适配器远程诊断汽车。Xtool Anyscan 在Google Play 应用商店下载次数超5万次。<br/><br/>安全公司 Nowsecure 发现 XTool(朗仁) AnyScan  4.40.11版本安卓 应用在更新机制、加密与通信上存在严重设计缺陷。攻击者可利用不安全的插件更新功能,通过中间人攻击投递恶意代码,控制用户手机,并进一步向车辆下发恶意 CAN 指令。此漏洞不仅危害移动设备安全,更可能导致车辆被远程操控,威胁用户隐私与行车安全。<br/>· 不安全更新机制:应用内插件更新绕过 Google Play 审核,缺乏签名验证。<br/>· TLS 校验缺失:自定义 TrustManager 接受所有证书,攻击者可伪造服务器劫持流量。<br/>· 弱加密与硬编码:更新数据使用 DES 56 位算法,密钥与 IV 硬编码,易被解密篡改。<br/>· 更新完整性缺陷:仅提供 MD5,但未实际校验,允许恶意插件替换。<br/><br/>· 手机层面,应用拥有摄像头、GPS、蓝牙、文件系统等敏感权限,攻击者成功利用后可获取敏感信息。<br/>· 车辆层面,通过 OBD-II 接口与车辆总线交互,恶意代码可下发危险 CAN 指令,导致解锁车门、发动机控制等风险。<br/><br/>2025年6月10日Nowsecure将漏洞告知朗仁科技,7月11日收到确认。但截止Nowsecure披露漏洞(7月16日) AnyScan 最新版 4.40.40 漏洞仍然存在,Nowsecure 建议卸载AnyScan,等漏洞修复后使用安全的版本。"
+            },
+            "start_date": {
+                "month": "7",
+                "day": "16",
+                "year": "2025"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://blackhat.com/us-25/briefings/schedule/#tracking-the-tractors-analyzing-smart-farming-automation-systems-for-fun-and-profit-45419\">Tracking the Tractors: Analyzing Smart Farming Automation Systems for Fun and Profit</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/FJDynamics_BHUSA.png"
+            },
+            "text": {
+                "headline": "丰疆智能农机自动驾驶系被统存在严重漏洞,数万台拖拉机可被远程入侵与控制",
+                "text": "来自 LIMES Security 的研究员 Felix Eberstaller 与 Bernhard Rader 在 Black Hat USA 2025 披露,FJDynamics(丰疆智能) 的智能农机自动驾驶系统存在严重漏洞,全球数万台拖拉机可被远程入侵与控制。<br/><br/>研究人员发现,智能农机使用 MQTT 云平台和 Android 平板作为人机界面,缺乏基本安全防护。攻击者可拦截并解密 MQTT 通信,伪装成任意拖拉机接入云端,获取农户位置、土地信息和设备运行状态,甚至远程下发锁定指令使设备停用。系统 OTA 更新未启用 TLS 或签名校验,攻击者可通过中间人攻击实现远程代码执行,全面接管设备。漏洞还可用于操纵转向系统、篡改 GPS 数据、窃取农户隐私,影响农业关键基础设施安全。<br/><br/>· MQTT 使用的 TLS 没有校验服务器的合法性,使用自签名证书可以劫持加密的MQTT通信。<br/>· MQTT 访问控制缺失,使用 /# 可以订阅全部的Topic,获取其他车辆的消息,甚至发布消息远程锁车、发送通知等。<br/>· 使用车载Android平板设计只能使用 FJDynamics应用,但可逃逸到原生系统。<br/>· APK 升级通过明文传输,只有MD5完整性校验,无合法性校验。通过中间人替换应用,获取到了Root权限。<br/>· 成功逆向了Android平板上的车控协议,通过串口 ttyS0 发送给 ECU 实现方向盘控制。<br/>"
+            },
+            "start_date": {
+                "month": "8",
+                "day": "7",
+                "year": "2025"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://www.securityweek.com/free-wi-fi-leaves-buses-vulnerable-to-remote-hacking/\">Smart Bus Smart Hacking: From Free WiFi to Total Control</a>",
+                "credit": "<a href=\"https://media.defcon.org/DEF CON 33/DEF CON 33 presentations/Chiao-Lin Yu - Gateways to Chaos - How We Proved Modems Are a Ticking Time Bomb That Hackers Can Access Everywhere.pdf\">Gateways to Chaos - How We Proved Modems Are a Ticking Time Bomb That Hackers Can Access Everywhere</a>",
+                "url": "static/images/bus-tracking.webp"
+            },
+            "text": {
+                "headline": "智能公交黑客攻击:从免费 Wi-Fi 到全面控制",
+                "text": "研究员 Chiao-Lin Yu (Steven Meow) (Trend Micro Taiwan)与 Kai-Ching ‘Keniver’ Wang(CHT Security)在 DEFCON 33 披露,台湾智能公交车系统存在严重漏洞,攻击者可远程入侵车辆。<br/><br/>某公交车提供的免费 Wi-Fi。分析发现,车载 M2M 路由器(Billion M120N)同时负责乘客 Wi-Fi 与车辆核心系统(APTS、ADAS),且未做网络隔离。研究员绕过路由器认证后进入后台,进一步发现多项漏洞,包括命令注入等。攻击者可在互联网上定位并远程攻击公交车,进而获取 GPS 位置、发动机转速、平均车速、摄像头视频等敏感数据,并能篡改显示屏、制造虚假报警、窃取乘客与司机信息,甚至干扰公交运营。采用的协议缺乏加密与认证,系统极易遭受中间人攻击,危及公共交通安全。"
+            },
+            "start_date": {
+                "month": "8",
+                "day": "10",
+                "year": "2025"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://media.defcon.org/DEF CON 33/DEF CON 33 presentations/Eaton Zveare Roshan Piyush - Unexpected Connections How a vulnerability in obscure dealer software could have unlocked your car from anywhere.pdf\">How a vulnerability in obscure dealer software could have unlocked your car from anywhere</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/obsecure_1000_dealer.png"
+            },
+            "text": {
+                "headline": "API 漏洞致美国千余经销商与车辆被控",
+                "text": "安全研究员 Eaton Zveare 在 DEFCON 33 上披露某大型车企的经销商平台存在严重漏洞,影响全美 1000 多家经销商,攻击者可远程接管车辆控制。<br/><br/>该集中式经销商系统用于订车、销售、客户管理与车辆绑定。研究员发现注册与权限验证存在缺陷,可创建全国级别管理员账户,进而访问和控制所有经销商功能。攻击者可利用该入口获取消费者隐私信息,通过 VIN 或姓名定位目标车辆,并滥用经销商的车主绑定系统,强行将车辆转移到自己的账户,实现远程启动车辆、解锁车门与位置追踪。<br/><br/>首先发现了隐藏注册表单,通过修改网页前端正常显示注册表单。由于服务端未验证注册用户的凭证,可随意创建账号。起初创建的账号因为需要审批才能使用,系统的验证机制阻断了进一步操作。而后,发现管理员用户管理的JS脚本,修改JS脚本绕过本地认证,成功创建“全国管理员”账户。"
+            },
+            "start_date": {
+                "month": "8",
                 "day": "10",
                 "year": "2025"
             },
