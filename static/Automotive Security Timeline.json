@@ -2579,6 +2579,57 @@
                 "year": "2025"
             },
             "group": "vulnerability"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/\"></a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/Nissan_CBI_Qilin.png"
+            },
+            "text": {
+                "headline": "日产遭勒索软件入侵,4TB核心数据被盗",
+                "text": "日本汽车制造商日产(Nissan)确认,其子公司 Creative Box Inc.(CBI)发生数据泄露事件,涉及核心车辆设计资料。此次攻击由 Qilin 勒索软件组织发起,并声称窃取了 4TB 数据,405882 个文件,包括 3D 整车设计模型、内部报告、财务文件、虚拟现实(VR)设计流程及车辆照片等。<br/><br/>CBI 成立于东京,隶属于日产汽车,是一家专注于实验性与概念车型设计的“智库型”设计工作室。<br/><br/>日产发言人表示,8 月 16 日,CBI 在其数据服务器上发现可疑访问行为,随即采取应急措施,包括切断服务器访问,并第一时间向警方报案。<br/><br/>8 月 20 日,Qilin 便将 CBI 列入其暗网勒索门户,声称已掌握所有设计项目数据,并威胁如果不支付赎金,将公开这些信息,让竞争对手获益。Qilin 还在暗网上展示了数 张窃取文件的照片,其中包括车辆 3D 渲染图、电子表格、内部文件以及汽车内饰设计图片。<br/><br/>日产强调,此次泄露仅涉及公司自身数据,不会波及其他客户、承包商或第三方公司。"
+            },
+            "start_date": {
+                "month": "8",
+                "day": "20",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://media.jaguarlandrover.com/news/2025/09/statement-cyber-incident\">Statement on Cyber Incident</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/JLR_statement_on_cyber_incident_202509.png"
+            },
+            "text": {
+                "headline": "捷豹路虎遭受网络攻击停产,3.3万员工“被迫休假”",
+                "text": "2025年9月2日,印度塔塔汽车旗下英国车企捷豹路虎(Jaguar Land Rover,JLR)披露其全球生产遭遇严重网络攻击,导致核心生产系统中断,多地工厂被迫停产,部分员工暂时停工。<br/>JLR 确认攻击者已窃取部分数据,并已向相关监管机构报告数据泄露。<br/><br/>此次事件冲击范围广泛,斯洛伐克、中国、印度、巴西的生产线全面停摆,英国中部及默西塞德郡的工厂同样停产。供应链也受到严重影响:部分零部件供应商因无法访问 JLR 订单系统陷入停顿,专供 JLR 的企业如 Evtec、WHS Plastics 被迫暂停运营。经销商与维修店亦受到波及,数字零件订购平台瘫痪,导致客户车辆维修延误。<br/><br/>网络犯罪联盟 “Scattered Lapsus$ Hunters”(由 Shiny Hunters、Lapsus$、Scattered Spider 组成)宣称对此次攻击负责,并在 Telegram 群组中公布了 JLR 内部 SAP 系统截图。外界推测攻击者可能利用了 SAP NetWeaver 已知漏洞(CVE-2025-31324、CVE-2025-42999)入侵。<br/><br/>JLR 表示正与 英国国家网络安全中心(NCSC) 及第三方安全专家合作,推进全球系统的安全重启和取证调查。公司预计最早将在 9月24日 恢复部分工厂生产。"
+            },
+            "start_date": {
+                "month": "9",
+                "day": "2",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"\"></a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/Bridgestone-cyberattack-disrupts-manufacturing-raises-supply-chain-concerns.webp"
+            },
+            "text": {
+                "headline": "全球最大轮胎厂商普利司通遭勒索攻击,多个工厂生产中断",
+                "text": "2025年9月2日,普利司通美洲公司(Bridgestone Americas, BSA)位于美国南卡罗来纳州艾肯县的两家制造工厂遭遇网络安全事件,导致部分生产中断。次日,加拿大媒体报道,BSA在魁北克省若列特县的工厂也出现类似生产中断。<br/><br/>BSA 是日本跨国轮胎制造商普利司通在北美的分支机构,运营 50 家工厂,雇佣约 5.5 万名员工,约占普利司通整体规模的 43%。<br/><br/>公司表示,为受影响的员工提供了两种选择:可以继续在岗进行预防性维护并领取全日工资,或选择回家但不发工资。BSA 同时强调,目前没有迹象表明客户数据受到影响,公司正在持续调查事件,并采取措施保障生产连续性和供应链稳定。"
+            },
+            "start_date": {
+                "month": "9",
+                "day": "2",
+                "year": "2025"
+            },
+            "group": "event"
         }
     ]
 }
