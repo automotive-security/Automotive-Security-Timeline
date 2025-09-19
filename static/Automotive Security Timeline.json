@@ -3,12 +3,12 @@
     "title": {
         "media": {
             "caption": "",
-            "credit": "<a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline <a>",
+            "credit": "<a href=\"https://github.com/automotive-security/Automotive-Security-Timeline\"> Automotive Security Timeline <a>",
             "url": "static/images/Car.jpg"
         },
         "text": {
             "headline": "车联网安全事件时间轴",
-            "text": "按照时间发生的先后顺序记录汽车信息安全事件<br/><br/>项目地址: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br/><br/> 联系邮箱: delikely@gmail.com <br/><br/>Copyright: 青骥信息安全小组<br/><br/>使用请注明出处<br/><br/>Call for maintainer to build this Automotive Security Timeline in English, if you would participate, feel free to contact me by E-mail(delikely@gmail.com)"
+            "text": "按照时间发生的先后顺序记录汽车信息安全事件<br/><br/>项目地址: <a href=\"https://github.com/automotive-security/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br/><br/> 联系邮箱: delikely@gmail.com"
         }
     },
     "events": [
@@ -892,6 +892,23 @@
             "start_date": {
                 "month": "3",
                 "day": "1",
+                "year": "2022"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"\"></a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/LockBitBridgestoneTimer.jpg"
+            },
+            "text": {
+                "headline": "轮胎巨头普利司通遭勒索攻击,工厂停产",
+                "text": "2 月 27 日,普利司通美洲公司(Bridgestone Americas, BSA)位于美国田纳西州 La Vergne 工厂的员工报告因网络安全事件被临时停工。公司随即启动调查,并聘请咨询公司 Accenture Security 评估事件影响。为防止潜在扩散,公司断开了拉美和北美多家制造及翻新设施的网络连接。公司声明指出,调查仍在进行中,目前尚无法确定事件的具体范围或性质,但将持续努力保护运营、数据、员工及客户的安全。<br/><br/>受攻击影响,工厂停工约十多天后,于 3 月 10 日全面恢复生产。公司正在与Accenture Security紧密合作,分析事件细节,并确认被窃取的数据类型。普利司通强调,员工、客户及合作伙伴信息的安全始终是首要任务。<br/><br/>事件发生后,普利司通积极通知美国联邦执法机构,并保持持续沟通。普利司通表示,将继续采取措施强化网络安全,防止类似事件再次发生。"
+            },
+            "start_date": {
+                "month": "2",
+                "day": "27",
                 "year": "2022"
             },
             "group": "event"
@@ -2621,12 +2638,46 @@
                 "url": "static/images/Bridgestone-cyberattack-disrupts-manufacturing-raises-supply-chain-concerns.webp"
             },
             "text": {
-                "headline": "全球最大轮胎厂商普利司通遭勒索攻击,多个工厂生产中断",
+                "headline": "轮胎巨头普利司通遭勒索攻击,多个工厂生产中断",
                 "text": "2025年9月2日,普利司通美洲公司(Bridgestone Americas, BSA)位于美国南卡罗来纳州艾肯县的两家制造工厂遭遇网络安全事件,导致部分生产中断。次日,加拿大媒体报道,BSA在魁北克省若列特县的工厂也出现类似生产中断。<br/><br/>BSA 是日本跨国轮胎制造商普利司通在北美的分支机构,运营 50 家工厂,雇佣约 5.5 万名员工,约占普利司通整体规模的 43%。<br/><br/>公司表示,为受影响的员工提供了两种选择:可以继续在岗进行预防性维护并领取全日工资,或选择回家但不发工资。BSA 同时强调,目前没有迹象表明客户数据受到影响,公司正在持续调查事件,并采取措施保障生产连续性和供应链稳定。"
             },
             "start_date": {
                 "month": "9",
                 "day": "2",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://www.oligo.security/blog/pwn-my-ride-exploring-the-carplay-attack-surface\">Pwn My Ride: Exploring the CarPlay Attack Surface</a>",
+                "credit": "<a href=\"https://www.oligo.security/blog/airborne\">irborne: Wormable Zero-Click Remote Code Execution (RCE) in AirPlay Protocol Puts Apple & IoT Devices at Risk</a>",
+                "url": "static/media/CVE-2025-24132-Exploit-Demo-Car-Multimedia-System-Stack-Overflow_1080pFHR.mp4"
+            },
+            "text": {
+                "headline": "Apple CarPlay 可被远程操控,干扰驾驶员操作并实施监控",
+                "text": "来自安全公司 Oligo Security 的研究人员在DEFCON 33 进一步披露了影响大量汽车的 Apple CarPlay 漏洞细节。此前于4月29日,已披露命名为 Airborne 的AirPlay协议栈系列漏洞。<br/> <br/>CVE-2025-24132 是 Airborne 中影响 CarPlay 的一个缓冲区溢出漏洞。该漏洞允许攻击者通过 USB 或网络接入对 CarPlay 执行任意代码(RCE),可能进一步渗透车载网络,威胁车载通信、个人隐私数据,甚至影响车辆安全功能。<br/> <br/>该攻击针对的是CarPlay用于建立无线连接的iAP2协议。iAP2采用单向认证,手机会对车载信息娱乐系统(车机)进行认证,但车机不会对手机进行认证。即汽车会检查其是否与合法设备通信,但该设备会接受任何使用iAP2的客户端。攻击者如果拥有蓝牙无线电设备和兼容的iAP2客户端,就可以伪装成iPhone,请求WiFi凭据,触发应用程序启动并发出任何iAP2命令。一旦黑客完成蓝牙配对过程,就可以通过iAP2进行认证,获取WiFi凭据,并连接到汽车热点。组合利用CVE-2025-24132实现远程任意代码执行。成功利用该漏洞的攻击者能够窃取车辆位置数据、监听通话内容,甚至干扰驾驶员操作。<br/><br/>漏洞影响采用 AirPlay音频SDK 2.7.1之前版本、AirPlay视频SDK 3.6.0.126之前版本以及CarPlay通信插件R18.1及其之前版本的设备。苹果在4月底修补了CVE-2025-24132,但目前只有少数供应商将该补丁集成到了他们的产品中。"
+            },
+            "start_date": {
+                "month": "9",
+                "day": "9",
+                "year": "2025"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/\"></a>",
+                "credit": "<a href=\"http://gxp6yt3wdj7yky27j37jfrrbkuy24n2zo5uxyuoy23uf76d6m2gnfpid.onion\"></a>",
+                "url": "static/images/BMW_Ransomware_Everest.png"
+            },
+            "text": {
+                "headline": "BMW 遭勒索软件组织Everest攻击,揭示系统性违规与质量隐患",
+                "text": "勒索软件组织 Everest Group 在其暗网数据泄露平台上发布了与 BMW 相关的信息,并附带倒计时,声称在机密文件全面公开前留给企业有限的谈判时间。<br/><br/>Everest 表示,他们掌握了大量文件,这些资料揭示了长期存在的违规行为,并指出可能导致整车和零部件问题的根源。相关文件覆盖 2021–2025 年,包括内部报告、日志和邮件,内容显示违规问题多年未得到实质整改,仅在纸面上被关闭。<br/><br/>Everest声称,已确认以下事实:<br/>· 静电防护问题自 2022 年起被记录,却在无证据的情况下被形式性关闭;<br/>· KPI 和 QUISS 至少自 2023 年起持续显示红色,直至 2024 年;<br/>· 线束问题至 2025 年仍未解决;<br/>· 冷却软管案例被关闭时无任何证据。<br/><br/>9 月 19 日,由于 BMW 未与 Everest 进行联系,首批文件已被公开。"
+            },
+            "start_date": {
+                "month": "9",
+                "day": "14",
                 "year": "2025"
             },
             "group": "event"
