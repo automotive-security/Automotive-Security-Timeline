@@ -2622,7 +2622,7 @@
             },
             "text": {
                 "headline": "捷豹路虎遭受网络攻击停产,3.3万员工“被迫休假”",
-                "text": "2025年9月2日,印度塔塔汽车旗下英国车企捷豹路虎(Jaguar Land Rover,JLR)披露其全球生产遭遇严重网络攻击,导致核心生产系统中断,多地工厂被迫停产,部分员工暂时停工。<br/>JLR 确认攻击者已窃取部分数据,并已向相关监管机构报告数据泄露。<br/><br/>此次事件冲击范围广泛,斯洛伐克、中国、印度、巴西的生产线全面停摆,英国中部及默西塞德郡的工厂同样停产。供应链也受到严重影响:部分零部件供应商因无法访问 JLR 订单系统陷入停顿,专供 JLR 的企业如 Evtec、WHS Plastics 被迫暂停运营。经销商与维修店亦受到波及,数字零件订购平台瘫痪,导致客户车辆维修延误。<br/><br/>网络犯罪联盟 “Scattered Lapsus$ Hunters”(由 Shiny Hunters、Lapsus$、Scattered Spider 组成)宣称对此次攻击负责,并在 Telegram 群组中公布了 JLR 内部 SAP 系统截图。外界推测攻击者可能利用了 SAP NetWeaver 已知漏洞(CVE-2025-31324、CVE-2025-42999)入侵。<br/><br/>JLR 表示正与 英国国家网络安全中心(NCSC) 及第三方安全专家合作,推进全球系统的安全重启和取证调查。公司预计最早将在 9月24日 恢复部分工厂生产。"
+                "text": "2025年9月2日,印度塔塔汽车旗下英国车企捷豹路虎(Jaguar Land Rover,JLR)披露其全球生产遭遇严重网络攻击,导致核心生产系统中断,多地工厂被迫停产,部分员工暂时停工。<br/>JLR 确认攻击者已窃取部分数据,并已向相关监管机构报告数据泄露。<br/><br/>此次事件冲击范围广泛,斯洛伐克、中国、印度、巴西的生产线全面停摆,英国中部及默西塞德郡的工厂同样停产。供应链也受到严重影响:部分零部件供应商因无法访问 JLR 订单系统陷入停顿,专供 JLR 的企业如 Evtec、WHS Plastics 被迫暂停运营。经销商与维修店亦受到波及,数字零件订购平台瘫痪,导致客户车辆维修延误。<br/><br/>网络犯罪联盟 “Scattered Lapsus$ Hunters”(由 Shiny Hunters、Lapsus$、Scattered Spider 组成)宣称对此次攻击负责,并在 Telegram 群组中公布了 JLR 内部 SAP 系统截图。外界推测攻击者可能利用了 SAP NetWeaver 已知漏洞(CVE-2025-31324、CVE-2025-42999)入侵。<br/><br/>JLR 表示正与 英国国家网络安全中心(NCSC) 及第三方安全专家合作,推进全球系统的安全重启和取证调查。公司预计最早将在 9月24日 恢复部分工厂生产。9月23日,JLR 宣布将继续停工到10月1日。"
             },
             "start_date": {
                 "month": "9",
@@ -2678,6 +2678,58 @@
             "start_date": {
                 "month": "9",
                 "day": "14",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://www.mass.gov/doc/2025-1648-volvo-group-north-america-llc/download\">Notice of a Data Breach</a>",
+                "credit": "<a href=\"http://dcarryhaih5oldidg3tbqwnde4lxljytnpvberrwgj2vlvunopd46dad.onion/\">Datacarry</a>",
+                "url": "static/images/Miljödata_datacarry.png"
+            },
+            "text": {
+                "headline": "Miljödata 被勒索攻击导致 Volvo 员工信息泄露",
+                "text": "Volvo 的人力资源软件供应商 Miljödata 于 2025 年 8 月 20 日遭遇勒索软件攻击,导致 Volvo 员工的部分个人信息被未经授权访问。此次事件影响范围主要涉及员工姓名与社会安全号码(SSN)。Volvo Group 系统未直接受到攻击。<br/><br/>Miljödata 在 8 月 23 日发现系统被勒索软件感染,并于 9 月 2 日确认部分 Volvo 员工数据可能遭到访问。由于 Miljödata 系统托管部分 Volvo 人力资源数据,泄露信息包括姓名与社会安全号等敏感身份要素。事件曝光后,Miljödata 启动取证调查并加强安全措施,Volvo Group 向受影响员工提供 Allstate 的 18 个月身份保护与信用监控服务,以降低潜在身份盗用风险。"
+            },
+            "start_date": {
+                "month": "9",
+                "day": "24",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://breachforums.hn/stellantis.html\">Scattered LAPSUS$ Hunters</a>",
+                "credit": "<a href=\"https://media.stellantisnorthamerica.com/newsrelease.do?id=27079&mid=1\">Third-Party Platform Data Incident</a>",
+                "reference": "https://status.salesforce.com/generalmessages/20000224?locale=en-US",
+                "url": "static/images/stellantis_25_Scattered LAPSUS$ Hunters.png"
+            },
+            "text": {
+                "headline": "Stellantis 第三方平台数据泄露大量用户敏感信息",
+                "text": "2025 年 8 月,黑客组织 Scattered LAPSUS$ Hunters宣称侵入 Stellantis 所使用的第三方客户服务平台,外泄约 59 GB、超过 1820 万条记录(包括姓名、邮箱、住址、电话号码、车辆持有情况、经销商与员工信息等个人敏感信息),并以此进行勒索威胁。<br/><br/>Stellantis 随后确认事件涉及其北美客户服务的第三方平台,攻击者利用导出接口滥用进行大规模数据转储。此次攻击疑似源于对 Salesforce 实例的社会工程攻击,多个大型企业受到影响。<br/><br/>攻击者10月3日,在其勒索门户公布文件名(maserati.csv、fcagroup_dump_account.json、fcagroup_dump_contact.jsonl、 fcagroup_dump_user.jsonl)以及泄露记录清单。攻击方声称若在 10 月 10 日前未达成和解,将进一步公开全部泄露内容。<br/><br/>Stellantis 于 2025 年 9 月确认该事件涉及北美客户服务支持平台遭未授权访问,称被访问的数据为联系信息类基础字段,不包含财务或敏感个人数据。公司表示已启动事件响应、通报监管机构、通知受影响客户并封禁可疑访问。<br/><br/>Salesforce 于 2025 年 10 月 2 日发布安全公告，称近期的敲诈威胁与其系统无关，且 Salesforce 平台并未遭到入侵。Salesforce 提醒用户警惕钓鱼与社会工程攻击，并提供了防范指南。"
+            },
+            "start_date": {
+                "month": "10",
+                "day": "3",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://breachforums.hn/toyota.html\">Scattered LAPSUS$ Hunters</a>",
+                "credit": "https://status.salesforce.com/generalmessages/20000224?locale=en-US",
+                "url": "static/images/toyota_202510_Scattered LAPSUS$ Hunters.png"
+            },
+            "text": {
+                "headline": "勒索组织声称窃取 Toyota 64GB 客户数据,超 1.1 亿条个人信息外泄",
+                "text": "勒索组织联盟 Scattered LAPSUS$ Hunters 声称2025 年 4 月 23 日侵入丰田汽车内部系统,窃取约 64GB 数据、逾 1.1 亿条记录,其中包含客户及联系人姓名、地址、电子邮件及电话号码等敏感个人信息。攻击方要求在 2025 年 10 月 10 日前与其联系,否则将公开全部数据。<br/><br/>此次事件,与近期Stellantis被勒索为同一系列事件, 源于Scattered LAPSUS$ Hunters对 Salesforce 实例的大规模社会工程攻击。<br/><br/>丰田方面尚未直接就此事件公开声明。Salesforce 于 2025 年 10 月 2 日发布安全公告，称近期的敲诈威胁与其系统无关，且 Salesforce 平台并未遭到入侵。Salesforce 提醒用户警惕钓鱼与社会工程攻击，并提供了防范指南。"
+            },
+            "start_date": {
+                "month": "10",
+                "day": "5",
                 "year": "2025"
             },
             "group": "event"
