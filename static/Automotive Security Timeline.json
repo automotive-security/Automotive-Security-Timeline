@@ -2708,7 +2708,7 @@
             },
             "text": {
                 "headline": "Stellantis 第三方平台数据泄露大量用户敏感信息",
-                "text": "2025 年 8 月,黑客组织 Scattered LAPSUS$ Hunters宣称侵入 Stellantis 所使用的第三方客户服务平台,外泄约 59 GB、超过 1820 万条记录(包括姓名、邮箱、住址、电话号码、车辆持有情况、经销商与员工信息等个人敏感信息),并以此进行勒索威胁。<br/><br/>Stellantis 随后确认事件涉及其北美客户服务的第三方平台,攻击者利用导出接口滥用进行大规模数据转储。此次攻击疑似源于对 Salesforce 实例的社会工程攻击,多个大型企业受到影响。<br/><br/>攻击者10月3日,在其勒索门户公布文件名(maserati.csv、fcagroup_dump_account.json、fcagroup_dump_contact.jsonl、 fcagroup_dump_user.jsonl)以及泄露记录清单。攻击方声称若在 10 月 10 日前未达成和解,将进一步公开全部泄露内容。<br/><br/>Stellantis 于 2025 年 9 月确认该事件涉及北美客户服务支持平台遭未授权访问,称被访问的数据为联系信息类基础字段,不包含财务或敏感个人数据。公司表示已启动事件响应、通报监管机构、通知受影响客户并封禁可疑访问。<br/><br/>Salesforce 于 2025 年 10 月 2 日发布安全公告，称近期的敲诈威胁与其系统无关，且 Salesforce 平台并未遭到入侵。Salesforce 提醒用户警惕钓鱼与社会工程攻击，并提供了防范指南。"
+                "text": "2025 年 8 月,黑客组织 Scattered LAPSUS$ Hunters宣称侵入 Stellantis 所使用的第三方客户服务平台,外泄约 59 GB、超过 1820 万条记录(包括姓名、邮箱、住址、电话号码、车辆持有情况、经销商与员工信息等个人敏感信息),并以此进行勒索威胁。<br/><br/>Stellantis 随后确认事件涉及其北美客户服务的第三方平台,攻击者利用导出接口滥用进行大规模数据转储。此次攻击疑似源于对 Salesforce 实例的社会工程攻击,多个大型企业受到影响。<br/><br/>攻击者10月3日,在其勒索门户公布文件名(maserati.csv、fcagroup_dump_account.json、fcagroup_dump_contact.jsonl、 fcagroup_dump_user.jsonl)以及泄露记录清单。攻击方声称若在 10 月 10 日前未达成和解,将进一步公开全部泄露内容。<br/><br/>Stellantis 于 2025 年 9 月确认该事件涉及北美客户服务支持平台遭未授权访问,称被访问的数据为联系信息类基础字段,不包含财务或敏感个人数据。公司表示已启动事件响应、通报监管机构、通知受影响客户并封禁可疑访问。<br/><br/>Salesforce 于 2025 年 10 月 2 日发布安全公告,称近期的敲诈威胁与其系统无关,且 Salesforce 平台并未遭到入侵。Salesforce 提醒用户警惕钓鱼与社会工程攻击,并提供了防范指南。"
             },
             "start_date": {
                 "month": "10",
@@ -2720,16 +2720,67 @@
         {
             "media": {
                 "caption": "<a href=\"https://breachforums.hn/toyota.html\">Scattered LAPSUS$ Hunters</a>",
-                "credit": "https://status.salesforce.com/generalmessages/20000224?locale=en-US",
+                "credit": "<a href=\"https://status.salesforce.com/generalmessages/20000224?locale=en-US\">Security Advisory: Ongoing Response to Social Engineering Threats</a>",
                 "url": "static/images/toyota_202510_Scattered LAPSUS$ Hunters.png"
             },
             "text": {
                 "headline": "勒索组织声称窃取 Toyota 64GB 客户数据,超 1.1 亿条个人信息外泄",
-                "text": "勒索组织联盟 Scattered LAPSUS$ Hunters 声称2025 年 4 月 23 日侵入丰田汽车内部系统,窃取约 64GB 数据、逾 1.1 亿条记录,其中包含客户及联系人姓名、地址、电子邮件及电话号码等敏感个人信息。攻击方要求在 2025 年 10 月 10 日前与其联系,否则将公开全部数据。<br/><br/>此次事件,与近期Stellantis被勒索为同一系列事件, 源于Scattered LAPSUS$ Hunters对 Salesforce 实例的大规模社会工程攻击。<br/><br/>丰田方面尚未直接就此事件公开声明。Salesforce 于 2025 年 10 月 2 日发布安全公告，称近期的敲诈威胁与其系统无关，且 Salesforce 平台并未遭到入侵。Salesforce 提醒用户警惕钓鱼与社会工程攻击，并提供了防范指南。"
+                "text": "勒索组织联盟 Scattered LAPSUS$ Hunters 声称2025 年 4 月 23 日侵入丰田汽车内部系统,窃取约 64GB 数据、逾 1.1 亿条记录,其中包含客户及联系人姓名、地址、电子邮件及电话号码等敏感个人信息。攻击方要求在 2025 年 10 月 10 日前与其联系,否则将公开全部数据。<br/><br/>此次事件,与近期Stellantis被勒索为同一系列事件, 源于Scattered LAPSUS$ Hunters对 Salesforce 实例的大规模社会工程攻击。<br/><br/>丰田方面尚未直接就此事件公开声明。Salesforce 于 2025 年 10 月 2 日发布安全公告,称近期的敲诈威胁与其系统无关,且 Salesforce 平台并未遭到入侵。Salesforce 提醒用户警惕钓鱼与社会工程攻击,并提供了防范指南。"
             },
             "start_date": {
                 "month": "10",
                 "day": "5",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/\">DireWolf</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/hyundai_nishat_dire_wolf.png"
+            },
+            "text": {
+                "headline": "现代汽车巴基斯坦公司遭勒索组织攻击,105GB数据泄露",
+                "text": "现代汽车巴基斯坦公司(HNMPL,Hyundai Nishat Motor)遭勒索组织 DireWolf 攻击,105GB 数据被窃取,包括金融数据、销售数据、项目图表、HR 数据。<br/><br/>11月21日, DireWolf公开了窃取的全部数据。共计 47164 个文件被公开,涉及售后保修记录、财务审计报表、客户分期付款数据、经销商地址信息、车型设计图纸、人力资源政策、内部运营文件及技术标准等核心商业与运营机密。其中包含大量敏感数据,如客户EMI状态、供应商发票、审计意见、零件设计图纸以及员工政策文件,不仅暴露了公司知识产权和财务结构,更直接危及客户隐私与经销商信息安全。"
+            },
+            "start_date": {
+                "month": "11",
+                "day": "13",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/view?uuid=c4503266-cbe5-37ef-8ee2-45424eb61137\">Nissan Capital</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/nissancapital_qilin_2025.png"
+            },
+            "text": {
+                "headline": " Nissan Capital遭黑客入侵,大量金融数据被公开",
+                "text": "日本汽车金融公司 Nissan Capital 遭到勒索组织 Qilin 的入侵,其后端业务系统被攻破。攻击者不仅窃取了大量业务文件扫描件(包括发票与贷款抵押合同)、内部演示文档,更获取了SQL Server数据库管理权限,导出完整的客户与车辆资产数据,涵盖客户姓名、CUIT/身份证号、联系方式、住址、车辆型号、发动机号、车架号以及相关合同等敏感信息。<br/><br/>赎金支付期限过后,Qilin 在其数据泄露平台上公开了所窃取的全部数据。"
+            },
+            "start_date": {
+                "month": "11",
+                "day": "23",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/renesas\">CoinBaseCartel-Renesas Electronics</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/Renesas_CoinBaseCartel.png"
+            },
+            "text": {
+                "headline": "瑞萨电子生产良率报告遭黑客窃取",
+                "text": "RENESAS(瑞萨电子)是世界十大半导体芯片供应商之一,是全球领先的汽车电子半导体供应商,提供从车身电子、动力总成、底盘控制到信息娱乐及高级驾驶辅助系统(ADAS/自动驾驶)的全套车规级解决方案,其主要产品包括 RH850、RX 和 RA 系列 MCU、R-Car SoC、功率半导体及传感器接口芯片,广泛应用于发动机控制、电动化系统、车载网络和自动驾驶平台。<br/><br/>勒索组织CoinBaseCartel公开披露了据称窃取自瑞萨电子的内部晶圆生产良率报告(部分)。披露的泄露数据包括了200mm晶圆的芯片设计规格、98.27% 的单晶圆良率等。报告还显示了同批次其他晶圆的良率数据,攻击者可能掌握了更多的晶圆数据。"
+            },
+            "start_date": {
+                "month": "12",
+                "day": "6",
                 "year": "2025"
             },
             "group": "event"
