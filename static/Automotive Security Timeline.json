@@ -2736,6 +2736,23 @@
         },
         {
             "media": {
+                "caption": "<a href=\"https://thesascon.com/#programs\">Grand Theft Auto: Gaining Control Over Tens of Thousands of Vehicles Through a Supply Chain Attack</a>",
+                "credit": "<a href=\"https://www.kaspersky.com.cn/about/press-releases/vehicle\">车载系统重大安全隐患:卡巴斯基发现威胁车辆安全的漏洞</a>",
+                "url": "https://www.youtube.com/watch?v=9Cr_LzdI-qw"
+            },
+            "text": {
+                "headline": "卡巴斯基在SAS25披露通过供应链攻击全面控制联网车辆的重大安全漏洞",
+                "text": "在安全分析师大会(Security Analyst Summit,SAS)25上,卡巴斯基 ICS CERT (工业控制系统网络应急响应团队)负责人 Artem Zinenko 披露了一起影响重大的车联网安全研究成果。他们在一次针对某汽车制造商的远程安全审计中,发现攻击者仅通过利用承包商基础设施中一个公开可访问 Web 应用的零日漏洞,即可逐级入侵汽车制造商的远程信息系统,最终获得对大量联网车辆的控制能力。<br/><br/>首先通过利用承包商公开可访问 Web 应用中的零日 SQL 注入漏洞获取初始访问权限,进而窃取凭据并横向渗透至汽车制造商的远程信息系统。由于防火墙配置不当、弱密码和缺乏双因素认证等问题,攻击链得以持续扩展,最终攻击者能够滥用远程信息平台的固件更新机制,向车辆远程信息控制单元(TCU)下发篡改固件并接入 CAN 总线,从而实现对发动机、变速箱等关键系统的远程操控。<br/>1. 承包商 Web 应用零日漏洞: 卡巴斯基在承包商对外开放的 Wiki 应用中发现一个零日 SQL 注入漏洞。通过该漏洞,研究人员成功导出系统用户列表及密码哈希值。由于部分账户采用弱密码策略,攻击者能够对密码哈希进行破解,从而获得合法账户访问权限。<br/>2. 问题追踪系统信息泄露:在获取初始访问权限后,研究人员进一步进入了承包商的问题追踪系统(Issue Tracker)。该系统中存储了汽车制造商远程信息处理基础设施的敏感配置数据,包括车载远程信息服务端的用户凭据与密码哈希文件,为后续攻击提供了关键跳板。<br/>3. 远程信息平台防护失效:在汽车制造商侧,防火墙配置错误导致部分内部服务器对外暴露。研究人员利用此前获得的服务账户凭据,成功访问服务器文件系统,并在其中发现了另一家承包商的访问凭据,实现横向移动,最终获得对远程信息系统基础设施的完全控制权。<br/>4. 固件更新机制被滥用:研究人员发现,远程信息平台可向车辆下发固件更新指令,且缺乏有效的完整性与真实性校验机制。攻击者可上传篡改后的固件至远程信息控制单元(TCU),并借此接入车辆 CAN 总线。<br/>5. 车辆关键系统被远程操控:通过 CAN 总线,攻击者能够进一步访问发动机、变速箱等关键 ECU,从而实现对车辆核心功能的操纵,包括在车辆行驶过程中强制换挡或关闭发动机,对驾乘人员安全构成直接威胁。"
+            },
+            "start_date": {
+                "month": "10",
+                "day": "27",
+                "year": "2025"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
                 "caption": "<a href=\"http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/\">DireWolf</a>",
                 "credit": "<a href=\"\"></a>",
                 "url": "static/images/hyundai_nishat_dire_wolf.png"
@@ -2758,7 +2775,7 @@
                 "url": "static/images/nissancapital_qilin_2025.png"
             },
             "text": {
-                "headline": " Nissan Capital遭黑客入侵,大量金融数据被公开",
+                "headline": "Nissan Capital遭黑客入侵,大量金融数据被公开",
                 "text": "日本汽车金融公司 Nissan Capital 遭到勒索组织 Qilin 的入侵,其后端业务系统被攻破。攻击者不仅窃取了大量业务文件扫描件(包括发票与贷款抵押合同)、内部演示文档,更获取了SQL Server数据库管理权限,导出完整的客户与车辆资产数据,涵盖客户姓名、CUIT/身份证号、联系方式、住址、车辆型号、发动机号、车架号以及相关合同等敏感信息。<br/><br/>赎金支付期限过后,Qilin 在其数据泄露平台上公开了所窃取的全部数据。"
             },
             "start_date": {
@@ -2781,6 +2798,23 @@
             "start_date": {
                 "month": "12",
                 "day": "6",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/angstrom-usa/\">PEAR-Angstrom Automotive Group</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/Angstorm_pear.png"
+            },
+            "text": {
+                "headline": "汽车零部件供应商AAG遭勒索软件组织PEAR攻击,6.3TB数据泄露",
+                "text": "汽车零部件供应商 Angstrom Automotive Group Inc.(AAG) 勒索软件组织PEAR(Pure Extraction And Ranson) 造成  6.3 TB 数据泄露。数据包括财务数据、人力资源信息、商业运营数据、合作伙伴与供应商数据、客户私人数据、订单详情、技术图纸、邮件与通信记录、数据库等。<br/><br/>Angstrom Automotive Group (AAG) 是一家成立于1999年、总部位于美国密歇根州的全球汽车零部件供应商,在北美、南美和欧洲的6个国家运营着31个基地和超过4000名员工。"
+            },
+            "start_date": {
+                "month": "12",
+                "day": "15",
                 "year": "2025"
             },
             "group": "event"
