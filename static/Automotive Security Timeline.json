@@ -2599,7 +2599,7 @@
         },
         {
             "media": {
-                "caption": "<a href=\"http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/\"></a>",
+                "caption": "<a href=\"http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/\"> WikileaksV2-Nissan CBI</a>",
                 "credit": "<a href=\"\"></a>",
                 "url": "static/images/Nissan_CBI_Qilin.png"
             },
@@ -2622,7 +2622,7 @@
             },
             "text": {
                 "headline": "捷豹路虎遭受网络攻击停产,3.3万员工“被迫休假”",
-                "text": "2025年9月2日,印度塔塔汽车旗下英国车企捷豹路虎(Jaguar Land Rover,JLR)披露其全球生产遭遇严重网络攻击,导致核心生产系统中断,多地工厂被迫停产,部分员工暂时停工。<br/>JLR 确认攻击者已窃取部分数据,并已向相关监管机构报告数据泄露。<br/><br/>此次事件冲击范围广泛,斯洛伐克、中国、印度、巴西的生产线全面停摆,英国中部及默西塞德郡的工厂同样停产。供应链也受到严重影响:部分零部件供应商因无法访问 JLR 订单系统陷入停顿,专供 JLR 的企业如 Evtec、WHS Plastics 被迫暂停运营。经销商与维修店亦受到波及,数字零件订购平台瘫痪,导致客户车辆维修延误。<br/><br/>网络犯罪联盟 “Scattered Lapsus$ Hunters”(由 Shiny Hunters、Lapsus$、Scattered Spider 组成)宣称对此次攻击负责,并在 Telegram 群组中公布了 JLR 内部 SAP 系统截图。外界推测攻击者可能利用了 SAP NetWeaver 已知漏洞(CVE-2025-31324、CVE-2025-42999)入侵。<br/><br/>JLR 表示正与 英国国家网络安全中心(NCSC) 及第三方安全专家合作,推进全球系统的安全重启和取证调查。公司预计最早将在 9月24日 恢复部分工厂生产。9月23日,JLR 宣布将继续停工到10月1日。"
+                "text": "2025年9月2日,印度塔塔汽车旗下英国车企捷豹路虎(Jaguar Land Rover,JLR)披露其全球生产遭遇严重网络攻击,导致核心生产系统中断,多地工厂被迫停产,部分员工暂时停工。<br/>JLR 确认攻击者已窃取部分数据,并已向相关监管机构报告数据泄露。<br/><br/>此次事件冲击范围广泛,斯洛伐克、中国、印度、巴西的生产线全面停摆,英国中部及默西塞德郡的工厂同样停产。供应链也受到严重影响:部分零部件供应商因无法访问 JLR 订单系统陷入停顿,专供 JLR 的企业如 Evtec、WHS Plastics 被迫暂停运营。经销商与维修店亦受到波及,数字零件订购平台瘫痪,导致客户车辆维修延误。<br/><br/>网络犯罪联盟 “Scattered Lapsus$ Hunters”(由 Shiny Hunters、Lapsus$、Scattered Spider 组成)宣称对此次攻击负责,并在 Telegram 群组中公布了 JLR 内部 SAP 系统截图。外界推测攻击者可能利用了 SAP NetWeaver 已知漏洞(CVE-2025-31324、CVE-2025-42999)入侵。<br/><br/>JLR 表示正与 英国国家网络安全中心(NCSC) 及第三方安全专家合作,推进全球系统的安全重启和取证调查。公司预计最早将在 9月24日 恢复部分工厂生产。9月23日,JLR 宣布将继续停工到10月1日。捷豹路虎(JLR)公布的最新财报显示,该公司在2025年第3季度因遭遇网络攻击,直接损失高达1.96亿英镑(约合人民币18.32亿元)。"
             },
             "start_date": {
                 "month": "9",
@@ -2633,7 +2633,7 @@
         },
         {
             "media": {
-                "caption": "<a href=\"\"></a>",
+                "caption": "<a href=\"http://lbb6ud2vyf23z4hw6fzskr5gru7eftbjfbd6yzra3hzuqqvjy63blqqd.onion//post/kqEGOeyblvr3mx1G66d098fd7617f\">lockbit3-Bridgestone</a>",
                 "credit": "<a href=\"\"></a>",
                 "url": "static/images/Bridgestone-cyberattack-disrupts-manufacturing-raises-supply-chain-concerns.webp"
             },
@@ -2667,7 +2667,7 @@
         },
         {
             "media": {
-                "caption": "<a href=\"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/\"></a>",
+                "caption": "<a href=\"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/BMW\">Everest-BMW</a>",
                 "credit": "<a href=\"http://gxp6yt3wdj7yky27j37jfrrbkuy24n2zo5uxyuoy23uf76d6m2gnfpid.onion\"></a>",
                 "url": "static/images/BMW_Ransomware_Everest.png"
             },
@@ -2678,6 +2678,23 @@
             "start_date": {
                 "month": "9",
                 "day": "14",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://digitalchargingsolutions.com/en/data-update/\">Questions & Answers regarding the Data Update</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/DCS_leak_notice.png"
+            },
+            "text": {
+                "headline": "充电服务商 DCS 通报客户数据访问事件",
+                "text": "2025 年 9 月 19 日,Digital Charging Solutions GmbH(DCS),一家为汽车 OEM(客户包括宝马、奔驰、现代、西门子等) 提供白牌充电服务,并为车队和个人充电服务的公司,发现其客户支持流程中出现未经授权的数据访问。通过系统日志检测到异常后,公司立即展开全面取证分析,以评估事件范围和影响。初步调查显示事件源自第三方服务提供商的内部不当操作。 <br/><br/>泄露数据主要包括姓名和电子邮件地址。未涉及完整支付信息或财务交易数据。此次事件未对充电服务和账单处理造成中断。<br/><br/>DCS 已采取多项缓解措施,包括强制更新访问令牌、为第三方用户实施多因素认证(MFA)、通过 SQL 异常检测规则增强数据库审计,并部署 SOAR 平台以自动化威胁狩猎和事件响应。所有受影响客户已收到直接通知,并向数据保护机构报告。公司建议用户保持警惕,更新重复使用的密码,并报告任何可疑通信,以防潜在风险。"
+            },
+            "start_date": {
+                "month": "9",
+                "day": "19",
                 "year": "2025"
             },
             "group": "event"
@@ -2736,6 +2753,23 @@
         },
         {
             "media": {
+                "caption": "<a href=\"http://brohoodyaifh2ptccph5zfljyajjabwjjo4lg6gfp4xb6ynw5w7ml6id.onion/\">Brotherhood-Motility</a>",
+                "credit": "<a href=\"https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA34789.pdf\">Important Notice of Data Security</a>",
+                "url": "static/images/Motility_brotherhood.png"
+            },
+            "text": {
+                "headline": "Motility 受到勒索软件攻击,76.6 万客户个人信息泄露",
+                "text": "2025 年 8 月 19 日, 为美国约 7,000 余家汽车及相关经销商提供经销商管理软件(DMS)的公司 Motility Software Solutions 遭遇网络攻击。攻击者在部分系统中部署了恶意软件并加密数据,同时可能窃取了包含客户个人信息的文件。事件发现后,公司立即启动调查,并对受影响系统进行恢复。<br/><br/>此次事件泄露了约 766,000 名客户的敏感信息,涉及的数据类型根据个人不同而异,可能包括姓名、门户地址、电子邮件、电话号码、出生日期、社会安全号码(SSN)及驾驶证号码、用户名、邮箱、明文密码等。<br/><br/>Motility 对事件进行了全面调查,实施额外安全措施,并通过备份恢复受影响系统。并提供为期一年期免费身份监控服务,建议受影响客户密切监控信用报告,同时可根据需要设置欺诈警示或信用冻结。还建立了暗网监控机制,以检测被窃数据是否在地下论坛出现。<br/><br/10月10日,勒索组织 Brotherhood 在其暗网上公开了窃取自 Motility 的 3.3GB 数据。 "
+            },
+            "start_date": {
+                "month": "10",
+                "day": "10",
+                "year": "2025"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
                 "caption": "<a href=\"https://thesascon.com/#programs\">Grand Theft Auto: Gaining Control Over Tens of Thousands of Vehicles Through a Supply Chain Attack</a>",
                 "credit": "<a href=\"https://www.kaspersky.com.cn/about/press-releases/vehicle\">车载系统重大安全隐患:卡巴斯基发现威胁车辆安全的漏洞</a>",
                 "url": "https://www.youtube.com/watch?v=9Cr_LzdI-qw"
@@ -2750,6 +2784,23 @@
                 "year": "2025"
             },
             "group": "vulnerability"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://www.maine.gov/agviewer/content/ag/985235c7-cb95-4be2-8792-a1252b4f8318/63697d4f-d4ae-446b-9484-a7a93730d7a6.html\">Data Breach Notifications</a>",
+                "credit": "<a href=\"https://oag.ca.gov/system/files/HAEA%20Sample%20Notice.pdf\">Notice of Data Breach</a>",
+                "url": "static/images/AutoEver_notice.png"
+            },
+            "text": {
+                "headline": "Hyundai AutoEver America IT系统遭遇攻击,用户个人信息泄露",
+                "text": "现代汽车旗下子公司 AutoEver America(HAEA)披露其IT系统发生一起网络安全事件。公司于 2025 年 3 月 1 日发现异常后立即展开调查,并确认存在未经授权的系统访问行为。根据调查结果,攻击活动最早可追溯至 2025 年 2 月 22 日,相关异常行为持续存在,直至 2025 年 3 月 2 日才被完全识别和记录。调查过程中,HAEA 同步引入外部网络安全专家,并与执法机构协作,对事件的时间范围和技术影响进行分析。根据马萨诸塞州消费者事务与商业监管办公室披露的备案材料,此次泄露的敏感信息包含姓名、社安号码和驾照信息。<br/><br/>在确认事件后,HAEA 终止了未经授权第三方对相关系统的访问,并对可用数据和取证信息进行了分析以完成调查。同时,公司为相关个人提供为期两年的信用监控和身份保护服务,并公布了官方咨询联系方式。<br/><br/>HAEA建议个人应持续保持警惕,防范欺诈和身份盗用风险,定期查看银行及相关账户对账单,并监测免费的信用报告;如发现任何可疑或异常活动,或怀疑发生身份盗用或欺诈,应立即向相关金融机构报告。同时,可联系美国联邦贸易委员会(FTC)或执法机构(包括所在州总检察长办公室)报告事件并获取防护指导。个人还可定期向三大全国性征信机构获取信用报告,如发现因欺诈交易产生的不准确信息,应要求征信机构从信用档案中删除。"
+            },
+            "start_date": {
+                "month": "10",
+                "day": "30",
+                "year": "2025"
+            },
+            "group": "event"
         },
         {
             "media": {
