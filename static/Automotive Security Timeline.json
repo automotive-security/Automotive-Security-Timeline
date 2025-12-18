@@ -2855,6 +2855,23 @@
         },
         {
             "media": {
+                "caption": "<a href=\"https://vicone.com/blog/thousands-of-vehicles-at-risk-zero-day-vulnerabilities-reveal-a-critical-blind-spot-in-automotive-cybersecurity\">When Security Becomes a Single Point of Failure: Lessons for Car OEMs</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/vicone-blog-zero-day_vulnerabilities_in_aftermarket_devices.png"
+            },
+            "text": {
+                "headline": "VicOne披露流行车载外设存在零日漏洞",
+                "text": "12月17日,汽车网络安全公司VicOne披露了一系列存在于两款流行车载外设中的零日漏洞,暴露出汽车网络安全体系中的一个关键薄弱环节:后市场设备安全缺失。研究显示,超过8.5万台正在使用的智能车载设备存在被远程控制、数据窃取乃至攻击车辆信息娱乐系统的风险。<br/><br/>1. CarlinKit CPC200-CCPA 一款由惠州市云联科技有限公司生产的车载互联设备，主要功能是实现安卓车机的无线 CarPlay 和 Android Auto 镜像投屏。‌<br/>· CVE-2025-2765:设备使用硬编码的弱Wi-Fi密码,攻击者可轻松连接其网络并绕过认证访问配置页面,进而上传恶意更新包,实现远程代码执行并获取根权限。<br/>· CVE-2025-2763:固件更新过程无加密签名验证,允许攻击者通过Web界面直接上传恶意包执行任意代码。<br/>· CVE-2025-2764:设备可从USB设备读取未经验证的固件文件,导致插入恶意U盘即可获得根权限。<br/>· CVE-2025-2762:引导加载程序和内核缺乏验证机制,攻击者可植入永久性后门,即使设备重启也持续存在。<br/><br/>2. 70mai A510 智能行车记录仪<br/>· CVE-2025-2766:设备使用固定且不可更改的默认Wi-Fi密码,允许未授权访问设备文件系统,直接获取行车录像、GPS数据等敏感信息。<br/><br/>报告指出,当前汽车行业虽致力于强化软件定义汽车的核心安全,但后市场外设仍处于缺乏监管的“灰色地带”。这些设备往往直接连接车载网络,却无统一安全标准。专家呼吁,汽车网络安全必须向后市场供应链延伸,建立基于威胁矩阵的系统性防护与监管框架,否则消费者在不知情中引入的便利设备,可能成为整车安全的致命短板。"
+            },
+            "start_date": {
+                "month": "12",
+                "day": "12",
+                "year": "2025"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
                 "caption": "<a href=\"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/angstrom-usa/\">PEAR-Angstrom Automotive Group</a>",
                 "credit": "<a href=\"\"></a>",
                 "url": "static/images/Angstorm_pear.png"
@@ -2869,6 +2886,23 @@
                 "year": "2025"
             },
             "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://ics-cert.kaspersky.com/publications/reports/2025/11/20/god-mode-on-researchers-run-doom-on-a-vehicles-head-unit-after-remotely-attacking-its-modem/\">God Mode On: Researchers run Doom on a vehicle’s head unit after remotely attacking its modem</a>",
+                "credit": "<a href=\"https://securelist.com/attacking-car-modem/118463/\">God Mode On: how we attacked a vehicle’s head unit modem</a>",
+                "url": "static/images/doom-on-the-cars-head-unit.jpg"
+            },
+            "text": {
+                "headline": "远程攻破车载调制解调器:研究人员实现对车机系统的“上帝模式”控制",
+                "text": "10月20日,卡巴斯基 ICS CERT 的研究人员 Alexander Kozlov 和 Sergey Anufrienko 披露一项存在于车载通信调制解调器中的高危漏洞,可能导致车辆信息娱乐系统被远程完全接管。<br/><br/>1. 漏洞发现与初始入侵(调制解调器侧)<br/>研究人员以 Unisoc UIS7862A SoC 为对象,从车机主板中提取调制解调器固件进行分析,在 3G RLC 协议(UM 模式)中发现栈溢出漏洞(CVE-2024-39432)。该漏洞可在安全信道建立之前被单个畸形 SDU 数据包触发,实现远程代码执行(RCE),直接绕过 3G/LTE 的通信安全机制,成为攻击整条链路的起点。<br/>2. 权限扩展与横向移动(SoC 微架构层)<br/>在成功控制调制解调器(CP)后,研究人员通过 ROP 链、MPU 重配置和 NAS 协议通信建立了稳定的双向控制能力。随后发现 CP 与 AP 共享物理内存地址空间,并进一步利用隐藏且未启用的 DMA 外设,绕过软件隔离机制,实现对 AP(Android/Linux)内存的任意读写,完成从调制解调器到应用处理器的横向移动。<br/>3. 内核级控制与完全接管(AP 侧)<br/>在可直接读写 AP 内存的前提下,研究人员定位 Linux 内核基址与 kallsyms 表,关闭 SELinux,篡改 sys_call_table,将系统调用钩子替换为注入的内核 shellcode,最终以内核态执行用户态代码并远程启动 Doom 游戏。至此,仅凭一个调制解调器漏洞,攻击者即可获得整个车机 SoC 的“God Mode”控制权。"
+            },
+            "start_date": {
+                "month": "12",
+                "day": "20",
+                "year": "2025"
+            },
+            "group": "vulnerability"
         }
     ]
 }
