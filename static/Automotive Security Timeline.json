@@ -2718,6 +2718,23 @@
         },
         {
             "media": {
+                "caption": "<a href=\"https://www.nccgroup.com/research-blog/technical-advisory-tesla-telematics-control-unit-adb-auth-bypass/\">Technical Advisory: Tesla Telematics Control Unit - ADB Auth Bypass</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/ta-tesla.jpg"
+            },
+            "text": {
+                "headline": "Tesla TCU ADB 认证绕过",
+                "text": "9月29日,安全公司 NCC Group 的安全研究员 Alex Plaskett 披露 Tesla 车载通信控制单元(TCU/TBOX)存在 ADB 认证绕过漏洞。该漏洞影响 2025.14 之前版本的固件。在具备物理接触条件的情况下,可通过 TCU 外部暴露的 Micro USB 接口绕过生产环境下的 ADB 锁定机制,最终在 TCU 上获得 root 权限。<br/><br/> ADB 开启与锁定机制定义在 /etc/launch_adbd 中,当状态文件/sys/class/qtee/secboot_state不存在或者模拟文件/data/dummy_auth_enable存在时锁死;当/sys/class/qtee/secboot_state 中存在 auth_disable 时解锁。/sys/class/qtee/secboot_state存在但其中没有auth_disable时,需要认证才能使用。<br/><br/>获取root shell 的步骤如下:<br/>1. 通过 Micro USB 与 TCU连接 <br/>2. 添加 udev 规则,识别 adb 设备。在 /etc/udev/rules.d/51-android.rules 中写入 SUBSYSTEM = =\"usb\", ATTR {idVendor}== \"2c7c\", ATTR{idProduct}==\"0452\", MODE=\"0666\", GROUP=\"plugdev\"<br/>3. 由于大部分分区挂载为只读,能够写入文件的目录受限,滥用 uevent_helper/hotplug sysfs kernel subsystems 执行任意命令,开启 telnet 服务,获取 root shell。具体的方法为将telnet开启脚本通过adb push 上传到TCU的/tmp/telnetd.sh;然后将文件内容为/tmp/telnetd.sh的t2.sh 通过 adb push 分别上传到TCU的 /sys/kernel/uevent_helper 和 /proc/sys/kernel/hotplug;然后使用adb pull 读取/etc/passwd 触发 uevent;最后,开启adb转发,连接 telnet 服务端口,获取 root shell。<br/><br/>Tesla 在后续版本中对该问题进行了修复。修复方案包括 默认禁止 ADB 监听在 Micro USB 接口,并在启动流程中依据 /usr/bin/is-not-fused 与 /usr/bin/is-fa-build 两个条件进行判定,仅在特定内部构建场景下才允许 ADB 启用,从而防止量产车辆通过物理接口访问调试功能"
+            },
+            "start_date": {
+                "month": "9",
+                "day": "29",
+                "year": "2025"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
                 "caption": "<a href=\"https://breachforums.hn/stellantis.html\">Scattered LAPSUS$ Hunters</a>",
                 "credit": "<a href=\"https://media.stellantisnorthamerica.com/newsrelease.do?id=27079&mid=1\">Third-Party Platform Data Incident</a>",
                 "reference": "https://status.salesforce.com/generalmessages/20000224?locale=en-US",
@@ -2878,7 +2895,7 @@
             },
             "text": {
                 "headline": "VicOne披露流行车载外设存在零日漏洞",
-                "text": "12月17日,汽车网络安全公司VicOne披露了一系列存在于两款流行车载外设中的零日漏洞,暴露出汽车网络安全体系中的一个关键薄弱环节:后市场设备安全缺失。研究显示,超过8.5万台正在使用的智能车载设备存在被远程控制、数据窃取乃至攻击车辆信息娱乐系统的风险。<br/><br/>1. CarlinKit CPC200-CCPA 一款由惠州市云联科技有限公司生产的车载互联设备，主要功能是实现安卓车机的无线 CarPlay 和 Android Auto 镜像投屏。‌<br/>· CVE-2025-2765:设备使用硬编码的弱Wi-Fi密码,攻击者可轻松连接其网络并绕过认证访问配置页面,进而上传恶意更新包,实现远程代码执行并获取根权限。<br/>· CVE-2025-2763:固件更新过程无加密签名验证,允许攻击者通过Web界面直接上传恶意包执行任意代码。<br/>· CVE-2025-2764:设备可从USB设备读取未经验证的固件文件,导致插入恶意U盘即可获得根权限。<br/>· CVE-2025-2762:引导加载程序和内核缺乏验证机制,攻击者可植入永久性后门,即使设备重启也持续存在。<br/><br/>2. 70mai A510 智能行车记录仪<br/>· CVE-2025-2766:设备使用固定且不可更改的默认Wi-Fi密码,允许未授权访问设备文件系统,直接获取行车录像、GPS数据等敏感信息。<br/><br/>报告指出,当前汽车行业虽致力于强化软件定义汽车的核心安全,但后市场外设仍处于缺乏监管的“灰色地带”。这些设备往往直接连接车载网络,却无统一安全标准。专家呼吁,汽车网络安全必须向后市场供应链延伸,建立基于威胁矩阵的系统性防护与监管框架,否则消费者在不知情中引入的便利设备,可能成为整车安全的致命短板。"
+                "text": "12月17日,汽车网络安全公司VicOne披露了一系列存在于两款流行车载外设中的零日漏洞,暴露出汽车网络安全体系中的一个关键薄弱环节:后市场设备安全缺失。研究显示,超过8.5万台正在使用的智能车载设备存在被远程控制、数据窃取乃至攻击车辆信息娱乐系统的风险。<br/><br/>1. CarlinKit CPC200-CCPA 一款由惠州市云联科技有限公司生产的车载互联设备,主要功能是实现安卓车机的无线 CarPlay 和 Android Auto 镜像投屏。‌<br/>· CVE-2025-2765:设备使用硬编码的弱Wi-Fi密码,攻击者可轻松连接其网络并绕过认证访问配置页面,进而上传恶意更新包,实现远程代码执行并获取根权限。<br/>· CVE-2025-2763:固件更新过程无加密签名验证,允许攻击者通过Web界面直接上传恶意包执行任意代码。<br/>· CVE-2025-2764:设备可从USB设备读取未经验证的固件文件,导致插入恶意U盘即可获得根权限。<br/>· CVE-2025-2762:引导加载程序和内核缺乏验证机制,攻击者可植入永久性后门,即使设备重启也持续存在。<br/><br/>2. 70mai A510 智能行车记录仪<br/>· CVE-2025-2766:设备使用固定且不可更改的默认Wi-Fi密码,允许未授权访问设备文件系统,直接获取行车录像、GPS数据等敏感信息。<br/><br/>报告指出,当前汽车行业虽致力于强化软件定义汽车的核心安全,但后市场外设仍处于缺乏监管的“灰色地带”。这些设备往往直接连接车载网络,却无统一安全标准。专家呼吁,汽车网络安全必须向后市场供应链延伸,建立基于威胁矩阵的系统性防护与监管框架,否则消费者在不知情中引入的便利设备,可能成为整车安全的致命短板。"
             },
             "start_date": {
                 "month": "12",
