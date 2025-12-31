@@ -2937,6 +2937,23 @@
                 "year": "2025"
             },
             "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://media.ccc.de/v/39c3-making-the-magic-leap-past-nvidia-s-secure-bootchain-and-breaking-some-tesla-autopilots-along-the-way\">Making the Magic Leap past NVIDIA's secure bootchain and breaking some Tesla Autopilots along the way</a>",
+                "credit": "<a href=\"https://codeberg.org/katze/tx2hax\">exploits</a>",
+                "url": "https://us.mirror.ionos.com/projects/media.ccc.de//congress/2025/h264-hd/39c3-1454-eng-Making_the_Magic_Leap_past_NVIDIAs_secure_bootchain_and_breaking_some_Tesla_Autopilots_along_the_way.mp4"
+            },
+            "text": {
+                "headline": "22 岁女研究员攻破英伟达 Tegra X2 芯片安全启动，影响特斯拉 Autopilot 2 和 2.5 自动驾驶硬件",
+                "text": "在39C3混沌大会上研究员Elise Amber Katze披露,成功攻破英伟达Tegra X2芯片的BootROM漏洞,该漏洞影响采用同款芯片的特斯拉Autopilot 2和2.5自动驾驶硬件系统。Tegra X2芯片于2016年发布,目前已停产。她通过故障注入的方式,迫使 Tegra X2 在启动过程中出现错误,并通过侧信道导出了被严密保护的 BootROM 固件。BootROM作为芯片启动的信任根,通常不可修改。Katze在分析后发现其中存在USB恢复模式(RCM)的严重漏洞。由于BootROM为掩膜在硅片上的只读代码,英伟达无法通过软件更新修复该问题。尽管攻击条件苛刻——仅能从USB控制器视角访问受限内存,Katze仍构建出复杂利用链,最终实现最高权限代码执行。并现场演示了通过故障注入转储 Tesla Autopilot 的 BootROM。<br/><br/>· 位于BootROM前0x1000字节的非安全区存在一个内部 UART 调试加载器,该调试加载器可以通过 UART 接收一个 payload,并且在不进行任何签名校验的情况下直接执行。 通过电压故障注入,迫使系统进入  UART 调试加载器,实现在 BootROM 执行中执行任意代码,直接从内存中读取完整的 BootROM,并通过 UART 将其回传到主机。<br/>· DTBHax:  Tegra X2 第三阶段引导加载器 CBoot 中的一个结构性漏洞,源于其在加载 DTB(设备树)分区时使用固定物理地址且未对分区大小进行任何校验。攻击者只需篡改 QSPI Flash 中 GPT 表的 DTB 分区长度,即可在启动过程中将超长、可控的数据从 0x9200_0000 起写入内存,进而覆盖位于邻近地址 0x9600_0000 的 CBoot 自身代码。该漏洞可在冷启动时稳定触发,实现持久化的第三阶段引导代码执行,直接破坏 Secure Boot 在后续阶段的信任边界。<br/>· RCMHax: 利用 Tegra X2 BootROM 的 USB Recovery 模式与 USB 控制器的协同缺陷,实现了冷启动阶段不可修补的代码执行。其核心在于 USB 接收循环的长度校验逻辑错误,允许攻击者绕过消息大小限制并进行任意长度内存写入;结合 USB 控制器对非法地址写入静默失败的特性,攻击者可逐步回绕并破坏 SysRAM 中的 USB TRB 结构。通过劫持 Link TRB 指针并篡改 BootROM 的 syscall 补丁处理路径,最终将控制流重定向至 SysRAM 中的攻击载荷。"
+            },
+            "start_date": {
+                "month": "12",
+                "day": "29",
+                "year": "2025"
+            },
+            "group": "vulnerability"
         }
     ]
 }
