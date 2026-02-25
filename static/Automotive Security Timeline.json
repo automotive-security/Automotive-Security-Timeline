@@ -2929,7 +2929,7 @@
             },
             "text": {
                 "headline": "Everest 勒索组织声称窃取 Chrysler 1088 GB 数据",
-                "text": "12月25日,勒索软件组织 Everest 宣称其成功入侵美国汽车制造商 Chrysler 的内部系统,并从与 Chrysler.com 相关的服务器中窃取了约 1088 GB 的数据。其中包括超过 105 GB 的 Salesforce 数据,以及大量涉及客户、业务和运营层面的信息。Everest随后公布了部分数据样本以佐证其说法,并表示若 Chrysler 未在12月31日前与其取得联系,将公开全部所窃取的数据。<br/><br/>泄露数据时间跨度为 2021年至2025年,内容涵盖客户及代理人员的个人与联系信息(如姓名、电话、地址、出生日期、电子邮箱),以及详细的代理工作日志,包括呼叫尝试记录、通话状态、车辆状态更新,以及销售和召回预约相关的沟通记录等。"
+                "text": "12月25日,勒索软件组织 Everest 宣称其成功入侵美国汽车制造商 Chrysler 的内部系统,并从与 Chrysler.com 相关的服务器中窃取了约 1088 GB 的数据。其中包括超过 105 GB 的 Salesforce 数据,以及大量涉及客户、业务和运营层面的信息。Everest随后公布了部分数据样本以佐证其说法,并表示若 Chrysler 未在12月31日前与其取得联系,将公开全部所窃取的数据。<br/><br/>泄露数据时间跨度为 2021年至2025年,内容涵盖客户及代理人员的个人与联系信息(如姓名、电话、地址、出生日期、电子邮箱),以及详细的代理工作日志,包括呼叫尝试记录、通话状态、车辆状态更新,以及销售和召回预约相关的沟通记录等。<br/><br/>2026年1月4日,Everest宣布,由于 Chrysler未能在截止日期前作出回应,公开了所有数据。"
             },
             "start_date": {
                 "month": "12",
@@ -2945,7 +2945,7 @@
                 "url": "https://us.mirror.ionos.com/projects/media.ccc.de//congress/2025/h264-hd/39c3-1454-eng-Making_the_Magic_Leap_past_NVIDIAs_secure_bootchain_and_breaking_some_Tesla_Autopilots_along_the_way.mp4"
             },
             "text": {
-                "headline": "22 岁女研究员攻破英伟达 Tegra X2 芯片安全启动，影响特斯拉 Autopilot 2 和 2.5 自动驾驶硬件",
+                "headline": "22 岁女研究员攻破英伟达 Tegra X2 芯片安全启动,影响特斯拉 Autopilot 2 和 2.5 自动驾驶硬件",
                 "text": "在39C3混沌大会上研究员Elise Amber Katze披露,成功攻破英伟达Tegra X2芯片的BootROM漏洞,该漏洞影响采用同款芯片的特斯拉Autopilot 2和2.5自动驾驶硬件系统。Tegra X2芯片于2016年发布,目前已停产。她通过故障注入的方式,迫使 Tegra X2 在启动过程中出现错误,并通过侧信道导出了被严密保护的 BootROM 固件。BootROM作为芯片启动的信任根,通常不可修改。Katze在分析后发现其中存在USB恢复模式(RCM)的严重漏洞。由于BootROM为掩膜在硅片上的只读代码,英伟达无法通过软件更新修复该问题。尽管攻击条件苛刻——仅能从USB控制器视角访问受限内存,Katze仍构建出复杂利用链,最终实现最高权限代码执行。并现场演示了通过故障注入转储 Tesla Autopilot 的 BootROM。<br/><br/>· 位于BootROM前0x1000字节的非安全区存在一个内部 UART 调试加载器,该调试加载器可以通过 UART 接收一个 payload,并且在不进行任何签名校验的情况下直接执行。 通过电压故障注入,迫使系统进入  UART 调试加载器,实现在 BootROM 执行中执行任意代码,直接从内存中读取完整的 BootROM,并通过 UART 将其回传到主机。<br/>· DTBHax:  Tegra X2 第三阶段引导加载器 CBoot 中的一个结构性漏洞,源于其在加载 DTB(设备树)分区时使用固定物理地址且未对分区大小进行任何校验。攻击者只需篡改 QSPI Flash 中 GPT 表的 DTB 分区长度,即可在启动过程中将超长、可控的数据从 0x9200_0000 起写入内存,进而覆盖位于邻近地址 0x9600_0000 的 CBoot 自身代码。该漏洞可在冷启动时稳定触发,实现持久化的第三阶段引导代码执行,直接破坏 Secure Boot 在后续阶段的信任边界。<br/>· RCMHax: 利用 Tegra X2 BootROM 的 USB Recovery 模式与 USB 控制器的协同缺陷,实现了冷启动阶段不可修补的代码执行。其核心在于 USB 接收循环的长度校验逻辑错误,允许攻击者绕过消息大小限制并进行任意长度内存写入;结合 USB 控制器对非法地址写入静默失败的特性,攻击者可逐步回绕并破坏 SysRAM 中的 USB TRB 结构。通过劫持 Link TRB 指针并篡改 BootROM 的 syscall 补丁处理路径,最终将控制流重定向至 SysRAM 中的攻击载荷。"
             },
             "start_date": {
@@ -2954,6 +2954,74 @@
                 "year": "2025"
             },
             "group": "vulnerability"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://zohlm7ahjwegcedoz7lrdrti7bvpofymcayotp744qhx6gjmxbuo2yid.onion/r/c57df5f7a18e85f72c36a99d634c9ebdb90fde13\">Luxshare-ransomHouse</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/Luxshare_ransomHouse.png"
+            },
+            "text": {
+                "headline": "立讯精密遭勒索软件组织RansomHouse攻击,大量敏感数据泄露",
+                "text": "2026年1月勒组织 RansomHouse 在其暗网门户声称,2025年12月15日窃取并加密了立讯精密大量机密数据。涵盖3D模型、2D工程图、PCB设计文件等。还涉及涉及受保密协议(NDA)保护的 Apple(苹果)、Nvidia(英伟达)、Tesla(特斯拉)、LG、Geely(吉利) 等顶级客户的研发与生产信息。并提供了被窃取数据样本,涉及产品设计、生产工艺、IT管理、项目文档等多个领域。RansomHouse 指责IT部门试图掩盖事件,并强烈要求管理层直接与他们联系。"
+            },
+            "start_date": {
+                "month": "1",
+                "day": "8",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Nissan/\">Nissan_Everest</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/nissan_everest_20260110.png"
+            },
+            "text": {
+                "headline": "日产汽车遭勒索软件组织Everest攻击,大量敏感数据泄露",
+                "text": "2026年1月,勒索软件组织 Everest 宣称窃取日产汽车 900GB 数据,包括约60000个 TXT文件、17000个 CSV文件、31000个PDF文件、47000个XLS文件。其中包括客户理赔记录、经销商与销售运营数据、财务数据等。"
+            },
+            "start_date": {
+                "month": "1",
+                "day": "10",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://www.zerodayinitiative.com/blog/2026/1/21/pwn2own-automotive-2026-day-one-results\">Results</a>",
+                "credit": "<a href=\"https://www.zerodayinitiative.com/Pwn2OwnAuto2026Rules.html\">Pwn2Own Automotive 2026 Rules</a>",
+                "url": "static/images/pwn2own_automotive_2026.webp"
+            },
+            "text": {
+                "headline": "Pwn2Own Automotive 2025 落幕,共披露 49 个 0day",
+                "text": "为期三天(2026年1月21日至23日)的 Pwn2Own Automotive 汽车安全大赛在东京落下帷幕。本届赛事共发放 1,047,000 美元 赏金,参赛选手累计披露 76 个 0day 漏洞。<br/><br/>其中,Fuzzware.io 团队凭借多项高质量漏洞利用,以 21.5 万美元奖金、28 个积分点的成绩,成功获得 Master of Pwn。<br/>ZDI 发布了 PWN2OWN Automotive 2026 的参赛对象,包括汽车、车机、充电桩、车载操作系统等。<br/>· 汽车: Tesla<br/>· 车机: Sony XAV-9500ES、Alpine iLX-F511、Kenwood DNR1007XR<br/>· 充电桩: Alpitronic HYC50、ChargePoint Home Flex (Model CPH50-K)、Phoenix Contact CHARX SEC-3150、Ford Connected Charge Station、Grizzl-E Smart 40A、EMPORIA Pro Charger Level 2、Tesla Universal Wall Connector、Autel MaxiCharger AC Elite Home 40A EV Charger、Ubiquiti Connect EV Station Pro<br/>· 充电通信协议:OCPP Compliance Test Tool (OCTT)<br/>· 车载操作系统: AGL、QNX、Android Automotive OS<br/><br/>此次,Tesla等车机全部被攻破;充电桩大部分被攻破,AGL 被攻破;QNX、Android Automotive OS 无团队挑战。<br/>· Synacktiv在 Tesla 车载信息娱乐系统的 USB 攻击中通过串联两个漏洞(一个信息泄露漏洞和一个越界写漏洞),实现了完全攻破。<br/>· Synacktiv利用充电桩的NFC近场通信接口实现无接触式攻破,仅用一张NFC卡轻刷Autel MaxiCharger AC Elite Home 40A充电器,触发栈缓冲区溢出漏洞,直接控制系统核心功能。<br/>·多个团队直接利用充电枪与充电桩的物理连接,向设备发送恶意构造的数据和信号,实现反向入侵,甚至能从车辆端出发,通过充电连接对充电桩进行改造,实现双向通信攻击。<br/>· 充电桩存在的基础性安全缺陷为潜在攻击提供了可利用的条件,其中硬编码凭证与通信协议安全漏洞最为突出。SKShieldus 299 团队在测试 Grizzl‑E Smart 40A 充电桩时,利用其存在的硬编码凭证漏洞(CWE‑798),可直接绕过身份认证并实现代码执行;另一方面,充电桩主流通信协议 OCPP 缺乏严格的双向身份认证与数据加密机制,成为协议注入和中间人攻击的高风险点。Fuzzware.io 团队通过组合利用 认证缺失(CWE‑306) 与 签名校验绕过(CWE‑347) 等问题,成功攻破 Autel MaxiCharger。"
+            },
+            "start_date": {
+                "month": "1",
+                "day": "21",
+                "year": "2026"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/saic_motor_corporation\">SAIC Motor Corporation-BEAST LEAKS</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/SAIC_Beast_ransomware.png"
+            },
+            "text": {
+                "headline": "上汽集团遭勒索攻击,700GB研发与管理文件泄露",
+                "text": "2月24日,勒索组织“BEAST LEAKS”在其暗网门户发布信息称,已获取 SAIC Motor Corporation(上汽集团)约700GB内部数据,并展示部分样本文件截图。根据公开页面内容,相关资料涉及研发总院、乘用车公司以及尚界、荣威、名爵、智己等品牌业务,同时覆盖车间管理与信息系统部门。样本显示内容包括研发项目文档、技术评审PPT、生产系统手册、信息系统部署文件、财务文件、服务器目录结构及员工管理资料等。<br/><br/>泄露数据包括:研发与项目管理资料,包括车型计划表、软件架构文档、项目立项汇报PPT、系统设计评审材料、整车项目管理文件,以及车身工艺文件、车间管理规定与控制流程等;系统与运维类资料,包括《系统部署手册》《eMES系统生产运行手册》《系统对接文档汇总》等文件;服务器及部署文件,包括中间件安装包和应用部署包,如 design-service.war、ROOT.war、dist.zip 以及上汽设计网站安装包等;内部管理与人力资源资料,包括考勤文件、员工离职交接文档、绩效操作手册、优秀团队素材等;此外,还包括售后索赔流程文件、会议纪要、业务系统相关资料以及项目投资预算类文件等。"
+            },
+            "start_date": {
+                "month": "2",
+                "day": "24",
+                "year": "2026"
+            },
+            "group": "event"
         }
     ]
 }
