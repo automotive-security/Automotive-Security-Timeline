@@ -1561,7 +1561,7 @@
         },
         {
             "media": {
-                "caption": "<a href=\"https://media.ford.com/content/fordmedia/fna/us/en/news/2023/08/10/ford_provides-customer-guidance-in-response-to-supplier-disclosu.html\">FORD PROVIDES CUSTOMER GUIDANCE IN RESPONSE TO SUPPLIER DISCLOSURE OF CYBER SECURITY VULNERABILITY</a>",
+                "caption": "<a href=\"https://media.ford.com/content/fordmedia/fna/us/en/news/2023/08/10/ford_provides-customer-guidance-in-response-to-supplier-disclosu.html\">FORD PROVIDES CUSTOMER GUIDANCE IN RESPONSE TO SUPPLIER DISCLOSURE OF CYBER SECURITY VULNERABILITY</a>",
                 "credit": "<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2023-29468\"> CVE-2023-29468 </a>",
                 "url": "static/images/ford.jpeg"
             },
@@ -2367,7 +2367,7 @@
             },
             "text": {
                 "headline": "Pwn2Own Automotive 2025 落幕,共披露 49 个 0day",
-                "text": "为期三天(2025年1月21日到23日)的 Pwn2Own 汽车大赛落下帷幕,共发放 886250 美元的赏金,参赛选手共发现 49 个 0day 漏洞。​Summoning 团队的 Sina Kheirkhah 以22万美元的赏金、30.5个积分点的成绩成功摘得 Master of Pwn Automotive 2025 的桂冠。<br/><br/>2024年9月24日,ZDI 发布了 PWN2OWN Automotive 2025 的参赛对象,包括汽车充电桩、车载操作系统。<br/>· 汽车: Tesla<br/>· 车机: Sony XAV-AX8500、Alpine iLX-507、Pioneer DMH-WT7600NEX、Kenwood DMX958XR<br/>· 充电桩: ChargePoint Home Flex (Model CPH50)、Phoenix Contact CHARX SEC-3150、WOLFBOX Level 2 EV Charger、EMPORIA EV Charger Level 2、Tesla Wall Connector、Autel MaxiCharger AC Wallbox Commercial (MAXI US AC W12-L-4G)、Ubiquiti Connect EV Station<br/>· 车载操作系统: AGL、QNX、Android Automotive OS<br/><br/>此次,车机全部被攻破;充电桩大部分被攻破,AGL 被攻破;Tesla、QNX、Android Automotive OS 无团队挑战。"
+                "text": "为期三天(2025年1月21日到23日)的 Pwn2Own 汽车大赛落下帷幕,共发放 886250 美元的赏金,参赛选手共发现 49 个 0day 漏洞。​Summoning 团队的 Sina Kheirkhah 以22万美元的赏金、30.5个积分点的成绩成功摘得 Master of Pwn Automotive 2025 的桂冠。<br/><br/>2024年9月24日,ZDI 发布了 PWN2OWN Automotive 2025 的参赛对象,包括汽车充电桩、车载操作系统。<br/>· 汽车: Tesla<br/>· 车机: Sony XAV-AX8500、Alpine iLX-507、Pioneer DMH-WT7600NEX、Kenwood DMX958XR<br/>· 充电桩: ChargePoint Home Flex (Model CPH50)、Phoenix Contact CHARX SEC-3150、WOLFBOX Level 2 EV Charger、EMPORIA EV Charger Level 2、Tesla Wall Connector、Autel MaxiCharger AC Wallbox Commercial (MAXI US AC W12-L-4G)、Ubiquiti Connect EV Station<br/>· 车载操作系统: AGL、QNX、Android Automotive OS<br/><br/>此次,车机全部被攻破;充电桩大部分被攻破,AGL 被攻破;Tesla、QNX、Android Automotive OS 无团队挑战。"
             },
             "start_date": {
                 "month": "1",
@@ -2996,8 +2996,8 @@
                 "url": "static/images/pwn2own_automotive_2026.webp"
             },
             "text": {
-                "headline": "Pwn2Own Automotive 2025 落幕,共披露 49 个 0day",
-                "text": "为期三天(2026年1月21日至23日)的 Pwn2Own Automotive 汽车安全大赛在东京落下帷幕。本届赛事共发放 1,047,000 美元 赏金,参赛选手累计披露 76 个 0day 漏洞。<br/><br/>其中,Fuzzware.io 团队凭借多项高质量漏洞利用,以 21.5 万美元奖金、28 个积分点的成绩,成功获得 Master of Pwn。<br/>ZDI 发布了 PWN2OWN Automotive 2026 的参赛对象,包括汽车、车机、充电桩、车载操作系统等。<br/>· 汽车: Tesla<br/>· 车机: Sony XAV-9500ES、Alpine iLX-F511、Kenwood DNR1007XR<br/>· 充电桩: Alpitronic HYC50、ChargePoint Home Flex (Model CPH50-K)、Phoenix Contact CHARX SEC-3150、Ford Connected Charge Station、Grizzl-E Smart 40A、EMPORIA Pro Charger Level 2、Tesla Universal Wall Connector、Autel MaxiCharger AC Elite Home 40A EV Charger、Ubiquiti Connect EV Station Pro<br/>· 充电通信协议:OCPP Compliance Test Tool (OCTT)<br/>· 车载操作系统: AGL、QNX、Android Automotive OS<br/><br/>此次,Tesla等车机全部被攻破;充电桩大部分被攻破,AGL 被攻破;QNX、Android Automotive OS 无团队挑战。<br/>· Synacktiv在 Tesla 车载信息娱乐系统的 USB 攻击中通过串联两个漏洞(一个信息泄露漏洞和一个越界写漏洞),实现了完全攻破。<br/>· Synacktiv利用充电桩的NFC近场通信接口实现无接触式攻破,仅用一张NFC卡轻刷Autel MaxiCharger AC Elite Home 40A充电器,触发栈缓冲区溢出漏洞,直接控制系统核心功能。<br/>·多个团队直接利用充电枪与充电桩的物理连接,向设备发送恶意构造的数据和信号,实现反向入侵,甚至能从车辆端出发,通过充电连接对充电桩进行改造,实现双向通信攻击。<br/>· 充电桩存在的基础性安全缺陷为潜在攻击提供了可利用的条件,其中硬编码凭证与通信协议安全漏洞最为突出。SKShieldus 299 团队在测试 Grizzl‑E Smart 40A 充电桩时,利用其存在的硬编码凭证漏洞(CWE‑798),可直接绕过身份认证并实现代码执行;另一方面,充电桩主流通信协议 OCPP 缺乏严格的双向身份认证与数据加密机制,成为协议注入和中间人攻击的高风险点。Fuzzware.io 团队通过组合利用 认证缺失(CWE‑306) 与 签名校验绕过(CWE‑347) 等问题,成功攻破 Autel MaxiCharger。"
+                "headline": "Pwn2Own Automotive 2026 落幕,共披露 49 个 0day",
+                "text": "为期三天(2026年1月21日至23日)的 Pwn2Own Automotive 汽车安全大赛在东京落下帷幕。本届赛事共发放 1,047,000 美元 赏金,参赛选手累计披露 76 个 0day 漏洞。<br/><br/>其中,Fuzzware.io 团队凭借多项高质量漏洞利用,以 21.5 万美元奖金、28 个积分点的成绩,成功获得 Master of Pwn。<br/>ZDI 发布了 PWN2OWN Automotive 2026 的参赛对象,包括汽车、车机、充电桩、车载操作系统等。<br/>· 汽车: Tesla<br/>· 车机: Sony XAV-9500ES、Alpine iLX-F511、Kenwood DNR1007XR<br/>· 充电桩: Alpitronic HYC50、ChargePoint Home Flex (Model CPH50-K)、Phoenix Contact CHARX SEC-3150、Ford Connected Charge Station、Grizzl-E Smart 40A、EMPORIA Pro Charger Level 2、Tesla Universal Wall Connector、Autel MaxiCharger AC Elite Home 40A EV Charger、Ubiquiti Connect EV Station Pro<br/>· 充电通信协议:OCPP Compliance Test Tool (OCTT)<br/>· 车载操作系统: AGL、QNX、Android Automotive OS<br/><br/>此次,Tesla等车机全部被攻破;充电桩大部分被攻破,AGL 被攻破;QNX、Android Automotive OS 无团队挑战。<br/>· Synacktiv在 Tesla 车载信息娱乐系统的 USB 攻击中通过串联两个漏洞(一个信息泄露漏洞和一个越界写漏洞),实现了完全攻破。<br/>· Synacktiv利用充电桩的NFC近场通信接口实现无接触式攻破,仅用一张NFC卡轻刷Autel MaxiCharger AC Elite Home 40A充电器,触发栈缓冲区溢出漏洞,直接控制系统核心功能。<br/>·多个团队直接利用充电枪与充电桩的物理连接,向设备发送恶意构造的数据和信号,实现反向入侵,甚至能从车辆端出发,通过充电连接对充电桩进行改造,实现双向通信攻击。<br/>· 充电桩存在的基础性安全缺陷为潜在攻击提供了可利用的条件,其中硬编码凭证与通信协议安全漏洞最为突出。SKShieldus 299 团队在测试 Grizzl-E Smart 40A 充电桩时,利用其存在的硬编码凭证漏洞(CWE-798),可直接绕过身份认证并实现代码执行;另一方面,充电桩主流通信协议 OCPP 缺乏严格的双向身份认证与数据加密机制,成为协议注入和中间人攻击的高风险点。Fuzzware.io 团队通过组合利用 认证缺失(CWE-306) 与 签名校验绕过(CWE-347) 等问题,成功攻破 Autel MaxiCharger。"
             },
             "start_date": {
                 "month": "1",
