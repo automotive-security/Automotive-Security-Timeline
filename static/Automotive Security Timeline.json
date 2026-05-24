@@ -3008,6 +3008,23 @@
         },
         {
             "media": {
+                "caption": "<a href=\"https://revers3everything.com/reversing-one-of-the-most-common-chinese-commercial-rolling-codes/\">Reversing One of the Most Common Chinese Commercial Rolling Code</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/reversing-one-of-the-most-common-chinese-commercial-rolling-codes-poc.png"
+            },
+            "text": {
+                "headline": "商用滚动码RKES系统存在严重安全漏洞可导致车辆未授权解锁",
+                "text": "安全研究员Danilo Erazo对中国制造商MICCA AUTO ELECTRONICS CO., LTD.(广东中山市上塘路龙珠2号)生产的OEM汽车防盗系统(型号KE700/KE700+)进行了逆向工程分析,发现该遥控无钥匙进入系统(RKES)存在多个严重安全漏洞。<br/><br/>该系统在拉丁美洲、中美洲、欧洲和亚洲的汽车售后市场广泛销售。<br/>研究发现滚动码帧未加密,仅使用6位随机数(仅64种可能),可在1分钟内暴力破解;存在RollBack漏洞,攻击者可重放旧滚动码实现重放攻击;可完全克隆钥匙。<br/><br/>该事件暴露了汽车售后市场零部件安全监管的缺失,大量使用此类不安全售后RKES系统的车辆面临被盗风险。"
+            },
+            "start_date": {
+                "month": "2",
+                "day": "9",
+                "year": "2026"
+            },
+            "group": "vulnerability"
+        },
+        {
+            "media": {
                 "caption": "<a href=\"http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/saic_motor_corporation\">SAIC Motor Corporation-BEAST LEAKS</a>",
                 "credit": "<a href=\"\"></a>",
                 "url": "static/images/SAIC_Beast_ransomware.png"
@@ -3018,6 +3035,108 @@
             },
             "start_date": {
                 "month": "2",
+                "day": "24",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/69abe7068f1d14b743e12b6b\">INC-Estra</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/Estra_Automotive-INC_Ransom.png"
+            },
+            "text": {
+                "headline": "Estra Automotive遭勒索攻击",
+                "text": "2026年3月7日,勒索软件组织INC Ransom在其暗网泄露网站上发布了汽车供应商Estra Automotive的攻击信息。Estra Automotive是一家年收入约2.5亿美元的国际汽车供应商,专注于车辆热管理组件和系统的开发与制造,产品涵盖HVAC系统、热交换器和发动机冷却解决方案,客户包括全球多家汽车制造商。<br/><br/>攻击者声称已加密该公司数据,并公布了部分证据以证明其入侵行为。"
+            },
+            "start_date": {
+                "month": "3",
+                "day": "7",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://spear.cx/Thread-Com-Boss-BMW-Group-IA-Docs\">BMW Group IA + Docs</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/xpl0itrs_BMW.png"
+            },
+            "text": {
+                "headline": "BMW Group内部系统数据泄露",
+                "text": "2026年3月,黑客组织xpl0itrs在暗网论坛Spear.cx上发布BMW Group数据泄露售卖帖。泄露数据涵盖BMW集团几乎所有的内部系统映射,包括经销商信息、员工和客户PII数据、Root PEM证书、AWS Lambda日志注入端点、VIN查询能力等。<br/><br/>除BMW外还波及Abarth、Alfa Romeo、Audi、Cadillac、Chevrolet、Citroen、Corvette、Cupra、Dacia、DS、Fiat、Ford、GM、Honda、Hyundai、Jaguar、Jeep、Kia、Lada、Land Rover、Mazda、Mercedes-Benz、MG、MINI、Mitsubishi、Nissan、Opel、Peugeot、Porsche、Renault、Seat、Skoda、Subaru、Suzuki、Toyota、Volkswagen、Tesla、Volvo、Polestar等40余家汽车品牌。售价方面,仅经销商文档售价$1500,全部数据打包售价30K。"
+            },
+            "start_date": {
+                "month": "3",
+                "day": "16",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://github.com/ev-open-can-tools/ev-open-can-tools\">EV Open Can Mod</a>",
+                "credit": "<a href=\"https://github.com/jvanakker/tesla-fsd-can-mod\">CanFeather – Tesla FSD CAN Bus Enabler</a>",
+                "url": "static/images/EV Open Can Mod.png"
+            },
+            "text": {
+                "headline": "Tesla FSD CAN总线功能激活绕过漏洞",
+                "text": "2026年3月28日,安全研究者在GitLab公开了一个名为\"CanFeather\"的项目,该项目可通过CAN总线消息拦截与修改实现Tesla FSD(Full Self-Driving)功能的手动激活。攻击者使用Adafruit CAN Bus FeatherWing开发板(MCP2515/MCP25625芯片,成本约20美元)接入车辆X179连接器的CAN-H/CAN-L线路,监听并修改关键CAN帧实现以下攻击:<br/>· FSD功能激活:监听CAN ID 0x3EE/0x3FD,检测用户在UI中启用\"Traffic Light and Stop Sign Control\"选项后,修改CAN帧Bit 46强制激活FSD功能<br/>· 驾驶员监控绕过:清除CAN帧Bit 19实现Nag抑制,使hands-on-wheel检测失效<br/>· 速度配置注入:通过跟车距离设置映射速度配置文件,或直接注入速度偏移量到CAN总线<br/>· 该漏洞揭示了Tesla CAN总线通信缺乏消息认证机制,任意设备可低成本介入并篡改关键控制消息。"
+            },
+            "start_date": {
+                "month": "3",
+                "day": "28",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Nissan/\">Everest-GCSSD</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/Everest Group_GCSSD_910GB.png"
+            },
+            "text": {
+                "headline": "Everest Group勒索组织泄露日产汽车910GB数据事件",
+                "text": "2026年4月1日,勒索组织Everest Group正式泄露日产GCSSD (Nissan GCSSD) 的910GB数据。GCSSD是为日产和Infiniti经销商网络提供IT服务的承包商。泄露涉及约250万客户记录,涵盖2013年至2026年1月的数据。<br/><br/>泄露数据内容:<br/>· 客户数据库每日完整转储(2020年9月至2026年1月):姓名、家庭住址、邮箱、电话号码<br/>· 日产金融服务汽车贷款数据(2023年8月至2025年11月)<br/>· 维修工单:VIN、车型、里程、地理位置、费用明细、服务顾问姓名<br/>· 经销商员工数据(2017年3月至2023年9月)<br/>· Dealer Business System完整源代码(487MB)<br/>· Experian授权数据(6.3GB)和InfoUSA消费者数据(77MB)<br/>· SAP集成文件(3,524个)、Deloitte咨询报告(3.9GB)"
+            },
+            "start_date": {
+                "month": "4",
+                "day": "1",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://zohlm7ahjwegcedoz7lrdrti7bvpofymcayotp744qhx6gjmxbuo2yid.onion/r/dc227a632118c7c3f9c1e30d3715c607390ee1ae\">RansomHouse - Jiangsu Zenergy Battery</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/RansomHouse - Jiangsu Zenergy Battery.png"
+            },
+            "text": {
+                "headline": "RansomHouse勒索组织攻击江苏泽能电池技术有限公司",
+                "text": "2026年2月28日,RansomHouse勒索软件组织攻击了中国电池制造商江苏泽能电池技术有限公司(Jiangsu Zenergy Battery Technologies Group Co. Ltd.),加密数据并窃取机密文件。RansomHouse指责公司IT部门隐瞒了安全事件,并威胁如果不联系将公开泄露数据。<br/><br/>2026年4月21日,该组织在暗网博客公开宣布此次勒索事件,威胁泄露其机密数据和项目文档。"
+            },
+            "start_date": {
+                "month": "4",
+                "day": "21",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://z4onu4gtr4ikj5zcydfw77s2od4haovu7ajwaeysglcarjyvxxssrmqd.onion/f2364244-7642-4653-9551-70373ac4d751/denso/\">Qilin-Denso</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/DENSO-Qilin-RANSOM.png"
+            },
+            "text": {
+                "headline": "Qilin勒索软件组织攻击电装公司(Denso)并泄露300GB数据",
+                "text": "2026年4月24日,Qilin勒索软件组织在其暗网博客上宣布攻击了日本汽车零部件巨头电装公司(Denso Corporation),并公开了大量窃取的数据。截至4月28日,该帖子已获得5672次浏览。<br/><br/>攻击详情:<br/>· 攻击者从多个内部服务器窃取了约300GB数据<br/>· 数据已被打包为多个tar/tar.gz文件并公开下载<br/>· 受影响服务器包括:172.26.0.228、172.26.0.62、172.26.28.130<br/>数据泄露详情:<br/>· 172.26.0.228:约115GB,分5个压缩包<br/>· 172.26.0.62:约116GB,分5个压缩包<br/>· 172.26.28.130:约80GB+175MB"
+            },
+            "start_date": {
+                "month": "4",
                 "day": "24",
                 "year": "2026"
             },
