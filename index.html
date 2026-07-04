@@ -46,38 +46,120 @@
         padding-bottom: 10px;
       }
 
+      /* 语言切换按钮 */
+      .lang-switch {
+        position: fixed;
+        top: 12px;
+        right: 16px;
+        z-index: 1000;
+        display: flex;
+        gap: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      }
+      .lang-switch button {
+        padding: 4px 12px;
+        border: 1px solid rgba(0,0,0,0.2);
+        background: rgba(255,255,255,0.9);
+        color: #555;
+        font-size: 13px;
+        line-height: 1.4;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .lang-switch button:first-child {
+        border-radius: 4px 0 0 4px;
+      }
+      .lang-switch button:last-child {
+        border-radius: 0 4px 4px 0;
+        border-left: none;
+      }
+      .lang-switch button:hover {
+        background: rgba(255,255,255,1);
+      }
+      .lang-switch button.active {
+        background: #333;
+        color: #fff;
+        border-color: #333;
+      }
+
     </style>
 
 	  <link rel="shortcut icon" href="static/images/favicon.svg"> 
   </head>
   <body>
+    <div class="lang-switch">
+      <button id="lang-zh" onclick="switchLang('zh')">中文</button>
+      <button id="lang-en" onclick="switchLang('en')">EN</button>
+    </div>
     <div id="timeline-embed">
         <div id="timeline"></div>
     </div>    
     <link rel="stylesheet" href="static/css/timeline.css">
     <script type="text/javascript" src="static/js/timeline-min.js"></script>
     <script>
-        var options = {
-          hash_bookmark: false,
-          initial_zoom: 2,
-          timenav_position:"bottom",
-          scale_factor:5,
-          // start_at_end: true,
-          debug:true,
-          // language:"static/zh-cn.json",
-          language:"zh-cn",
+        var langConfig = {
+            zh: {
+                data: 'static/Automotive Security Timeline.json',
+                language: 'zh-cn',
+                htmlLang: 'zh-cn',
+                title: '车联网安全事件时间轴'
+            },
+            en: {
+                data: 'static/Automotive Security Timeline_en.json',
+                language: 'en',
+                htmlLang: 'en',
+                title: 'Automotive Security Timeline'
+            }
+        };
 
+        function getCurrentLang() {
+            var params = new URLSearchParams(location.search);
+            return params.get('lang') === 'en' ? 'en' : 'zh';
         }
-        $(document).ready(function() {
+
+        function initTimeline() {
+            var lang = getCurrentLang();
+            var config = langConfig[lang];
+
+            // 更新页面元数据
+            document.documentElement.lang = config.htmlLang;
+            document.title = config.title;
+
+            // 更新按钮高亮
+            document.getElementById('lang-zh').classList.toggle('active', lang === 'zh');
+            document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+
+            // 清空容器（销毁旧 TimelineJS 实例的 DOM）
             var embed = document.getElementById('timeline-embed');
+            embed.innerHTML = '<div id="timeline"></div>';
             embed.style.height = getComputedStyle(document.body).height;
-            window.timeline = new TL.Timeline('timeline-embed', 'static/Automotive Security Timeline.json', options);
-            //window.timeline = new TL.Timeline('timeline-embed', 'https://raw.githubusercontent.com/delikely/Automotive-Security-Timeline/main/Automotive%20Security%20Timeline.json', options);
+
+            // 初始化 Timeline
+            var options = {
+                hash_bookmark: false,
+                initial_zoom: 2,
+                timenav_position: "bottom",
+                scale_factor: 5,
+                debug: true,
+                language: config.language
+            };
+            window.timeline = new TL.Timeline('timeline-embed', config.data, options);
+        }
+
+        function switchLang(lang) {
+            var url = window.location.pathname + '?lang=' + lang;
+            history.pushState({lang: lang}, '', url);
+            initTimeline();
+        }
+
+        $(document).ready(function() {
+            initTimeline();
+            window.addEventListener('popstate', initTimeline);
             window.addEventListener('resize', function() {
                 var embed = document.getElementById('timeline-embed');
                 embed.style.height = getComputedStyle(document.body).height;
-                timeline.updateDisplay();
-            })
+                if (window.timeline) timeline.updateDisplay();
+            });
         });
     </script>
 

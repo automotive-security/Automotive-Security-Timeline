@@ -8,7 +8,7 @@
         },
         "text": {
             "headline": "车联网安全事件时间轴",
-            "text": "按照时间发生的先后顺序记录汽车信息安全事件<br/><br/>项目地址: <a href=\"https://github.com/automotive-security/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br/><br/> 联系邮箱: delikely@gmail.com"
+            "text": "“车联网安全事件时间轴”是一个开源的车联网安全知识库，持续收录全球汽车网络安全相关的重要事件、漏洞披露、安全研究与安全事件报告，并将分散的信息整理为统一的时间轴视图，帮助研究人员、工程师和安全分析人员快速理解汽车安全的发展脉络与新兴威胁趋势。<br/><br/>项目地址: <a href=\"https://github.com/automotive-security/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br/><br/> 联系邮箱: delikely@gmail.com"
         }
     },
     "events": [
