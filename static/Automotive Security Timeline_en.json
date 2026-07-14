@@ -7,7 +7,8 @@
             "url": "static/images/Car.jpg"
         },
         "text": {
-            "headline": "Automotive Security Timeline",            "text": "The \"Automotive Security Timeline\" is an open-source connected vehicle security knowledge base that continuously catalogs important events, vulnerability disclosures, security research, and security incident reports related to global automotive cybersecurity. It organizes scattered information into a unified timeline view, helping researchers, engineers, and security analysts quickly understand the development context of automotive security and emerging threat trends.<br/><br/>Project URL: <a href=\"https://github.com/automotive-security/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br/><br/>Contact email: delikely@gmail.com"
+            "headline": "Automotive Security Timeline",
+            "text": "The \"Automotive Security Timeline\" is an open-source connected vehicle security knowledge base that continuously catalogs important events, vulnerability disclosures, security research, and security incident reports related to global automotive cybersecurity. It organizes scattered information into a unified timeline view, helping researchers, engineers, and security analysts quickly understand the development context of automotive security and emerging threat trends.<br/><br/>Project URL: <a href=\"https://github.com/automotive-security/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br/><br/>Contact email: delikely@gmail.com"
         }
     },
     "events": [
@@ -3140,6 +3141,59 @@
                 "year": "2026"
             },
             "group": "event"
-        }
+        },
+        [
+            {
+                "media": {
+                    "caption": "<a href=\"https://oag.ca.gov/ecrime/databreach/reports/sb24-625558\">Breach Notification</a>",
+                    "credit": "<a href=\"\"></a>",
+                    "url": "static/images/nissan-employee-leak-ShinyHunters.png"
+                },
+                "text": {
+                    "headline": "Nissan Employee Data Breach Caused by Oracle PeopleSoft Zero-Day Vulnerability",
+                    "text": "Between May 27 and June 9, 2026, Nissan experienced a large-scale employee data breach. The threat actor ShinyHunters exploited the Oracle PeopleSoft PeopleTools zero-day vulnerability (CVE-2026-35273) to remotely compromise the company's Human Resources (HR) management system. According to ShinyHunters, the group successfully breached more than 300 PeopleSoft instances across over 100 organizations, with Nissan identified as one of its primary targets. The compromised data included employee contact information, bank account details, Social Security Numbers (SSNs) / Social Insurance Numbers (SINs) / national identification numbers, payroll and tax information, as well as dependent and beneficiary information. Current and former employees in the United States, Canada, Mexico, and Brazil were affected. Following the incident, Nissan issued a data breach notification signed by Leon Martinez, Vice President & Chief Human Resources Officer (VP & Chief Human Resources Officer). The company implemented emergency response measures, including restricting payroll modification operations to the internal corporate network and providing affected individuals with credit monitoring and identity protection services."
+                },
+                "start_date": {
+                    "month": "6",
+                    "day": "25",
+                    "year": "2026"
+                },
+                "group": "event"
+            },
+            {
+                "media": {
+                    "caption": "<a href=\"http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion\">DragonForce</a>",
+                    "credit": "<a href=\"\"></a>",
+                    "url": "static/images/Monenta-DraginForce-Ransom.png"
+                },
+                "text": {
+                    "headline": "Momenta Suffers DragonForce Ransomware Attack and Large-Scale Data Breach",
+                    "text": "In early July 2026, autonomous driving company Momenta was hit by a cyberattack shortly before its planned Hong Kong IPO. The attack disrupted the company's R&D systems, resulted in partial data loss, forced the suspension of autonomous driving road testing, and temporarily rendered internal office and collaboration platforms, including employee computers and Feishu, unavailable. According to reports, production systems were also affected. On July 3, the incident was exposed through Maimai and WeChat public accounts, where individuals claiming to be employees stated that some systems had been restored but had not yet fully recovered.<br/><br/>On July 14, 2026, the DragonForce ransomware group publicly claimed responsibility for the attack through its Tor-based leak site, alleging that it had exfiltrated approximately 379.18 GB of data and encrypted both servers and employee workstations. The attackers claimed the stolen data included complete source code repositories, financial documents, system configuration files, and employee databases. They also alleged that Momenta failed to disclose the cybersecurity incident to regulators and investors."
+                },
+                "start_date": {
+                    "month": "7",
+                    "day": "3",
+                    "year": "2026"
+                },
+                "group": "event"
+            },
+            {
+                "media": {
+                    "caption": "<a href=\"\"></a>",
+                    "credit": "<a href=\"\"></a>",
+                    "url": "static/images/AITO-location-privacy-weakness.png"
+                },
+                "text": {
+                    "headline": "AITO M8 Location Permission Flaw Leads to Privacy Exposure",
+                    "text": "On July 8, 2026, an AITO M8 owner in Shanghai reported a privacy-related security flaw involving the vehicle's permission management. According to the owner, after disabling the 'Location Access' permission for an authorized secondary account in the AITO App, the secondary account was still able to obtain vehicle location information through the 'Parking Assistant' feature, including the vehicle's real-time location, driving routes, parking location, and automatically saved parking position. As a result, the location permission control became effectively meaningless. In addition, while the complaint was being handled at a service center, staff members directly mentioned the owner's wife in the customer service group chat, further raising concerns over the exposure of personal information.<br/><br/>On July 10, 2026, after internal chat records related to the incident were leaked, Richard Yu, Executive Director of Huawei and Chairman of the Consumer Business Group, instructed the team to immediately fix the issue. He rejected the original plan to address the problem through an App update scheduled for September, emphasizing that 'even without eating, drinking, or sleeping, the issue must be resolved immediately.' Huawei subsequently launched a dedicated investigation, requiring its Privacy and Security Office to conduct a comprehensive cybersecurity and privacy review of vehicles within the Harmony Intelligent Mobility Alliance (HIMA) ecosystem, with a focus on permission management, data access controls, and privacy protection mechanisms.<br/><br/>The incident exposed deficiencies in access control and permission isolation within the shared account architecture of smart vehicles. Although the primary account had revoked the secondary account's location permission, certain business functions were still able to indirectly access vehicle location data, resulting in a permission bypass and privacy leakage risk."
+                },
+                "start_date": {
+                    "month": "7",
+                    "day": "8",
+                    "year": "2026"
+                },
+                "group": "event"
+            }
+        ]
     ]
 }

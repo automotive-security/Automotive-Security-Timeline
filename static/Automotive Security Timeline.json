@@ -3141,6 +3141,57 @@
                 "year": "2026"
             },
             "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://oag.ca.gov/ecrime/databreach/reports/sb24-625558\">Breach Notification</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/nissan-employee-leak-ShinyHunters.png"
+            },
+            "text": {
+                "headline": "日产汽车因Oracle PeopleSoft零日漏洞发生员工数据泄露事件",
+                "text": "2026年5月27日至6月9日期间,Nissan发生大规模员工数据泄露事件。 攻击组织 ShinyHunters 利用 Oracle PeopleSoft PeopleTools 零日漏洞 CVE-2026-35273,远程入侵其人力资源(HR)管理系统。据ShinyHunters声称,其已成功攻陷超过 300 个 PeopleSoft 实例,涉及 100 余家组织,其中 Nissan 为其重点攻击目标之一。此次泄露的数据涵盖员工联系方式、银行账户信息、社会安全号码(SSN)/社会保险号(SIN)/国家身份证号码、薪酬及税务信息,以及家属和受益人等敏感个人信息,受影响对象包括美国、加拿大、墨西哥和巴西的现任及离职员工。事件发生后,Nissan由副总裁兼首席人力资源官(VP & Chief Human Resources Officer)Leon Martinez 签署数据泄露通知,已采取应急措施,包括将薪资信息修改操作限制至公司内部网络,并为受影响人员提供信用监控及身份保护服务。。"
+            },
+            "start_date": {
+                "month": "6",
+                "day": "25",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion\">DragonForce</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/Monenta-DraginForce-Ransom.png"
+            },
+            "text": {
+                "headline": "Momenta遭DragonForce勒索攻击并发生大规模数据泄露",
+                "text": "2026年7月初,智能驾驶企业 Momenta(梦腾智驾)在港交所IPO前夕遭遇网络攻击。导致研发系统瘫痪、部分数据丢失,智能驾驶路测活动被迫暂停,电脑、飞书等内部办公及协作系统一度无法使用。据相关消息,生产系统亦受到影响。7月3日,安全事件通过脉脉与微信公众平台曝光,有自称员工者表示部分系统已恢复,但尚未完全复原。<br/><br/>2026年7月14日 DragonForce勒索组织通过其Tor暗网泄露站公开宣称对此次攻击负责,声称已窃取约379.18 GB数据,并对服务器及员工工作站实施加密。攻击者宣称获取的数据包括全部源代码、财务文档、系统配置文件及员工数据库等核心资产,同时指控Momenta未向监管机构及投资者披露该安全事件。"
+            },
+            "start_date": {
+                "month": "7",
+                "day": "3",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"\"></a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/AITO-location-privacy-weakness.png"
+            },
+            "text": {
+                "headline": "问界M8位置权限控制缺陷导致隐私泄露",
+                "text": "2026年7月8日,上海一位问界M8车主通过媒体反映车辆隐私权限存在安全缺陷。 车主表示,在AITO App中关闭被授权账号(副账号)的“获取位置信息”权限后,副账号仍可通过“泊车代驾辅助”功能获取车辆相关位置信息,包括实时位置、行驶轨迹、停车地点及自动保存的车位信息,导致位置访问权限形同虚设。此外,在门店处理投诉过程中,工作人员还在车主服务群中直接@车主妻子,进一步引发个人隐私信息暴露的争议。<br/><br/>2026年7月10日,内部聊天记录曝光后,华为常务董事、终端BG董事长余承东要求立即修复相关问题,明确否决原计划于9月通过App升级解决的方案,并提出\"不吃不喝不睡觉,都得立即把问题解决\"的要求。同时,华为启动专项排查工作,要求隐私安全办公室对鸿蒙智行(HIMA)生态车辆开展网络安全与隐私风险全面审查,重点排查权限管理、数据访问控制及相关隐私保护机制。<br/><br/>该事件暴露出智能汽车共享账号体系中访问控制与权限隔离设计存在缺陷。虽然主账号已撤销副账号的位置访问权限,但相关业务功能仍可间接获取车辆位置数据,导致权限绕过和隐私泄露风险。"
+            },
+            "start_date": {
+                "month": "7",
+                "day": "8",
+                "year": "2026"
+            },
+            "group": "event"
         }
     ]
 }
