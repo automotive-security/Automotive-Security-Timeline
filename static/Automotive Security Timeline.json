@@ -8,7 +8,7 @@
         },
         "text": {
             "headline": "车联网安全事件时间轴",
-            "text": "“车联网安全事件时间轴”是一个开源的车联网安全知识库，持续收录全球汽车网络安全相关的重要事件、漏洞披露、安全研究与安全事件报告，并将分散的信息整理为统一的时间轴视图，帮助研究人员、工程师和安全分析人员快速理解汽车安全的发展脉络与新兴威胁趋势。<br/><br/>项目地址: <a href=\"https://github.com/automotive-security/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br/><br/> 联系邮箱: delikely@gmail.com"
+            "text": "“车联网安全事件时间轴”是一个开源的车联网安全知识库,持续收录全球汽车网络安全相关的重要事件、漏洞披露、安全研究与安全事件报告,并将分散的信息整理为统一的时间轴视图,帮助研究人员、工程师和安全分析人员快速理解汽车安全的发展脉络与新兴威胁趋势。<br/><br/>项目地址: <a href=\"https://github.com/automotive-security/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br/><br/> 联系邮箱: delikely@gmail.com"
         }
     },
     "events": [
@@ -3178,6 +3178,23 @@
         },
         {
             "media": {
+                "caption": "<a href=\"http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/43109641a8e48eacf077ae756b301acf81e33689c26a6170abf6e17983895bf4/\">LEAKS-ford.mx</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/LEAKS-ford.mx.png"
+            },
+            "text": {
+                "headline": "福特汽车墨西哥分公司遭勒索组织窃取300GB数据",
+                "text": "2026年7月4日,勒索组织 LEAKS 在其暗网泄露平台发布针对福特汽车墨西哥分公司的勒索公告,声称已窃取约 300GB 内部数据,并公开了包含公司运营情况、组织架构等信息的详细情报档案。<br/><br/>此次泄露数据涉及福特在墨西哥的多个重要业务和生产设施,包括 Santa Fe 总部、Hermosillo 组装与冲压工厂(生产 Bronco Sport、Maverick)、Cuautitlán 组装工厂(生产 Mustang Mach-E)、Chihuahua 三座发动机工厂(涉及 Duratec、Power Stroke、Dragon 系列)以及 Irapuato 工厂。<br/><br/>公开信息还涉及公司高管及联系方式、员工规模等组织信息,其中披露福特在墨西哥约有 14,600 名员工,并包含约 15亿美元的墨西哥地区营收数据等财务信息。<br/><br/>目前,该批数据已被完全公开,并可随意下载。<br/><br/><br/><br/>"
+            },
+            "start_date": {
+                "month": "7",
+                "day": "4",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
                 "caption": "<a href=\"\"></a>",
                 "credit": "<a href=\"\"></a>",
                 "url": "static/images/AITO-location-privacy-weakness.png"
@@ -3189,6 +3206,74 @@
             "start_date": {
                 "month": "7",
                 "day": "8",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://www.nihon-kotsu-taxi.jp/news/260713/\">弊社システムへの不正アクセスによるシステム停止に関するお詫びとご報告</a>",
+                "credit": "<a href=\"https://www.nihon-kotsu-taxi.jp/news/260713-2/\">システム障害に伴う入力フォームの一時停止について</a>",
+                "url": "static/images/nihon-taxi-ransom-news.png"
+            },
+            "text": {
+                "headline": "日本最大交通出租车运营商Nihon Kotsu遭网络攻击瘫痪",
+                "text": "2026年7月11日,日本最大交通出租车运营商Nihon Kotsu内部系统遭遇未经授权的外部访问,确认发生恶意软件感染。Nihon Kotsu 在检测到入侵后立即实施了紧急隔离措施,断开受影响系统以防止损害扩大。此次攻击导致公司多项核心服务中断,包括网络下单与及预约管理系统、电话出租车配车服务、以及部分内部系统。建议乘客使用GO出租车App或前往附近出租车停靠站乘车。此外,7月13日还宣布为孕妇提供的分娩接送服务在东京23区、武藏野市、三鹰市、立川市、横滨市和埼玉等区域暂停。<br/><br/>Nihon Kotsu称已聘请外部网络安全专家协助调查和系统恢复,并调查是否存在数据泄露。7月15日,勒索组织AiLock宣称对此次攻击负责,并威胁将泄露窃取的数据。"
+            },
+            "start_date": {
+                "month": "7",
+                "day": "11",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/\">Panzer-Alpine-EU</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/Panzer-Alpine-EU.png"
+            },
+            "text": {
+                "headline": "Alpine电子欧洲遭Panzer勒索软件攻击泄露150GB数据",
+                "text": "2026年8月15日,勒索软件组织 Panzer 在其暗网泄露站点发布 Alpine Electronics Europe 的受害者条目,声称已窃取约 150GB 企业数据,赎金支付期限截至 2026年9月4日。目前已披露 Alpine Electronics Europe 的企业信息、泄露数据规模、数据泄露日期,并提供泄露样本下载。<br/><br/>Alpine Electronics Europe 是日本阿尔派株式会社(Alpine Electronics, Inc.)的欧洲分支机构,主要负责汽车电子及音响产品在欧洲市场的分销,为多个欧洲国家的汽车制造商和消费者提供音频产品、技术支持等服务。"
+            },
+            "start_date": {
+                "month": "8",
+                "day": "15",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/bmw/\">xpl0itrs - BMW Group</a>",
+                "credit": "<a href=\"\"></a>",
+                "url": "static/images/xpl0itrs_BMW_2.png"
+            },
+            "text": {
+                "headline": "BMW Group遭勒索组织xpl0itrs攻击,IDOR漏洞致800份PII数据泄露",
+                "text": "2026年8月22日,勒索软件组织xpl0itrs在暗网泄露站点将宝马集团(BMW Group)列为受害者。该组织声称,通过利用不安全的直接对象引用(IDOR)漏洞,成功窃取并公开了800份包含个人身份信息(PII)的文档。<br/><br/>此外,该组织正以1000美元的价格出售一个规模更大的数据集,其内容包括:<br/>· 员工与客户数据:涉及数万名全球员工及客户的PII记录,如全名、家庭住址、车辆信息及车辆识别码(VIN)。<br/>· 企业IT与架构信息:Kubernetes集群详情、系统配置、API数据,以及宝马子公司完整架构图谱。<br/>· 供应链与关联数据:涵盖马自达、丰田、奥迪、福特等36家其他汽车制造商的相关数据。<br/>· 业务数据:包括数百家其他品牌的PII信息、加油站运营数据、订单详情、VIN查询记录,以及从宝马下载管理平台获取的设备与证书资产。"
+            },
+            "start_date": {
+                "month": "8",
+                "day": "17",
+                "year": "2026"
+            },
+            "group": "event"
+        },
+        {
+            "media": {
+                "caption": "<a href=\"https://securelist.com/android-head-unit-malware/121106/\">The invisible passenger in your car</a>",
+                "credit": "<a href=\"http://www.cardoor.cn/xolio/index.html\">DoFun</a>",
+                "url": "static/images/DoFun-Malware.png"
+            },
+            "text": {
+                "headline": "卡巴斯基发现首个针对车机的Android恶意软件攻击活动: 兜风车机遭MoYu Group恶意软件感染",
+                "text": "2026年6月,卡巴斯基安全研究员 Dmitry Kalinin 在监测 Android 威胁时发现一种针对车载信息娱乐系统(Head Unit)的新型 Android 恶意软件。该恶意软件利用 DoFun 品牌车机固件中的内置更新机制进行传播。卡巴斯基称,这是首个有记录的专门针对车机的 Android 恶意软件感染案例,其攻击链针对车机环境进行了专门设计。卡巴斯基认为该活动与 MoYu Group 存在较强关联,该组织被认为与 BADBOX 僵尸网络平台存在关联。<br/><br/>该恶意软件采用多阶段下载器架构,最终目的包括广告欺诈和构建代理僵尸网络。攻击首先利用车机中的合法系统应用 TWCore。该应用原本用于数据收集、分析以及车机软件更新,但攻击者通过 MQTT 消息代理 cardoor.cn 向其发送恶意指令,使车机下载并安装恶意 APK。<br/><br/>整个感染链主要分为三个阶段:<br/><br/>· 阶段1:JarService 投放器: 负责初始载荷投放,并通过 XOR 加密方式隐藏后续恶意代码。<br/>· 阶段2:加载器: 启动后向 C2 服务器上报设备信息,并进一步下载第三阶段载荷。<br/>- 阶段3:点击器及反向代理加载器<br/>最终实现广告点击欺诈、代理流量转发等功能,使受感染车机成为广告欺诈节点和代理僵尸网络的一部分。<br/><br/>目前,DoFun 厂商已收到卡巴斯基的安全通报,并表示相关安全问题已经修复。"
+            },
+            "start_date": {
+                "month": "8",
+                "day": "21",
                 "year": "2026"
             },
             "group": "event"

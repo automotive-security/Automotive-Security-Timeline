@@ -3179,6 +3179,23 @@
             },
             {
                 "media": {
+                    "caption": "<a href=\"http://krybitqsdzwmhnitvwuhvsntfgf2wrhxveyxroxpc44c6gkft2cqldyd.onion/blog/43109641a8e48eacf077ae756b301acf81e33689c26a6170abf6e17983895bf4/\">LEAKS-ford.mx</a>",
+                    "credit": "<a href=\"\"></a>",
+                    "url": "static/images/LEAKS-ford.mx.png"
+                },
+                "text": {
+                    "headline": "Ford Mexico Targeted by Ransomware Group LEAKS, Allegedly Stealing 300 GB of Data",
+                    "text": "On July 4, 2026, the ransomware group LEAKS published a ransom announcement targeting Ford Motor Company's Mexico operations on its dark web leak site, claiming to have stolen approximately 300 GB of internal data and releasing a detailed intelligence dossier containing information about the company's operations, organizational structure, and other corporate details.<br/><br/>The leaked data reportedly involves multiple key business and manufacturing facilities operated by Ford in Mexico, including the Santa Fe headquarters; the Hermosillo Assembly and Stamping Plant, which produces the Bronco Sport and Maverick; the Cuautitlán Assembly Plant, which produces the Mustang Mach-E; three engine plants in Chihuahua associated with the Duratec, Power Stroke, and Dragon engine families; and the Irapuato plant.<br/><br/>The publicly disclosed information also includes details about company executives and their contact information, employee headcount, and other organizational information. The disclosure indicates that Ford employs approximately 14,600 people in Mexico and includes financial information such as approximately USD 1.5 billion in revenue generated in the Mexican market.<br/><br/>The leaked data has reportedly been fully published and is publicly available for download."
+                },
+                "start_date": {
+                    "month": "7",
+                    "day": "4",
+                    "year": "2026"
+                },
+                "group": "event"
+            },
+            {
+                "media": {
                     "caption": "<a href=\"\"></a>",
                     "credit": "<a href=\"\"></a>",
                     "url": "static/images/AITO-location-privacy-weakness.png"
@@ -3193,7 +3210,77 @@
                     "year": "2026"
                 },
                 "group": "event"
-            }
+            },
+            [
+                {
+                    "media": {
+                        "caption": "<a href=\"https://www.nihon-kotsu-taxi.jp/news/260713/\">弊社システムへの不正アクセスによるシステム停止に関するお詫びとご報告</a>",
+                        "credit": "<a href=\"https://www.nihon-kotsu-taxi.jp/news/260713-2/\">システム障害に伴う入力フォームの一時停止について</a>",
+                        "url": "static/images/nihon-taxi-ransom-news.png"
+                    },
+                    "text": {
+                        "headline": "Japan's Largest Taxi Operator Nihon Kotsu Disrupted by Cyberattack",
+                        "text": "On July 11, 2026, Nihon Kotsu, Japan's largest taxi operator, detected unauthorized external access to its internal systems and confirmed a malware infection. After detecting the intrusion, Nihon Kotsu immediately implemented emergency isolation measures and disconnected the affected systems to prevent further damage. The attack disrupted multiple core services, including online taxi ordering and reservation management systems, telephone-based taxi dispatch services, and some internal systems. Passengers were advised to use the GO Taxi App or take taxis from nearby taxi stands. On July 13, the company also announced that its maternity transportation service for pregnant women was suspended in Tokyo's 23 wards, Musashino, Mitaka, Tachikawa, Yokohama, Saitama, and other areas.<br/><br/>Nihon Kotsu said it had engaged external cybersecurity experts to assist with the investigation and system recovery, while also investigating whether any data had been leaked. On July 15, the ransomware group AiLock claimed responsibility for the attack and threatened to release the stolen data."
+                    },
+                    "start_date": {
+                        "month": "7",
+                        "day": "11",
+                        "year": "2026"
+                    },
+                    "group": "event"
+                },
+                {
+                    "media": {
+                        "caption": "<a href=\"http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion/\">Panzer-Alpine-EU</a>",
+                        "credit": "<a href=\"\"></a>",
+                        "url": "static/images/Panzer-Alpine-EU.png"
+                    },
+                    "text": {
+                        "headline": "Alpine Electronics Europe Targeted by Panzer Ransomware, 150 GB of Data Allegedly Stolen",
+                        "text": "On August 15, 2026, the ransomware group Panzer published a victim listing for Alpine Electronics Europe on its dark web leak site, claiming to have stolen approximately 150 GB of corporate data, with a ransom payment deadline of September 4, 2026. The group has disclosed information about Alpine Electronics Europe, the alleged volume of leaked data, and the date of the data breach, and has also provided samples of the leaked data for download.<br/><br/>Alpine Electronics Europe is the European subsidiary of Alpine Electronics, Inc. of Japan. It is primarily responsible for distributing automotive electronics and audio products in the European market, providing audio products and technical support to automakers and consumers across multiple European countries."
+                    },
+                    "start_date": {
+                        "month": "8",
+                        "day": "15",
+                        "year": "2026"
+                    },
+                    "group": "event"
+                },
+                {
+                    "media": {
+                        "caption": "<a href=\"http://2kieaq6jnwgrru62wwtxaafg35q6rzweg7y2xjfnbhvq5wd4eojqv6yd.onion/company/bmw/\">xpl0itrs - BMW Group</a>",
+                        "credit": "<a href=\"\"></a>",
+                        "url": "static/images/xpl0itrs_BMW_2.png"
+                    },
+                    "text": {
+                        "headline": "BMW Group Targeted by xpl0itrs, 800 PII Documents Allegedly Leaked Through an IDOR Vulnerability",
+                        "text": "On August 22, 2026, the ransomware group xpl0itrs listed BMW Group as a victim on its dark web leak site. The group claimed that it had exploited an insecure direct object reference (IDOR) vulnerability to steal and publicly disclose 800 documents containing personally identifiable information (PII).<br/><br/>In addition, the group is offering a larger dataset for sale for USD 1,000. The dataset allegedly includes:<br/>· Employee and customer data: PII records involving tens of thousands of employees and customers worldwide, including full names, home addresses, vehicle information, and vehicle identification numbers (VINs).<br/>· Corporate IT and architecture information: Kubernetes cluster details, system configurations, API data, and complete architecture diagrams of BMW subsidiaries.<br/>· Supply chain and related data: Data associated with 36 other automakers, including Mazda, Toyota, Audi, and Ford.<br/>· Business data: PII from hundreds of other brands, gas station operational data, order details, VIN query records, and device and certificate assets obtained from BMW's download management platform."
+                    },
+                    "start_date": {
+                        "month": "8",
+                        "day": "17",
+                        "year": "2026"
+                    },
+                    "group": "event"
+                },
+                {
+                    "media": {
+                        "caption": "<a href=\"https://securelist.com/android-head-unit-malware/121106/\">The invisible passenger in your car</a>",
+                        "credit": "<a href=\"http://www.cardoor.cn/xolio/index.html\">DoFun</a>",
+                        "url": "static/images/DoFun-Malware.png"
+                    },
+                    "text": {
+                        "headline": "Kaspersky Discovers First Android Malware Campaign Targeting In-Vehicle Infotainment Systems: DoFun Head Units Infected by MoYu Group Malware",
+                        "text": "In June 2026, Kaspersky security researcher Dmitry Kalinin discovered a new type of Android malware targeting in-vehicle infotainment systems (Head Units) while monitoring Android threats. The malware was distributed by exploiting the built-in update mechanism in DoFun-branded head unit firmware. Kaspersky described this as the first documented Android malware infection specifically targeting automotive head units, with an attack chain designed specifically for the vehicle environment. Kaspersky identified strong links between the campaign and MoYu Group, which is believed to be associated with the BADBOX botnet platform.<br/><br/>The malware uses a multi-stage downloader architecture, with the ultimate objectives including ad fraud and the construction of a proxy botnet. The attack initially abuses TWCore, a legitimate system application embedded in the head unit. The application was originally designed for data collection, analysis, and head unit software updates, but attackers used the MQTT broker at cardoor.cn to send malicious commands, causing the head unit to download and install malicious APKs.<br/><br/>The infection chain consists primarily of three stages:<br/><br/>· Stage 1: JarService Dropper: Responsible for delivering the initial payload and hiding subsequent malicious code using XOR encryption.<br/>· Stage 2: Loader: After execution, it reports device information to a C2 server and downloads the third-stage payload.<br/>· Stage 3: Clicker and Reverse Proxy Loader<br/>Ultimately, the malware performs ad-click fraud and proxy traffic forwarding, turning infected head units into nodes in an advertising fraud network and proxy botnet.<br/><br/>DoFun has been notified of the security issues by Kaspersky and has stated that the relevant security issues have been fixed."
+                    },
+                    "start_date": {
+                        "month": "8",
+                        "day": "21",
+                        "year": "2026"
+                    },
+                    "group": "event"
+                }
+            ]
         ]
     ]
 }
